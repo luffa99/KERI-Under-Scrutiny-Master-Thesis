@@ -1,0 +1,125 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_1 [FOyz]
+Incepted: u_5 [x3jp]
+Incepted: u_7 [d5GP]
+	Added [x5MO] as watcher for u_1 [FOyz]
+	Added [x5MO] as watcher for u_5 [x3jp]
+Incepted: u_6 [MdN-]
+	Added [x5MO] as watcher for u_7 [d5GP]
+Incepted: u_0 [b4xs]
+	Added [jm4C] as watcher for u_5 [x3jp]
+	Added [2D85] as watcher for u_7 [d5GP]
+	Added [2D85] as watcher for u_6 [MdN-]
+	Added [2D85] as watcher for u_1 [FOyz]
+	Added [bivQ] as watcher for u_0 [b4xs]
+Incepted: u_3 [BraS]
+	Added [jm4C] as watcher for u_7 [d5GP]
+	Asking u_7 [d5GP]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_6 [MdN-]
+	Added [2D85] as watcher for u_5 [x3jp]
+	Asking u_5 [x3jp]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_1 [FOyz]
+	Asking u_1 [FOyz]'s watchers to watch [IjVS]
+Incepted: u_4 [LXjL]
+	Added [x5MO] as watcher for u_0 [b4xs]
+	Added [bivQ] as watcher for u_3 [BraS]
+Incepted: u_2 [B7Ob]
+	✅ u_7 [d5GP] Inception Done
+	✅ u_5 [x3jp] Inception Done
+	✅ u_1 [FOyz] Inception Done
+Incepted: u_8 [r2m4]
+	Added [x5MO] as watcher for u_6 [MdN-]
+	Asking u_6 [MdN-]'s watchers to watch [IjVS]
+Incepted: u_9 [i8yg]
+	Added [x5MO] as watcher for u_4 [LXjL]
+	Added [2D85] as watcher for u_0 [b4xs]
+	Asking u_0 [b4xs]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_3 [BraS]
+	Added [x5MO] as watcher for u_2 [B7Ob]
+	✅ u_6 [MdN-] Inception Done
+	✅ u_0 [b4xs] Inception Done
+	Added [2D85] as watcher for u_9 [i8yg]
+	Added [2D85] as watcher for u_8 [r2m4]
+	Added [2D85] as watcher for u_4 [LXjL]
+	Added [x5MO] as watcher for u_3 [BraS]
+	Asking u_3 [BraS]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_2 [B7Ob]
+	Added [jm4C] as watcher for u_4 [LXjL]
+	Asking u_4 [LXjL]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_8 [r2m4]
+	Added [x5MO] as watcher for u_9 [i8yg]
+	Added [jm4C] as watcher for u_2 [B7Ob]
+	Asking u_2 [B7Ob]'s watchers to watch [IjVS]
+	✅ u_3 [BraS] Inception Done
+	Added [bivQ] as watcher for u_9 [i8yg]
+	Asking u_9 [i8yg]'s watchers to watch [IjVS]
+	✅ u_2 [B7Ob] Inception Done
+	✅ u_9 [i8yg] Inception Done
+	Added [x5MO] as watcher for u_8 [r2m4]
+	Asking u_8 [r2m4]'s watchers to watch [IjVS]
+	✅ u_4 [LXjL] Inception Done
+	✅ u_8 [r2m4] Inception Done
+Test 2 (signature verification)
+	✅ u_8 [r2m4] Message verified
+	✅ u_3 [BraS] Message verified
+	✅ u_0 [b4xs] Message verified
+	✅ u_9 [i8yg] Message verified
+	✅ u_5 [x3jp] Message verified
+	✅ u_7 [d5GP] Message verified
+	✅ u_1 [FOyz] Message verified
+	✅ u_4 [LXjL] Message verified
+	✅ u_6 [MdN-] Message verified
+	✅ u_2 [B7Ob] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_8 [r2m4] Message Verified (2)
+	✅ u_5 [x3jp] Message Verified (2)
+	✅ u_7 [d5GP] Message Verified (2)
+	✅ u_4 [LXjL] Message Verified (2)
+	✅ u_0 [b4xs] Message Verified (2)
+	✅ u_1 [FOyz] Message Verified (2)
+	✅ u_2 [B7Ob] Message Verified (2)
+	✅ u_6 [MdN-] Message Verified (2)
+	✅ u_3 [BraS] Message Verified (2)
+	✅ u_9 [i8yg] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_8 [r2m4] Starts Rotation
+u_9 [i8yg] Starts Rotation
+u_0 [b4xs] Starts Rotation
+u_1 [FOyz] Starts Rotation
+u_3 [BraS] Starts Rotation
+u_4 [LXjL] Starts Rotation
+u_7 [d5GP] Starts Rotation
+u_2 [B7Ob] Starts Rotation
+u_6 [MdN-] Starts Rotation
+u_5 [x3jp] Starts Rotation
+u_3 [BraS] Ends Rotation
+u_3 [BraS] - Completed Key Rotation
+u_4 [LXjL] Ends Rotation
+u_4 [LXjL] - Completed Key Rotation
+u_6 [MdN-] Ends Rotation
+u_6 [MdN-] - Completed Key Rotation
+u_9 [i8yg] Ends Rotation
+u_9 [i8yg] - Completed Key Rotation
+u_7 [d5GP] Ends Rotation
+u_7 [d5GP] - Completed Key Rotation
+u_5 [x3jp] Ends Rotation
+u_5 [x3jp] - Completed Key Rotation
+u_8 [r2m4] Ends Rotation
+u_8 [r2m4] - Completed Key Rotation
+u_0 [b4xs] Ends Rotation
+u_0 [b4xs] - Completed Key Rotation
+u_2 [B7Ob] Ends Rotation
+u_2 [B7Ob] - Completed Key Rotation

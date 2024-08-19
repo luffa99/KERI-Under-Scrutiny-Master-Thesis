@@ -1,0 +1,132 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_7 [6tXH]
+Incepted: u_4 [lC5H]
+Incepted: u_1 [S69i]
+	Added [bivQ] as watcher for u_7 [6tXH]
+	Added [jm4C] as watcher for u_4 [lC5H]
+	Added [2D85] as watcher for u_1 [S69i]
+	Added [2D85] as watcher for u_4 [lC5H]
+	Added [jm4C] as watcher for u_7 [6tXH]
+Incepted: u_9 [YmwT]
+	Added [2D85] as watcher for u_7 [6tXH]
+	Asking u_7 [6tXH]'s watchers to watch [YkTo]
+	Added [jm4C] as watcher for u_1 [S69i]
+	Added [bivQ] as watcher for u_4 [lC5H]
+	Asking u_4 [lC5H]'s watchers to watch [YkTo]
+	Added [jm4C] as watcher for u_9 [YmwT]
+	Added [bivQ] as watcher for u_1 [S69i]
+	Asking u_1 [S69i]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_9 [YmwT]
+	Added [x5MO] as watcher for u_9 [YmwT]
+	Asking u_9 [YmwT]'s watchers to watch [YkTo]
+Incepted: u_5 [r2LN]
+Incepted: u_0 [12Ht]
+	Added [2D85] as watcher for u_5 [r2LN]
+Incepted: u_8 [WuNY]
+	Added [2D85] as watcher for u_0 [12Ht]
+	Added [bivQ] as watcher for u_5 [r2LN]
+	Added [x5MO] as watcher for u_8 [WuNY]
+	Added [x5MO] as watcher for u_0 [12Ht]
+	Added [2D85] as watcher for u_8 [WuNY]
+	Added [jm4C] as watcher for u_5 [r2LN]
+	Asking u_5 [r2LN]'s watchers to watch [YkTo]
+Incepted: u_6 [gl00]
+	Added [jm4C] as watcher for u_0 [12Ht]
+	Asking u_0 [12Ht]'s watchers to watch [YkTo]
+	Added [bivQ] as watcher for u_8 [WuNY]
+	Asking u_8 [WuNY]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_6 [gl00]
+	Added [x5MO] as watcher for u_6 [gl00]
+Incepted: u_2 [DIVH]
+	Added [2D85] as watcher for u_2 [DIVH]
+Incepted: u_3 [0sRK]
+	Added [jm4C] as watcher for u_6 [gl00]
+	Asking u_6 [gl00]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_3 [0sRK]
+	Added [jm4C] as watcher for u_2 [DIVH]
+	Added [x5MO] as watcher for u_3 [0sRK]
+	Added [x5MO] as watcher for u_2 [DIVH]
+	Asking u_2 [DIVH]'s watchers to watch [YkTo]
+	✅ u_7 [6tXH] Inception Done
+	Added [bivQ] as watcher for u_3 [0sRK]
+	Asking u_3 [0sRK]'s watchers to watch [YkTo]
+	✅ u_4 [lC5H] Inception Done
+	✅ u_1 [S69i] Inception Done
+	✅ u_5 [r2LN] Inception Done
+	✅ u_0 [12Ht] Inception Done
+	✅ u_6 [gl00] Inception Done
+	✅ u_8 [WuNY] Inception Done
+	✅ u_9 [YmwT] Inception Done
+	✅ u_2 [DIVH] Inception Done
+	✅ u_3 [0sRK] Inception Done
+Test 2 (signature verification)
+	✅ u_3 [0sRK] Message verified
+	✅ u_9 [YmwT] Message verified
+	✅ u_2 [DIVH] Message verified
+	✅ u_7 [6tXH] Message verified
+	✅ u_8 [WuNY] Message verified
+	✅ u_4 [lC5H] Message verified
+	✅ u_1 [S69i] Message verified
+	✅ u_6 [gl00] Message verified
+	✅ u_5 [r2LN] Message verified
+	✅ u_0 [12Ht] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_0 [12Ht] Message Verified (2)
+	✅ u_6 [gl00] Message Verified (2)
+	✅ u_2 [DIVH] Message Verified (2)
+	✅ u_8 [WuNY] Message Verified (2)
+	✅ u_9 [YmwT] Message Verified (2)
+	✅ u_4 [lC5H] Message Verified (2)
+	✅ u_1 [S69i] Message Verified (2)
+	✅ u_3 [0sRK] Message Verified (2)
+	✅ u_5 [r2LN] Message Verified (2)
+	✅ u_7 [6tXH] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_0 [12Ht] Starts Rotation
+u_5 [r2LN] Starts Rotation
+u_2 [DIVH] Starts Rotation
+u_3 [0sRK] Starts Rotation
+u_4 [lC5H] Starts Rotation
+u_6 [gl00] Starts Rotation
+u_1 [S69i] Starts Rotation
+u_7 [6tXH] Starts Rotation
+u_9 [YmwT] Starts Rotation
+u_8 [WuNY] Starts Rotation
+u_4 [lC5H] Ends Rotation
+u_4 [lC5H] - Completed Key Rotation
+u_3 [0sRK] Ends Rotation
+u_3 [0sRK] - Completed Key Rotation
+u_8 [WuNY] Ends Rotation
+u_8 [WuNY] - Completed Key Rotation
+u_0 [12Ht] Ends Rotation
+u_0 [12Ht] - Completed Key Rotation
+u_9 [YmwT] Ends Rotation
+u_9 [YmwT] - Completed Key Rotation
+u_6 [gl00] Ends Rotation
+u_6 [gl00] - Completed Key Rotation
+u_5 [r2LN] Ends Rotation
+u_5 [r2LN] - Completed Key Rotation
+u_7 [6tXH] Ends Rotation
+u_7 [6tXH] - Completed Key Rotation
+u_2 [DIVH] Ends Rotation
+u_2 [DIVH] - Completed Key Rotation
+u_1 [S69i] Ends Rotation
+u_1 [S69i] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 23958ms (2395 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 815ms (81 p.u.)
+Test 4: 37891ms (3789 p.u.)

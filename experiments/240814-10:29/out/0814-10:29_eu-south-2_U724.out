@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_3 [ecEe]
+	Added [x5MO] as watcher for u_3 [ecEe]
+Incepted: u_2 [VN5w]
+	Added [2D85] as watcher for u_3 [ecEe]
+	Added [bivQ] as watcher for u_2 [VN5w]
+	Added [jm4C] as watcher for u_3 [ecEe]
+	Asking u_3 [ecEe]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_2 [VN5w]
+Incepted: u_5 [lIsv]
+	Added [2D85] as watcher for u_5 [lIsv]
+	Added [jm4C] as watcher for u_2 [VN5w]
+	Asking u_2 [VN5w]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_5 [lIsv]
+	Added [bivQ] as watcher for u_5 [lIsv]
+	Asking u_5 [lIsv]'s watchers to watch [cj1m]
+Incepted: u_6 [Asca]
+Incepted: u_9 [_38J]
+	Added [bivQ] as watcher for u_9 [_38J]
+	✅ u_3 [ecEe] Inception Done
+	Added [2D85] as watcher for u_6 [Asca]
+	✅ u_2 [VN5w] Inception Done
+	✅ u_5 [lIsv] Inception Done
+	Added [x5MO] as watcher for u_9 [_38J]
+Incepted: u_0 [rke8]
+	Added [jm4C] as watcher for u_6 [Asca]
+Incepted: u_8 [6mpn]
+Incepted: u_1 [SgpL]
+Incepted: u_7 [RQ4N]
+	Added [jm4C] as watcher for u_9 [_38J]
+	Asking u_9 [_38J]'s watchers to watch [cj1m]
+Incepted: u_4 [5kPh]
+	Added [2D85] as watcher for u_0 [rke8]
+	Added [bivQ] as watcher for u_6 [Asca]
+	Asking u_6 [Asca]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_1 [SgpL]
+	Added [jm4C] as watcher for u_8 [6mpn]
+	Added [bivQ] as watcher for u_7 [RQ4N]
+	✅ u_9 [_38J] Inception Done
+	Added [bivQ] as watcher for u_4 [5kPh]
+	✅ u_6 [Asca] Inception Done
+	Added [bivQ] as watcher for u_1 [SgpL]
+	Added [jm4C] as watcher for u_0 [rke8]
+	Added [2D85] as watcher for u_8 [6mpn]
+	Added [x5MO] as watcher for u_7 [RQ4N]
+	Added [x5MO] as watcher for u_4 [5kPh]
+	Added [bivQ] as watcher for u_0 [rke8]
+	Asking u_0 [rke8]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_8 [6mpn]
+	Asking u_8 [6mpn]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_1 [SgpL]
+	Asking u_1 [SgpL]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_7 [RQ4N]
+	Asking u_7 [RQ4N]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_4 [5kPh]
+	Asking u_4 [5kPh]'s watchers to watch [cj1m]
+	✅ u_0 [rke8] Inception Done
+	✅ u_8 [6mpn] Inception Done
+	✅ u_1 [SgpL] Inception Done
+	✅ u_7 [RQ4N] Inception Done
+	✅ u_4 [5kPh] Inception Done
+Test 2 (signature verification)
+	✅ u_4 [5kPh] Message verified
+	✅ u_3 [ecEe] Message verified
+	✅ u_1 [SgpL] Message verified
+	✅ u_6 [Asca] Message verified
+	✅ u_5 [lIsv] Message verified
+	✅ u_8 [6mpn] Message verified
+	✅ u_9 [_38J] Message verified
+	✅ u_7 [RQ4N] Message verified
+	✅ u_0 [rke8] Message verified
+	✅ u_2 [VN5w] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_3 [ecEe] Message Verified (2)
+	✅ u_4 [5kPh] Message Verified (2)
+	✅ u_9 [_38J] Message Verified (2)
+	✅ u_1 [SgpL] Message Verified (2)
+	✅ u_8 [6mpn] Message Verified (2)
+	✅ u_7 [RQ4N] Message Verified (2)
+	✅ u_0 [rke8] Message Verified (2)
+	✅ u_2 [VN5w] Message Verified (2)
+	✅ u_5 [lIsv] Message Verified (2)
+	✅ u_6 [Asca] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_6 [Asca] Starts Rotation
+u_9 [_38J] Starts Rotation
+u_8 [6mpn] Starts Rotation
+u_4 [5kPh] Starts Rotation
+u_2 [VN5w] Starts Rotation
+u_7 [RQ4N] Starts Rotation
+u_3 [ecEe] Starts Rotation
+u_0 [rke8] Starts Rotation
+u_5 [lIsv] Starts Rotation
+u_1 [SgpL] Starts Rotation
+u_0 [rke8] Ends Rotation
+u_0 [rke8] - Completed Key Rotation
+u_4 [5kPh] Ends Rotation
+u_4 [5kPh] - Completed Key Rotation
+u_7 [RQ4N] Ends Rotation
+u_7 [RQ4N] - Completed Key Rotation
+u_8 [6mpn] Ends Rotation
+u_8 [6mpn] - Completed Key Rotation
+u_9 [_38J] Ends Rotation
+u_9 [_38J] - Completed Key Rotation
+u_5 [lIsv] Ends Rotation
+u_5 [lIsv] - Completed Key Rotation
+u_3 [ecEe] Ends Rotation
+u_3 [ecEe] - Completed Key Rotation
+u_1 [SgpL] Ends Rotation
+u_1 [SgpL] - Completed Key Rotation
+u_2 [VN5w] Ends Rotation
+u_2 [VN5w] - Completed Key Rotation
+u_6 [Asca] Ends Rotation
+u_6 [Asca] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 73567ms (7356 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 690ms (69 p.u.)
+Test 4: 67287ms (6728 p.u.)

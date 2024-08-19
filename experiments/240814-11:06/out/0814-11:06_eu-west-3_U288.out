@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_6 [JAHO]
+Incepted: u_1 [_AQO]
+	Added [x5MO] as watcher for u_6 [JAHO]
+Incepted: u_8 [4kGt]
+	Added [x5MO] as watcher for u_1 [_AQO]
+Incepted: u_4 [jV14]
+	Added [jm4C] as watcher for u_6 [JAHO]
+Incepted: u_2 [TOvu]
+Incepted: u_9 [sL3F]
+	Added [2D85] as watcher for u_8 [4kGt]
+	Added [2D85] as watcher for u_1 [_AQO]
+Incepted: u_7 [AHSb]
+	Added [2D85] as watcher for u_9 [sL3F]
+	Added [2D85] as watcher for u_2 [TOvu]
+	Added [x5MO] as watcher for u_4 [jV14]
+Incepted: u_0 [goWR]
+	Added [bivQ] as watcher for u_6 [JAHO]
+	Asking u_6 [JAHO]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_8 [4kGt]
+Incepted: u_5 [fgzP]
+	Added [x5MO] as watcher for u_7 [AHSb]
+	Added [jm4C] as watcher for u_1 [_AQO]
+	Asking u_1 [_AQO]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_4 [jV14]
+	Added [x5MO] as watcher for u_9 [sL3F]
+	Added [bivQ] as watcher for u_2 [TOvu]
+	Added [x5MO] as watcher for u_5 [fgzP]
+	Added [jm4C] as watcher for u_0 [goWR]
+	Added [2D85] as watcher for u_7 [AHSb]
+	Added [bivQ] as watcher for u_8 [4kGt]
+	Asking u_8 [4kGt]'s watchers to watch [IjVS]
+Incepted: u_3 [9o2N]
+	Added [bivQ] as watcher for u_4 [jV14]
+	Asking u_4 [jV14]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_9 [sL3F]
+	Asking u_9 [sL3F]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_2 [TOvu]
+	Asking u_2 [TOvu]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_3 [9o2N]
+	Added [x5MO] as watcher for u_0 [goWR]
+	Added [bivQ] as watcher for u_5 [fgzP]
+	Added [bivQ] as watcher for u_7 [AHSb]
+	Asking u_7 [AHSb]'s watchers to watch [IjVS]
+	✅ u_6 [JAHO] Inception Done
+	✅ u_1 [_AQO] Inception Done
+	Added [jm4C] as watcher for u_3 [9o2N]
+	Added [2D85] as watcher for u_5 [fgzP]
+	Asking u_5 [fgzP]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_0 [goWR]
+	Asking u_0 [goWR]'s watchers to watch [IjVS]
+	✅ u_9 [sL3F] Inception Done
+	✅ u_2 [TOvu] Inception Done
+	Added [bivQ] as watcher for u_3 [9o2N]
+	Asking u_3 [9o2N]'s watchers to watch [IjVS]
+	✅ u_8 [4kGt] Inception Done
+	✅ u_4 [jV14] Inception Done
+	✅ u_5 [fgzP] Inception Done
+	✅ u_7 [AHSb] Inception Done
+	✅ u_0 [goWR] Inception Done
+	✅ u_3 [9o2N] Inception Done
+Test 2 (signature verification)
+	✅ u_3 [9o2N] Message verified
+	✅ u_1 [_AQO] Message verified
+	✅ u_7 [AHSb] Message verified
+	✅ u_4 [jV14] Message verified
+	✅ u_9 [sL3F] Message verified
+	✅ u_2 [TOvu] Message verified
+	✅ u_8 [4kGt] Message verified
+	✅ u_0 [goWR] Message verified
+	✅ u_6 [JAHO] Message verified
+	✅ u_5 [fgzP] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_9 [sL3F] Message Verified (2)
+	✅ u_7 [AHSb] Message Verified (2)
+	✅ u_2 [TOvu] Message Verified (2)
+	✅ u_8 [4kGt] Message Verified (2)
+	✅ u_1 [_AQO] Message Verified (2)
+	✅ u_4 [jV14] Message Verified (2)
+	✅ u_6 [JAHO] Message Verified (2)
+	✅ u_0 [goWR] Message Verified (2)
+	✅ u_5 [fgzP] Message Verified (2)
+	✅ u_3 [9o2N] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_7 [AHSb] Starts Rotation
+u_2 [TOvu] Starts Rotation
+u_4 [jV14] Starts Rotation
+u_8 [4kGt] Starts Rotation
+u_1 [_AQO] Starts Rotation
+u_9 [sL3F] Starts Rotation
+u_5 [fgzP] Starts Rotation
+u_6 [JAHO] Starts Rotation
+u_3 [9o2N] Starts Rotation
+u_0 [goWR] Starts Rotation
+u_9 [sL3F] Ends Rotation
+u_9 [sL3F] - Completed Key Rotation
+u_3 [9o2N] Ends Rotation
+u_3 [9o2N] - Completed Key Rotation
+u_8 [4kGt] Ends Rotation
+u_8 [4kGt] - Completed Key Rotation
+u_7 [AHSb] Ends Rotation
+u_7 [AHSb] - Completed Key Rotation
+u_4 [jV14] Ends Rotation
+u_4 [jV14] - Completed Key Rotation
+u_1 [_AQO] Ends Rotation
+u_1 [_AQO] - Completed Key Rotation
+u_6 [JAHO] Ends Rotation
+u_6 [JAHO] - Completed Key Rotation
+u_2 [TOvu] Ends Rotation
+u_2 [TOvu] - Completed Key Rotation
+u_5 [fgzP] Ends Rotation
+u_5 [fgzP] - Completed Key Rotation
+u_0 [goWR] Ends Rotation
+u_0 [goWR] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 11531ms (1153 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 812ms (81 p.u.)
+Test 4: 82112ms (8211 p.u.)

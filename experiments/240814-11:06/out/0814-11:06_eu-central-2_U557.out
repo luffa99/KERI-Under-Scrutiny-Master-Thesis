@@ -1,0 +1,128 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_5 [3qTA]
+	Added [2D85] as watcher for u_5 [3qTA]
+	Added [x5MO] as watcher for u_5 [3qTA]
+	Added [jm4C] as watcher for u_5 [3qTA]
+	Asking u_5 [3qTA]'s watchers to watch [IjVS]
+Incepted: u_1 [mwo1]
+	✅ u_5 [3qTA] Inception Done
+	Added [bivQ] as watcher for u_1 [mwo1]
+	Added [jm4C] as watcher for u_1 [mwo1]
+Incepted: u_2 [U9_p]
+	Added [x5MO] as watcher for u_1 [mwo1]
+	Asking u_1 [mwo1]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_2 [U9_p]
+Incepted: u_0 [4ad8]
+Incepted: u_7 [AlwV]
+	Added [jm4C] as watcher for u_2 [U9_p]
+	Added [2D85] as watcher for u_7 [AlwV]
+Incepted: u_4 [ysKc]
+	Added [jm4C] as watcher for u_0 [4ad8]
+Incepted: u_9 [kex7]
+	Added [x5MO] as watcher for u_4 [ysKc]
+	Added [bivQ] as watcher for u_7 [AlwV]
+	Added [x5MO] as watcher for u_2 [U9_p]
+	Asking u_2 [U9_p]'s watchers to watch [IjVS]
+	✅ u_1 [mwo1] Inception Done
+	Added [2D85] as watcher for u_0 [4ad8]
+	Added [2D85] as watcher for u_9 [kex7]
+	Added [bivQ] as watcher for u_4 [ysKc]
+	Added [jm4C] as watcher for u_7 [AlwV]
+	Asking u_7 [AlwV]'s watchers to watch [IjVS]
+Incepted: u_3 [hCPN]
+Incepted: u_8 [9g64]
+	✅ u_2 [U9_p] Inception Done
+	Added [x5MO] as watcher for u_0 [4ad8]
+	Asking u_0 [4ad8]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_9 [kex7]
+Incepted: u_6 [ZE0Z]
+	✅ u_7 [AlwV] Inception Done
+	Added [jm4C] as watcher for u_4 [ysKc]
+	Asking u_4 [ysKc]'s watchers to watch [IjVS]
+	✅ u_0 [4ad8] Inception Done
+	Added [x5MO] as watcher for u_8 [9g64]
+	Added [jm4C] as watcher for u_3 [hCPN]
+	✅ u_4 [ysKc] Inception Done
+	Added [x5MO] as watcher for u_9 [kex7]
+	Asking u_9 [kex7]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_6 [ZE0Z]
+	Added [bivQ] as watcher for u_3 [hCPN]
+	Added [x5MO] as watcher for u_6 [ZE0Z]
+	Added [2D85] as watcher for u_8 [9g64]
+	✅ u_9 [kex7] Inception Done
+	Added [bivQ] as watcher for u_8 [9g64]
+	Asking u_8 [9g64]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_6 [ZE0Z]
+	Asking u_6 [ZE0Z]'s watchers to watch [IjVS]
+	✅ u_8 [9g64] Inception Done
+	✅ u_6 [ZE0Z] Inception Done
+	Added [2D85] as watcher for u_3 [hCPN]
+	Asking u_3 [hCPN]'s watchers to watch [IjVS]
+	✅ u_3 [hCPN] Inception Done
+Test 2 (signature verification)
+	✅ u_3 [hCPN] Message verified
+	✅ u_9 [kex7] Message verified
+	✅ u_6 [ZE0Z] Message verified
+	✅ u_1 [mwo1] Message verified
+	✅ u_5 [3qTA] Message verified
+	✅ u_2 [U9_p] Message verified
+	✅ u_7 [AlwV] Message verified
+	✅ u_0 [4ad8] Message verified
+	✅ u_4 [ysKc] Message verified
+	✅ u_8 [9g64] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+	✅ u_5 [3qTA] Message Verified (2)
+	✅ u_7 [AlwV] Message Verified (2)
+	✅ u_9 [kex7] Message Verified (2)
+	✅ u_1 [mwo1] Message Verified (2)
+	✅ u_8 [9g64] Message Verified (2)
+	✅ u_3 [hCPN] Message Verified (2)
+	✅ u_6 [ZE0Z] Message Verified (2)
+	✅ u_0 [4ad8] Message Verified (2)
+	✅ u_2 [U9_p] Message Verified (2)
+	✅ u_4 [ysKc] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_4 [ysKc] Starts Rotation
+u_3 [hCPN] Starts Rotation
+u_5 [3qTA] Starts Rotation
+u_9 [kex7] Starts Rotation
+u_0 [4ad8] Starts Rotation
+u_8 [9g64] Starts Rotation
+u_6 [ZE0Z] Starts Rotation
+u_1 [mwo1] Starts Rotation
+u_2 [U9_p] Starts Rotation
+u_7 [AlwV] Starts Rotation
+u_1 [mwo1] Ends Rotation
+u_1 [mwo1] - Completed Key Rotation
+u_2 [U9_p] Ends Rotation
+u_2 [U9_p] - Completed Key Rotation
+u_4 [ysKc] Ends Rotation
+u_4 [ysKc] - Completed Key Rotation
+u_0 [4ad8] Ends Rotation
+u_0 [4ad8] - Completed Key Rotation
+u_6 [ZE0Z] Ends Rotation
+u_6 [ZE0Z] - Completed Key Rotation
+u_7 [AlwV] Ends Rotation
+u_7 [AlwV] - Completed Key Rotation
+u_9 [kex7] Ends Rotation
+u_9 [kex7] - Completed Key Rotation
+u_5 [3qTA] Ends Rotation
+u_5 [3qTA] - Completed Key Rotation
+u_8 [9g64] Ends Rotation
+u_8 [9g64] - Completed Key Rotation
+u_3 [hCPN] Ends Rotation
+u_3 [hCPN] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 76237ms (7623 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 716ms (71 p.u.)
+Test 4: 74238ms (7423 p.u.)

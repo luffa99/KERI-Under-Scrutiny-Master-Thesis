@@ -1,0 +1,129 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_8 [_MeQ]
+	Added [x5MO] as watcher for u_8 [_MeQ]
+Incepted: u_1 [ubr9]
+Incepted: u_0 [0coZ]
+	Added [jm4C] as watcher for u_8 [_MeQ]
+	Added [x5MO] as watcher for u_1 [ubr9]
+	Added [jm4C] as watcher for u_0 [0coZ]
+	Added [bivQ] as watcher for u_8 [_MeQ]
+	Asking u_8 [_MeQ]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_0 [0coZ]
+	Added [bivQ] as watcher for u_1 [ubr9]
+Incepted: u_3 [d_Z2]
+Incepted: u_9 [FzrQ]
+Incepted: u_6 [2FXo]
+Incepted: u_2 [BRJR]
+	Added [2D85] as watcher for u_0 [0coZ]
+	Asking u_0 [0coZ]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_1 [ubr9]
+	Asking u_1 [ubr9]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_3 [d_Z2]
+	Added [jm4C] as watcher for u_9 [FzrQ]
+	✅ u_8 [_MeQ] Inception Done
+Incepted: u_4 [hFxu]
+	Added [bivQ] as watcher for u_2 [BRJR]
+	✅ u_0 [0coZ] Inception Done
+	Added [x5MO] as watcher for u_6 [2FXo]
+	✅ u_1 [ubr9] Inception Done
+	Added [jm4C] as watcher for u_3 [d_Z2]
+Incepted: u_5 [2y21]
+Incepted: u_7 [acyG]
+	Added [bivQ] as watcher for u_9 [FzrQ]
+	Added [2D85] as watcher for u_4 [hFxu]
+	Added [jm4C] as watcher for u_6 [2FXo]
+	Added [bivQ] as watcher for u_3 [d_Z2]
+	Asking u_3 [d_Z2]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_2 [BRJR]
+	Added [2D85] as watcher for u_5 [2y21]
+	Added [2D85] as watcher for u_7 [acyG]
+	Added [x5MO] as watcher for u_4 [hFxu]
+	Added [2D85] as watcher for u_9 [FzrQ]
+	Asking u_9 [FzrQ]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_2 [BRJR]
+	Asking u_2 [BRJR]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_6 [2FXo]
+	Asking u_6 [2FXo]'s watchers to watch [IjVS]
+	✅ u_3 [d_Z2] Inception Done
+	Added [jm4C] as watcher for u_4 [hFxu]
+	Asking u_4 [hFxu]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_7 [acyG]
+	Added [x5MO] as watcher for u_5 [2y21]
+	✅ u_9 [FzrQ] Inception Done
+	✅ u_2 [BRJR] Inception Done
+	✅ u_4 [hFxu] Inception Done
+	✅ u_6 [2FXo] Inception Done
+	Added [x5MO] as watcher for u_7 [acyG]
+	Asking u_7 [acyG]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_5 [2y21]
+	Asking u_5 [2y21]'s watchers to watch [IjVS]
+	✅ u_5 [2y21] Inception Done
+	✅ u_7 [acyG] Inception Done
+Test 2 (signature verification)
+	✅ u_7 [acyG] Message verified
+	✅ u_2 [BRJR] Message verified
+	✅ u_9 [FzrQ] Message verified
+	✅ u_8 [_MeQ] Message verified
+	✅ u_0 [0coZ] Message verified
+	✅ u_3 [d_Z2] Message verified
+	✅ u_4 [hFxu] Message verified
+	✅ u_5 [2y21] Message verified
+	✅ u_6 [2FXo] Message verified
+	✅ u_1 [ubr9] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+	✅ u_3 [d_Z2] Message Verified (2)
+	✅ u_4 [hFxu] Message Verified (2)
+	✅ u_2 [BRJR] Message Verified (2)
+	✅ u_0 [0coZ] Message Verified (2)
+	✅ u_9 [FzrQ] Message Verified (2)
+	✅ u_8 [_MeQ] Message Verified (2)
+	✅ u_5 [2y21] Message Verified (2)
+	✅ u_7 [acyG] Message Verified (2)
+	✅ u_1 [ubr9] Message Verified (2)
+	✅ u_6 [2FXo] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+u_6 [2FXo] Starts Rotation
+u_5 [2y21] Starts Rotation
+u_9 [FzrQ] Starts Rotation
+u_2 [BRJR] Starts Rotation
+u_0 [0coZ] Starts Rotation
+u_4 [hFxu] Starts Rotation
+u_1 [ubr9] Starts Rotation
+u_3 [d_Z2] Starts Rotation
+u_8 [_MeQ] Starts Rotation
+u_7 [acyG] Starts Rotation
+u_0 [0coZ] Ends Rotation
+u_0 [0coZ] - Completed Key Rotation
+u_3 [d_Z2] Ends Rotation
+u_3 [d_Z2] - Completed Key Rotation
+u_2 [BRJR] Ends Rotation
+u_2 [BRJR] - Completed Key Rotation
+u_6 [2FXo] Ends Rotation
+u_6 [2FXo] - Completed Key Rotation
+u_1 [ubr9] Ends Rotation
+u_1 [ubr9] - Completed Key Rotation
+u_9 [FzrQ] Ends Rotation
+u_9 [FzrQ] - Completed Key Rotation
+u_8 [_MeQ] Ends Rotation
+u_8 [_MeQ] - Completed Key Rotation
+u_4 [hFxu] Ends Rotation
+u_4 [hFxu] - Completed Key Rotation
+u_7 [acyG] Ends Rotation
+u_7 [acyG] - Completed Key Rotation
+u_5 [2y21] Ends Rotation
+u_5 [2y21] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 65841ms (6584 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 585ms (58 p.u.)
+Test 4: 62634ms (6263 p.u.)

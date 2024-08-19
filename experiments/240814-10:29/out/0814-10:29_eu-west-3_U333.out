@@ -1,0 +1,119 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_3 [2FJN]
+Incepted: u_8 [QBLS]
+Incepted: u_1 [z3RS]
+	Added [2D85] as watcher for u_3 [2FJN]
+Incepted: u_4 [H3yX]
+Incepted: u_7 [FhvN]
+Incepted: u_6 [eigV]
+Incepted: u_5 [NUJU]
+Incepted: u_2 [xyMI]
+	Added [bivQ] as watcher for u_3 [2FJN]
+Incepted: u_0 [AcgP]
+	Added [bivQ] as watcher for u_1 [z3RS]
+Incepted: u_9 [REQQ]
+	Added [x5MO] as watcher for u_4 [H3yX]
+	Added [bivQ] as watcher for u_8 [QBLS]
+	Added [2D85] as watcher for u_5 [NUJU]
+	Added [2D85] as watcher for u_6 [eigV]
+	Added [bivQ] as watcher for u_7 [FhvN]
+	Added [2D85] as watcher for u_4 [H3yX]
+	Added [2D85] as watcher for u_0 [AcgP]
+	Added [bivQ] as watcher for u_2 [xyMI]
+	Added [x5MO] as watcher for u_1 [z3RS]
+	Added [x5MO] as watcher for u_8 [QBLS]
+	Added [x5MO] as watcher for u_3 [2FJN]
+	Asking u_3 [2FJN]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_9 [REQQ]
+	Added [x5MO] as watcher for u_5 [NUJU]
+	Added [2D85] as watcher for u_8 [QBLS]
+	Asking u_8 [QBLS]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_0 [AcgP]
+	Added [jm4C] as watcher for u_7 [FhvN]
+	Added [bivQ] as watcher for u_6 [eigV]
+	Added [jm4C] as watcher for u_4 [H3yX]
+	Asking u_4 [H3yX]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_2 [xyMI]
+	Added [2D85] as watcher for u_9 [REQQ]
+	Added [jm4C] as watcher for u_1 [z3RS]
+	Asking u_1 [z3RS]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_7 [FhvN]
+	Asking u_7 [FhvN]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_5 [NUJU]
+	Asking u_5 [NUJU]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_2 [xyMI]
+	Asking u_2 [xyMI]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_0 [AcgP]
+	Asking u_0 [AcgP]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_6 [eigV]
+	Asking u_6 [eigV]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_9 [REQQ]
+	Asking u_9 [REQQ]'s watchers to watch [cj1m]
+	✅ u_3 [2FJN] Inception Done
+	✅ u_4 [H3yX] Inception Done
+	✅ u_8 [QBLS] Inception Done
+	✅ u_7 [FhvN] Inception Done
+	✅ u_1 [z3RS] Inception Done
+	✅ u_0 [AcgP] Inception Done
+	✅ u_5 [NUJU] Inception Done
+	✅ u_6 [eigV] Inception Done
+	✅ u_2 [xyMI] Inception Done
+	✅ u_9 [REQQ] Inception Done
+Test 2 (signature verification)
+	✅ u_2 [xyMI] Message verified
+	✅ u_9 [REQQ] Message verified
+	✅ u_5 [NUJU] Message verified
+	✅ u_8 [QBLS] Message verified
+	✅ u_4 [H3yX] Message verified
+	✅ u_7 [FhvN] Message verified
+	✅ u_3 [2FJN] Message verified
+	✅ u_1 [z3RS] Message verified
+	✅ u_0 [AcgP] Message verified
+	✅ u_6 [eigV] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_2 [xyMI] Message Verified (2)
+	✅ u_3 [2FJN] Message Verified (2)
+	✅ u_5 [NUJU] Message Verified (2)
+	✅ u_0 [AcgP] Message Verified (2)
+	✅ u_9 [REQQ] Message Verified (2)
+	✅ u_8 [QBLS] Message Verified (2)
+	✅ u_4 [H3yX] Message Verified (2)
+	✅ u_7 [FhvN] Message Verified (2)
+	✅ u_6 [eigV] Message Verified (2)
+	✅ u_1 [z3RS] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_1 [z3RS] Starts Rotation
+u_6 [eigV] Starts Rotation
+u_4 [H3yX] Starts Rotation
+u_2 [xyMI] Starts Rotation
+u_3 [2FJN] Starts Rotation
+u_8 [QBLS] Starts Rotation
+u_0 [AcgP] Starts Rotation
+u_7 [FhvN] Starts Rotation
+u_9 [REQQ] Starts Rotation
+u_5 [NUJU] Starts Rotation
+u_6 [eigV] Ends Rotation
+u_6 [eigV] - Completed Key Rotation
+u_2 [xyMI] Ends Rotation
+u_2 [xyMI] - Completed Key Rotation
+u_0 [AcgP] Ends Rotation
+u_0 [AcgP] - Completed Key Rotation
+u_3 [2FJN] Ends Rotation
+u_3 [2FJN] - Completed Key Rotation
+u_9 [REQQ] Ends Rotation
+u_9 [REQQ] - Completed Key Rotation
+u_1 [z3RS] Ends Rotation
+u_1 [z3RS] - Completed Key Rotation
+u_7 [FhvN] Ends Rotation
+u_7 [FhvN] - Completed Key Rotation
+u_5 [NUJU] Ends Rotation
+u_5 [NUJU] - Completed Key Rotation
+u_8 [QBLS] Ends Rotation
+u_8 [QBLS] - Completed Key Rotation

@@ -1,0 +1,128 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_7 [gy1W]
+Incepted: u_4 [grb2]
+Incepted: u_1 [p-hS]
+	Added [x5MO] as watcher for u_7 [gy1W]
+Incepted: u_2 [JisD]
+Incepted: u_9 [JWkr]
+Incepted: u_6 [7OZN]
+	Added [2D85] as watcher for u_4 [grb2]
+	Added [x5MO] as watcher for u_1 [p-hS]
+Incepted: u_0 [jE3E]
+Incepted: u_3 [5-zs]
+	Added [jm4C] as watcher for u_7 [gy1W]
+Incepted: u_5 [4b55]
+	Added [bivQ] as watcher for u_9 [JWkr]
+Incepted: u_8 [EMkl]
+	Added [jm4C] as watcher for u_2 [JisD]
+	Added [2D85] as watcher for u_6 [7OZN]
+	Added [jm4C] as watcher for u_4 [grb2]
+	Added [2D85] as watcher for u_1 [p-hS]
+	Added [jm4C] as watcher for u_0 [jE3E]
+	Added [2D85] as watcher for u_3 [5-zs]
+	Added [2D85] as watcher for u_7 [gy1W]
+	Asking u_7 [gy1W]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_5 [4b55]
+	Added [x5MO] as watcher for u_9 [JWkr]
+	Added [bivQ] as watcher for u_8 [EMkl]
+	Added [x5MO] as watcher for u_6 [7OZN]
+	Added [2D85] as watcher for u_2 [JisD]
+	Added [x5MO] as watcher for u_4 [grb2]
+	Asking u_4 [grb2]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_1 [p-hS]
+	Asking u_1 [p-hS]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_0 [jE3E]
+	✅ u_7 [gy1W] Inception Done
+	Added [x5MO] as watcher for u_5 [4b55]
+	Added [bivQ] as watcher for u_3 [5-zs]
+	✅ u_4 [grb2] Inception Done
+	Added [jm4C] as watcher for u_9 [JWkr]
+	Asking u_9 [JWkr]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_8 [EMkl]
+	✅ u_1 [p-hS] Inception Done
+	Added [bivQ] as watcher for u_6 [7OZN]
+	Asking u_6 [7OZN]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_2 [JisD]
+	Asking u_2 [JisD]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_0 [jE3E]
+	Asking u_0 [jE3E]'s watchers to watch [IjVS]
+	✅ u_6 [7OZN] Inception Done
+	Added [jm4C] as watcher for u_5 [4b55]
+	Asking u_5 [4b55]'s watchers to watch [IjVS]
+	✅ u_9 [JWkr] Inception Done
+	Added [x5MO] as watcher for u_3 [5-zs]
+	Asking u_3 [5-zs]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_8 [EMkl]
+	Asking u_8 [EMkl]'s watchers to watch [IjVS]
+	✅ u_2 [JisD] Inception Done
+	✅ u_0 [jE3E] Inception Done
+	✅ u_8 [EMkl] Inception Done
+	✅ u_5 [4b55] Inception Done
+	✅ u_3 [5-zs] Inception Done
+Test 2 (signature verification)
+	✅ u_3 [5-zs] Message verified
+	✅ u_9 [JWkr] Message verified
+	✅ u_5 [4b55] Message verified
+	✅ u_7 [gy1W] Message verified
+	✅ u_0 [jE3E] Message verified
+	✅ u_8 [EMkl] Message verified
+	✅ u_4 [grb2] Message verified
+	✅ u_2 [JisD] Message verified
+	✅ u_1 [p-hS] Message verified
+	✅ u_6 [7OZN] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+	✅ u_1 [p-hS] Message Verified (2)
+	✅ u_7 [gy1W] Message Verified (2)
+	✅ u_3 [5-zs] Message Verified (2)
+	✅ u_8 [EMkl] Message Verified (2)
+	✅ u_0 [jE3E] Message Verified (2)
+	✅ u_2 [JisD] Message Verified (2)
+	✅ u_6 [7OZN] Message Verified (2)
+	✅ u_9 [JWkr] Message Verified (2)
+	✅ u_5 [4b55] Message Verified (2)
+	✅ u_4 [grb2] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_4 [grb2] Starts Rotation
+u_3 [5-zs] Starts Rotation
+u_7 [gy1W] Starts Rotation
+u_8 [EMkl] Starts Rotation
+u_2 [JisD] Starts Rotation
+u_5 [4b55] Starts Rotation
+u_1 [p-hS] Starts Rotation
+u_6 [7OZN] Starts Rotation
+u_0 [jE3E] Starts Rotation
+u_9 [JWkr] Starts Rotation
+u_9 [JWkr] Ends Rotation
+u_9 [JWkr] - Completed Key Rotation
+u_1 [p-hS] Ends Rotation
+u_1 [p-hS] - Completed Key Rotation
+u_6 [7OZN] Ends Rotation
+u_6 [7OZN] - Completed Key Rotation
+u_4 [grb2] Ends Rotation
+u_4 [grb2] - Completed Key Rotation
+u_0 [jE3E] Ends Rotation
+u_0 [jE3E] - Completed Key Rotation
+u_8 [EMkl] Ends Rotation
+u_8 [EMkl] - Completed Key Rotation
+u_7 [gy1W] Ends Rotation
+u_7 [gy1W] - Completed Key Rotation
+u_2 [JisD] Ends Rotation
+u_2 [JisD] - Completed Key Rotation
+u_3 [5-zs] Ends Rotation
+u_3 [5-zs] - Completed Key Rotation
+u_5 [4b55] Ends Rotation
+u_5 [4b55] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 67550ms (6755 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 802ms (80 p.u.)
+Test 4: 63953ms (6395 p.u.)

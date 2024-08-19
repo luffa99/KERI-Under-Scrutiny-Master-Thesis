@@ -1,0 +1,128 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_0 [4eDU]
+Incepted: u_7 [BLXw]
+Incepted: u_4 [EL08]
+Incepted: u_9 [qd9J]
+Incepted: u_6 [J464]
+	Added [bivQ] as watcher for u_7 [BLXw]
+	Added [2D85] as watcher for u_0 [4eDU]
+	Added [2D85] as watcher for u_4 [EL08]
+Incepted: u_3 [I4vr]
+	Added [jm4C] as watcher for u_9 [qd9J]
+Incepted: u_2 [qXLE]
+	Added [x5MO] as watcher for u_6 [J464]
+Incepted: u_8 [Cmxm]
+Incepted: u_1 [TBl9]
+Incepted: u_5 [bJdv]
+	Added [jm4C] as watcher for u_0 [4eDU]
+	Added [2D85] as watcher for u_7 [BLXw]
+	Added [bivQ] as watcher for u_3 [I4vr]
+	Added [jm4C] as watcher for u_4 [EL08]
+	Added [2D85] as watcher for u_2 [qXLE]
+	Added [x5MO] as watcher for u_9 [qd9J]
+	Added [2D85] as watcher for u_6 [J464]
+	Added [jm4C] as watcher for u_5 [bJdv]
+	Added [2D85] as watcher for u_1 [TBl9]
+	Added [2D85] as watcher for u_8 [Cmxm]
+	Added [x5MO] as watcher for u_0 [4eDU]
+	Asking u_0 [4eDU]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_7 [BLXw]
+	Asking u_7 [BLXw]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_3 [I4vr]
+	Added [x5MO] as watcher for u_4 [EL08]
+	Asking u_4 [EL08]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_6 [J464]
+	Asking u_6 [J464]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_5 [bJdv]
+	Added [jm4C] as watcher for u_2 [qXLE]
+	Added [jm4C] as watcher for u_8 [Cmxm]
+	✅ u_0 [4eDU] Inception Done
+	Added [2D85] as watcher for u_9 [qd9J]
+	Asking u_9 [qd9J]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_1 [TBl9]
+	✅ u_7 [BLXw] Inception Done
+	✅ u_4 [EL08] Inception Done
+	Added [x5MO] as watcher for u_5 [bJdv]
+	Asking u_5 [bJdv]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_3 [I4vr]
+	Asking u_3 [I4vr]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_2 [qXLE]
+	Asking u_2 [qXLE]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_8 [Cmxm]
+	Asking u_8 [Cmxm]'s watchers to watch [IjVS]
+	✅ u_6 [J464] Inception Done
+	Added [jm4C] as watcher for u_1 [TBl9]
+	Asking u_1 [TBl9]'s watchers to watch [IjVS]
+	✅ u_9 [qd9J] Inception Done
+	✅ u_5 [bJdv] Inception Done
+	✅ u_8 [Cmxm] Inception Done
+	✅ u_1 [TBl9] Inception Done
+	✅ u_2 [qXLE] Inception Done
+	✅ u_3 [I4vr] Inception Done
+Test 2 (signature verification)
+	✅ u_3 [I4vr] Message verified
+	✅ u_9 [qd9J] Message verified
+	✅ u_1 [TBl9] Message verified
+	✅ u_0 [4eDU] Message verified
+	✅ u_8 [Cmxm] Message verified
+	✅ u_4 [EL08] Message verified
+	✅ u_2 [qXLE] Message verified
+	✅ u_6 [J464] Message verified
+	✅ u_7 [BLXw] Message verified
+	✅ u_5 [bJdv] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+	✅ u_4 [EL08] Message Verified (2)
+	✅ u_0 [4eDU] Message Verified (2)
+	✅ u_9 [qd9J] Message Verified (2)
+	✅ u_6 [J464] Message Verified (2)
+	✅ u_7 [BLXw] Message Verified (2)
+	✅ u_8 [Cmxm] Message Verified (2)
+	✅ u_1 [TBl9] Message Verified (2)
+	✅ u_2 [qXLE] Message Verified (2)
+	✅ u_3 [I4vr] Message Verified (2)
+	✅ u_5 [bJdv] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_5 [bJdv] Starts Rotation
+u_9 [qd9J] Starts Rotation
+u_3 [I4vr] Starts Rotation
+u_2 [qXLE] Starts Rotation
+u_0 [4eDU] Starts Rotation
+u_4 [EL08] Starts Rotation
+u_7 [BLXw] Starts Rotation
+u_1 [TBl9] Starts Rotation
+u_8 [Cmxm] Starts Rotation
+u_6 [J464] Starts Rotation
+u_1 [TBl9] Ends Rotation
+u_1 [TBl9] - Completed Key Rotation
+u_4 [EL08] Ends Rotation
+u_4 [EL08] - Completed Key Rotation
+u_9 [qd9J] Ends Rotation
+u_9 [qd9J] - Completed Key Rotation
+u_5 [bJdv] Ends Rotation
+u_5 [bJdv] - Completed Key Rotation
+u_0 [4eDU] Ends Rotation
+u_0 [4eDU] - Completed Key Rotation
+u_7 [BLXw] Ends Rotation
+u_7 [BLXw] - Completed Key Rotation
+u_2 [qXLE] Ends Rotation
+u_2 [qXLE] - Completed Key Rotation
+u_3 [I4vr] Ends Rotation
+u_3 [I4vr] - Completed Key Rotation
+u_6 [J464] Ends Rotation
+u_6 [J464] - Completed Key Rotation
+u_8 [Cmxm] Ends Rotation
+u_8 [Cmxm] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 64556ms (6455 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 575ms (57 p.u.)
+Test 4: 62240ms (6224 p.u.)

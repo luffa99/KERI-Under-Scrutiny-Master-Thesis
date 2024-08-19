@@ -1,0 +1,132 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_6 [EFu9]
+Incepted: u_7 [xqSD]
+Incepted: u_3 [y8MC]
+Incepted: u_1 [CPeh]
+Incepted: u_4 [PjNG]
+Incepted: u_5 [K_hX]
+Incepted: u_2 [bLTi]
+Incepted: u_8 [ACUE]
+Incepted: u_9 [BOI8]
+	Added [bivQ] as watcher for u_1 [CPeh]
+Incepted: u_0 [2HRY]
+	Added [2D85] as watcher for u_3 [y8MC]
+	Added [bivQ] as watcher for u_9 [BOI8]
+	Added [x5MO] as watcher for u_7 [xqSD]
+	Added [2D85] as watcher for u_6 [EFu9]
+	Added [x5MO] as watcher for u_4 [PjNG]
+	Added [x5MO] as watcher for u_5 [K_hX]
+	Added [2D85] as watcher for u_8 [ACUE]
+	Added [jm4C] as watcher for u_2 [bLTi]
+	Added [bivQ] as watcher for u_6 [EFu9]
+	Added [2D85] as watcher for u_7 [xqSD]
+	Added [jm4C] as watcher for u_0 [2HRY]
+	Added [jm4C] as watcher for u_1 [CPeh]
+	Added [bivQ] as watcher for u_8 [ACUE]
+	Added [jm4C] as watcher for u_9 [BOI8]
+	Added [2D85] as watcher for u_4 [PjNG]
+	Added [jm4C] as watcher for u_3 [y8MC]
+	Added [bivQ] as watcher for u_7 [xqSD]
+	Asking u_7 [xqSD]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_2 [bLTi]
+	Added [jm4C] as watcher for u_5 [K_hX]
+	Added [bivQ] as watcher for u_4 [PjNG]
+	Asking u_4 [PjNG]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_0 [2HRY]
+	Added [x5MO] as watcher for u_6 [EFu9]
+	Asking u_6 [EFu9]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_1 [CPeh]
+	Asking u_1 [CPeh]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_2 [bLTi]
+	Asking u_2 [bLTi]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_8 [ACUE]
+	Asking u_8 [ACUE]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_9 [BOI8]
+	Asking u_9 [BOI8]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_5 [K_hX]
+	Asking u_5 [K_hX]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_3 [y8MC]
+	Asking u_3 [y8MC]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_0 [2HRY]
+	Asking u_0 [2HRY]'s watchers to watch [cj1m]
+	✅ u_7 [xqSD] Inception Done
+	✅ u_4 [PjNG] Inception Done
+	✅ u_8 [ACUE] Inception Done
+	✅ u_6 [EFu9] Inception Done
+	✅ u_1 [CPeh] Inception Done
+	✅ u_9 [BOI8] Inception Done
+	✅ u_2 [bLTi] Inception Done
+	✅ u_0 [2HRY] Inception Done
+	✅ u_5 [K_hX] Inception Done
+	✅ u_3 [y8MC] Inception Done
+Test 2 (signature verification)
+	✅ u_3 [y8MC] Message verified
+	✅ u_4 [PjNG] Message verified
+	✅ u_0 [2HRY] Message verified
+	✅ u_7 [xqSD] Message verified
+	✅ u_6 [EFu9] Message verified
+	✅ u_5 [K_hX] Message verified
+	✅ u_1 [CPeh] Message verified
+	✅ u_9 [BOI8] Message verified
+	✅ u_8 [ACUE] Message verified
+	✅ u_2 [bLTi] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	✅ u_7 [xqSD] Message Verified (2)
+	✅ u_4 [PjNG] Message Verified (2)
+	✅ u_8 [ACUE] Message Verified (2)
+	✅ u_6 [EFu9] Message Verified (2)
+	✅ u_2 [bLTi] Message Verified (2)
+	✅ u_9 [BOI8] Message Verified (2)
+	✅ u_1 [CPeh] Message Verified (2)
+	✅ u_5 [K_hX] Message Verified (2)
+	✅ u_3 [y8MC] Message Verified (2)
+	✅ u_0 [2HRY] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_1 [CPeh] Starts Rotation
+u_2 [bLTi] Starts Rotation
+u_0 [2HRY] Starts Rotation
+u_6 [EFu9] Starts Rotation
+u_7 [xqSD] Starts Rotation
+u_9 [BOI8] Starts Rotation
+u_5 [K_hX] Starts Rotation
+u_3 [y8MC] Starts Rotation
+u_8 [ACUE] Starts Rotation
+u_4 [PjNG] Starts Rotation
+u_8 [ACUE] Ends Rotation
+u_8 [ACUE] - Completed Key Rotation
+u_6 [EFu9] Ends Rotation
+u_6 [EFu9] - Completed Key Rotation
+u_4 [PjNG] Ends Rotation
+u_4 [PjNG] - Completed Key Rotation
+u_7 [xqSD] Ends Rotation
+u_7 [xqSD] - Completed Key Rotation
+u_5 [K_hX] Ends Rotation
+u_5 [K_hX] - Completed Key Rotation
+u_1 [CPeh] Ends Rotation
+u_1 [CPeh] - Completed Key Rotation
+u_2 [bLTi] Ends Rotation
+u_2 [bLTi] - Completed Key Rotation
+u_9 [BOI8] Ends Rotation
+u_9 [BOI8] - Completed Key Rotation
+u_3 [y8MC] Ends Rotation
+u_3 [y8MC] - Completed Key Rotation
+u_0 [2HRY] Ends Rotation
+u_0 [2HRY] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 6131ms (613 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 665ms (66 p.u.)
+Test 4: 77318ms (7731 p.u.)

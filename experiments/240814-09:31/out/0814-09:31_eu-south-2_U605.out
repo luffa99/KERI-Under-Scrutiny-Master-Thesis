@@ -1,0 +1,127 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_6 [AoGf]
+Incepted: u_7 [x2xV]
+Incepted: u_0 [LWgW]
+	Added [jm4C] as watcher for u_7 [x2xV]
+	Added [bivQ] as watcher for u_6 [AoGf]
+Incepted: u_1 [1CDK]
+	Added [2D85] as watcher for u_7 [x2xV]
+Incepted: u_5 [3WTR]
+	Added [bivQ] as watcher for u_0 [LWgW]
+	Added [x5MO] as watcher for u_6 [AoGf]
+Incepted: u_3 [Tgbk]
+Incepted: u_8 [NFWX]
+	Added [2D85] as watcher for u_5 [3WTR]
+	Added [2D85] as watcher for u_6 [AoGf]
+	Asking u_6 [AoGf]'s watchers to watch [YkTo]
+	Added [jm4C] as watcher for u_1 [1CDK]
+	Added [bivQ] as watcher for u_7 [x2xV]
+	Asking u_7 [x2xV]'s watchers to watch [YkTo]
+Incepted: u_4 [BaI_]
+	Added [x5MO] as watcher for u_0 [LWgW]
+Incepted: u_9 [ktEr]
+	Added [x5MO] as watcher for u_5 [3WTR]
+	Added [bivQ] as watcher for u_3 [Tgbk]
+	Added [bivQ] as watcher for u_8 [NFWX]
+	✅ u_7 [x2xV] Inception Done
+	Added [jm4C] as watcher for u_4 [BaI_]
+	Added [bivQ] as watcher for u_1 [1CDK]
+	Added [2D85] as watcher for u_0 [LWgW]
+	Asking u_0 [LWgW]'s watchers to watch [YkTo]
+Incepted: u_2 [eTI8]
+	✅ u_6 [AoGf] Inception Done
+	Added [jm4C] as watcher for u_5 [3WTR]
+	Asking u_5 [3WTR]'s watchers to watch [YkTo]
+	Added [bivQ] as watcher for u_9 [ktEr]
+	Added [x5MO] as watcher for u_3 [Tgbk]
+	Added [jm4C] as watcher for u_8 [NFWX]
+	✅ u_5 [3WTR] Inception Done
+	✅ u_0 [LWgW] Inception Done
+	Added [2D85] as watcher for u_4 [BaI_]
+	Added [2D85] as watcher for u_1 [1CDK]
+	Asking u_1 [1CDK]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_2 [eTI8]
+	Added [x5MO] as watcher for u_2 [eTI8]
+	Added [2D85] as watcher for u_3 [Tgbk]
+	Asking u_3 [Tgbk]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_9 [ktEr]
+	Added [x5MO] as watcher for u_4 [BaI_]
+	Asking u_4 [BaI_]'s watchers to watch [YkTo]
+	Added [x5MO] as watcher for u_8 [NFWX]
+	Asking u_8 [NFWX]'s watchers to watch [YkTo]
+	✅ u_1 [1CDK] Inception Done
+	Added [jm4C] as watcher for u_9 [ktEr]
+	Asking u_9 [ktEr]'s watchers to watch [YkTo]
+	Added [jm4C] as watcher for u_2 [eTI8]
+	Asking u_2 [eTI8]'s watchers to watch [YkTo]
+	✅ u_4 [BaI_] Inception Done
+	✅ u_8 [NFWX] Inception Done
+	✅ u_3 [Tgbk] Inception Done
+	✅ u_2 [eTI8] Inception Done
+	✅ u_9 [ktEr] Inception Done
+Test 2 (signature verification)
+	✅ u_9 [ktEr] Message verified
+	✅ u_4 [BaI_] Message verified
+	✅ u_3 [Tgbk] Message verified
+	✅ u_0 [LWgW] Message verified
+	✅ u_2 [eTI8] Message verified
+	✅ u_7 [x2xV] Message verified
+	✅ u_5 [3WTR] Message verified
+	✅ u_6 [AoGf] Message verified
+	✅ u_1 [1CDK] Message verified
+	✅ u_8 [NFWX] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	✅ u_0 [LWgW] Message Verified (2)
+	✅ u_7 [x2xV] Message Verified (2)
+	✅ u_9 [ktEr] Message Verified (2)
+	✅ u_8 [NFWX] Message Verified (2)
+	✅ u_3 [Tgbk] Message Verified (2)
+	✅ u_2 [eTI8] Message Verified (2)
+	✅ u_6 [AoGf] Message Verified (2)
+	✅ u_5 [3WTR] Message Verified (2)
+	✅ u_4 [BaI_] Message Verified (2)
+	✅ u_1 [1CDK] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_5 [3WTR] Starts Rotation
+u_1 [1CDK] Starts Rotation
+u_4 [BaI_] Starts Rotation
+u_8 [NFWX] Starts Rotation
+u_0 [LWgW] Starts Rotation
+u_9 [ktEr] Starts Rotation
+u_6 [AoGf] Starts Rotation
+u_3 [Tgbk] Starts Rotation
+u_7 [x2xV] Starts Rotation
+u_2 [eTI8] Starts Rotation
+u_5 [3WTR] Ends Rotation
+u_5 [3WTR] - Completed Key Rotation
+u_0 [LWgW] Ends Rotation
+u_0 [LWgW] - Completed Key Rotation
+u_1 [1CDK] Ends Rotation
+u_1 [1CDK] - Completed Key Rotation
+u_8 [NFWX] Ends Rotation
+u_8 [NFWX] - Completed Key Rotation
+u_2 [eTI8] Ends Rotation
+u_2 [eTI8] - Completed Key Rotation
+u_9 [ktEr] Ends Rotation
+u_9 [ktEr] - Completed Key Rotation
+u_4 [BaI_] Ends Rotation
+u_4 [BaI_] - Completed Key Rotation
+u_6 [AoGf] Ends Rotation
+u_6 [AoGf] - Completed Key Rotation
+u_3 [Tgbk] Ends Rotation
+u_3 [Tgbk] - Completed Key Rotation
+u_7 [x2xV] Ends Rotation
+u_7 [x2xV] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 28049ms (2804 p.u.)
+Test 2: 2ms (0 p.u.)
+Test 3: 771ms (77 p.u.)
+Test 4: 30050ms (3005 p.u.)

@@ -1,0 +1,128 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_7 [_J9B]
+Incepted: u_4 [AKdJ]
+Incepted: u_8 [ImCm]
+Incepted: u_3 [i9KO]
+Incepted: u_5 [o1QB]
+Incepted: u_9 [Ngwd]
+Incepted: u_1 [zMQL]
+	Added [bivQ] as watcher for u_7 [_J9B]
+	Added [bivQ] as watcher for u_3 [i9KO]
+	Added [bivQ] as watcher for u_5 [o1QB]
+Incepted: u_2 [9BAG]
+Incepted: u_6 [K7Ka]
+Incepted: u_0 [xjJC]
+	Added [2D85] as watcher for u_9 [Ngwd]
+	Added [jm4C] as watcher for u_4 [AKdJ]
+	Added [2D85] as watcher for u_1 [zMQL]
+	Added [jm4C] as watcher for u_8 [ImCm]
+	Added [jm4C] as watcher for u_7 [_J9B]
+	Added [x5MO] as watcher for u_6 [K7Ka]
+	Added [x5MO] as watcher for u_3 [i9KO]
+	Added [x5MO] as watcher for u_5 [o1QB]
+	Added [2D85] as watcher for u_2 [9BAG]
+	Added [bivQ] as watcher for u_8 [ImCm]
+	Added [x5MO] as watcher for u_0 [xjJC]
+	Added [x5MO] as watcher for u_4 [AKdJ]
+	Added [jm4C] as watcher for u_9 [Ngwd]
+	Added [bivQ] as watcher for u_0 [xjJC]
+	Added [x5MO] as watcher for u_7 [_J9B]
+	Asking u_7 [_J9B]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_1 [zMQL]
+	Added [2D85] as watcher for u_6 [K7Ka]
+	Added [bivQ] as watcher for u_4 [AKdJ]
+	Asking u_4 [AKdJ]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_3 [i9KO]
+	Asking u_3 [i9KO]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_5 [o1QB]
+	Asking u_5 [o1QB]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_9 [Ngwd]
+	Asking u_9 [Ngwd]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_8 [ImCm]
+	Asking u_8 [ImCm]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_2 [9BAG]
+	Added [bivQ] as watcher for u_1 [zMQL]
+	Asking u_1 [zMQL]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_6 [K7Ka]
+	Asking u_6 [K7Ka]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_0 [xjJC]
+	Asking u_0 [xjJC]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_2 [9BAG]
+	Asking u_2 [9BAG]'s watchers to watch [IjVS]
+	✅ u_7 [_J9B] Inception Done
+	✅ u_4 [AKdJ] Inception Done
+	✅ u_9 [Ngwd] Inception Done
+	✅ u_3 [i9KO] Inception Done
+	✅ u_5 [o1QB] Inception Done
+	✅ u_8 [ImCm] Inception Done
+	✅ u_6 [K7Ka] Inception Done
+	✅ u_1 [zMQL] Inception Done
+	✅ u_2 [9BAG] Inception Done
+	✅ u_0 [xjJC] Inception Done
+Test 2 (signature verification)
+	✅ u_0 [xjJC] Message verified
+	✅ u_5 [o1QB] Message verified
+	✅ u_1 [zMQL] Message verified
+	✅ u_4 [AKdJ] Message verified
+	✅ u_2 [9BAG] Message verified
+	✅ u_9 [Ngwd] Message verified
+	✅ u_3 [i9KO] Message verified
+	✅ u_6 [K7Ka] Message verified
+	✅ u_7 [_J9B] Message verified
+	✅ u_8 [ImCm] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+	✅ u_6 [K7Ka] Message Verified (2)
+	✅ u_4 [AKdJ] Message Verified (2)
+	✅ u_5 [o1QB] Message Verified (2)
+	✅ u_2 [9BAG] Message Verified (2)
+	✅ u_3 [i9KO] Message Verified (2)
+	✅ u_7 [_J9B] Message Verified (2)
+	✅ u_8 [ImCm] Message Verified (2)
+	✅ u_9 [Ngwd] Message Verified (2)
+	✅ u_0 [xjJC] Message Verified (2)
+	✅ u_1 [zMQL] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_1 [zMQL] Starts Rotation
+u_8 [ImCm] Starts Rotation
+u_3 [i9KO] Starts Rotation
+u_0 [xjJC] Starts Rotation
+u_9 [Ngwd] Starts Rotation
+u_5 [o1QB] Starts Rotation
+u_4 [AKdJ] Starts Rotation
+u_2 [9BAG] Starts Rotation
+u_6 [K7Ka] Starts Rotation
+u_7 [_J9B] Starts Rotation
+u_4 [AKdJ] Ends Rotation
+u_4 [AKdJ] - Completed Key Rotation
+u_3 [i9KO] Ends Rotation
+u_3 [i9KO] - Completed Key Rotation
+u_7 [_J9B] Ends Rotation
+u_7 [_J9B] - Completed Key Rotation
+u_2 [9BAG] Ends Rotation
+u_2 [9BAG] - Completed Key Rotation
+u_1 [zMQL] Ends Rotation
+u_1 [zMQL] - Completed Key Rotation
+u_0 [xjJC] Ends Rotation
+u_0 [xjJC] - Completed Key Rotation
+u_5 [o1QB] Ends Rotation
+u_5 [o1QB] - Completed Key Rotation
+u_6 [K7Ka] Ends Rotation
+u_6 [K7Ka] - Completed Key Rotation
+u_8 [ImCm] Ends Rotation
+u_8 [ImCm] - Completed Key Rotation
+u_9 [Ngwd] Ends Rotation
+u_9 [Ngwd] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 4276ms (427 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 577ms (57 p.u.)
+Test 4: 3216ms (321 p.u.)

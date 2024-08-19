@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_5 [m_1b]
+	Added [x5MO] as watcher for u_5 [m_1b]
+Incepted: u_4 [eIkO]
+Incepted: u_6 [-g8t]
+	Added [jm4C] as watcher for u_5 [m_1b]
+	Added [jm4C] as watcher for u_4 [eIkO]
+	Added [bivQ] as watcher for u_6 [-g8t]
+	Added [2D85] as watcher for u_5 [m_1b]
+	Asking u_5 [m_1b]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_4 [eIkO]
+	Added [jm4C] as watcher for u_6 [-g8t]
+	Added [2D85] as watcher for u_4 [eIkO]
+	Asking u_4 [eIkO]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_6 [-g8t]
+	Asking u_6 [-g8t]'s watchers to watch [IjVS]
+Incepted: u_7 [cZ6W]
+Incepted: u_2 [L1-_]
+Incepted: u_3 [8dpU]
+Incepted: u_1 [1HjE]
+	Added [2D85] as watcher for u_7 [cZ6W]
+Incepted: u_0 [yv8v]
+	✅ u_5 [m_1b] Inception Done
+	Added [x5MO] as watcher for u_2 [L1-_]
+	✅ u_6 [-g8t] Inception Done
+	✅ u_4 [eIkO] Inception Done
+Incepted: u_8 [ZOKC]
+	Added [x5MO] as watcher for u_3 [8dpU]
+Incepted: u_9 [VMVc]
+	Added [x5MO] as watcher for u_1 [1HjE]
+	Added [jm4C] as watcher for u_7 [cZ6W]
+	Added [bivQ] as watcher for u_2 [L1-_]
+	Added [2D85] as watcher for u_0 [yv8v]
+	Added [bivQ] as watcher for u_3 [8dpU]
+	Added [x5MO] as watcher for u_8 [ZOKC]
+	Added [bivQ] as watcher for u_1 [1HjE]
+	Added [bivQ] as watcher for u_9 [VMVc]
+	Added [bivQ] as watcher for u_7 [cZ6W]
+	Asking u_7 [cZ6W]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_1 [1HjE]
+	Asking u_1 [1HjE]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_8 [ZOKC]
+	Added [bivQ] as watcher for u_0 [yv8v]
+	Added [2D85] as watcher for u_2 [L1-_]
+	Asking u_2 [L1-_]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_9 [VMVc]
+	Added [2D85] as watcher for u_3 [8dpU]
+	Asking u_3 [8dpU]'s watchers to watch [IjVS]
+	✅ u_7 [cZ6W] Inception Done
+	✅ u_1 [1HjE] Inception Done
+	Added [jm4C] as watcher for u_8 [ZOKC]
+	Asking u_8 [ZOKC]'s watchers to watch [IjVS]
+	✅ u_2 [L1-_] Inception Done
+	Added [jm4C] as watcher for u_9 [VMVc]
+	Asking u_9 [VMVc]'s watchers to watch [IjVS]
+	✅ u_3 [8dpU] Inception Done
+	Added [jm4C] as watcher for u_0 [yv8v]
+	Asking u_0 [yv8v]'s watchers to watch [IjVS]
+	✅ u_8 [ZOKC] Inception Done
+	✅ u_0 [yv8v] Inception Done
+	✅ u_9 [VMVc] Inception Done
+Test 2 (signature verification)
+	✅ u_9 [VMVc] Message verified
+	✅ u_4 [eIkO] Message verified
+	✅ u_8 [ZOKC] Message verified
+	✅ u_5 [m_1b] Message verified
+	✅ u_7 [cZ6W] Message verified
+	✅ u_6 [-g8t] Message verified
+	✅ u_2 [L1-_] Message verified
+	✅ u_1 [1HjE] Message verified
+	✅ u_0 [yv8v] Message verified
+	✅ u_3 [8dpU] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_2 [L1-_] Message Verified (2)
+	✅ u_7 [cZ6W] Message Verified (2)
+	✅ u_3 [8dpU] Message Verified (2)
+	✅ u_1 [1HjE] Message Verified (2)
+	✅ u_6 [-g8t] Message Verified (2)
+	✅ u_5 [m_1b] Message Verified (2)
+	✅ u_4 [eIkO] Message Verified (2)
+	✅ u_8 [ZOKC] Message Verified (2)
+	✅ u_0 [yv8v] Message Verified (2)
+	✅ u_9 [VMVc] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_5 [m_1b] Starts Rotation
+u_9 [VMVc] Starts Rotation
+u_1 [1HjE] Starts Rotation
+u_2 [L1-_] Starts Rotation
+u_7 [cZ6W] Starts Rotation
+u_6 [-g8t] Starts Rotation
+u_0 [yv8v] Starts Rotation
+u_8 [ZOKC] Starts Rotation
+u_3 [8dpU] Starts Rotation
+u_4 [eIkO] Starts Rotation
+u_4 [eIkO] Ends Rotation
+u_4 [eIkO] - Completed Key Rotation
+u_7 [cZ6W] Ends Rotation
+u_7 [cZ6W] - Completed Key Rotation
+u_0 [yv8v] Ends Rotation
+u_0 [yv8v] - Completed Key Rotation
+u_3 [8dpU] Ends Rotation
+u_3 [8dpU] - Completed Key Rotation
+u_5 [m_1b] Ends Rotation
+u_5 [m_1b] - Completed Key Rotation
+u_2 [L1-_] Ends Rotation
+u_2 [L1-_] - Completed Key Rotation
+u_1 [1HjE] Ends Rotation
+u_1 [1HjE] - Completed Key Rotation
+u_6 [-g8t] Ends Rotation
+u_6 [-g8t] - Completed Key Rotation
+u_8 [ZOKC] Ends Rotation
+u_8 [ZOKC] - Completed Key Rotation
+u_9 [VMVc] Ends Rotation
+u_9 [VMVc] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 63319ms (6331 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 649ms (64 p.u.)
+Test 4: 61273ms (6127 p.u.)

@@ -1,0 +1,132 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_6 [DBSG]
+Incepted: u_9 [TSA1]
+	Added [2D85] as watcher for u_6 [DBSG]
+	Added [2D85] as watcher for u_9 [TSA1]
+	Added [bivQ] as watcher for u_6 [DBSG]
+	Added [x5MO] as watcher for u_9 [TSA1]
+	Added [x5MO] as watcher for u_6 [DBSG]
+	Asking u_6 [DBSG]'s watchers to watch [8r7y]
+Incepted: u_5 [1DiH]
+	Added [bivQ] as watcher for u_9 [TSA1]
+	Asking u_9 [TSA1]'s watchers to watch [8r7y]
+Incepted: u_7 [BHrg]
+	Added [2D85] as watcher for u_5 [1DiH]
+	Added [x5MO] as watcher for u_7 [BHrg]
+	Added [jm4C] as watcher for u_5 [1DiH]
+	Added [jm4C] as watcher for u_7 [BHrg]
+	Added [x5MO] as watcher for u_5 [1DiH]
+	Asking u_5 [1DiH]'s watchers to watch [8r7y]
+	Added [2D85] as watcher for u_7 [BHrg]
+	Asking u_7 [BHrg]'s watchers to watch [8r7y]
+Incepted: u_3 [90QR]
+Incepted: u_0 [12Ni]
+	Added [2D85] as watcher for u_3 [90QR]
+	Added [jm4C] as watcher for u_0 [12Ni]
+	Added [x5MO] as watcher for u_3 [90QR]
+	Added [x5MO] as watcher for u_0 [12Ni]
+	Added [bivQ] as watcher for u_3 [90QR]
+	Asking u_3 [90QR]'s watchers to watch [8r7y]
+	Added [bivQ] as watcher for u_0 [12Ni]
+	Asking u_0 [12Ni]'s watchers to watch [8r7y]
+Incepted: u_4 [71_y]
+Incepted: u_2 [Gp8Q]
+Incepted: u_1 [8c1w]
+Incepted: u_8 [pZbr]
+	Added [jm4C] as watcher for u_4 [71_y]
+	Added [bivQ] as watcher for u_2 [Gp8Q]
+	Added [jm4C] as watcher for u_1 [8c1w]
+	Added [bivQ] as watcher for u_8 [pZbr]
+	Added [x5MO] as watcher for u_4 [71_y]
+	Added [jm4C] as watcher for u_2 [Gp8Q]
+	Added [x5MO] as watcher for u_1 [8c1w]
+	Added [jm4C] as watcher for u_8 [pZbr]
+	Added [bivQ] as watcher for u_4 [71_y]
+	Asking u_4 [71_y]'s watchers to watch [8r7y]
+	Added [2D85] as watcher for u_2 [Gp8Q]
+	Asking u_2 [Gp8Q]'s watchers to watch [8r7y]
+	Added [2D85] as watcher for u_1 [8c1w]
+	Asking u_1 [8c1w]'s watchers to watch [8r7y]
+	✅ u_6 [DBSG] Inception Done
+	Added [x5MO] as watcher for u_8 [pZbr]
+	Asking u_8 [pZbr]'s watchers to watch [8r7y]
+	✅ u_9 [TSA1] Inception Done
+	✅ u_0 [12Ni] Inception Done
+	✅ u_5 [1DiH] Inception Done
+	✅ u_7 [BHrg] Inception Done
+	✅ u_3 [90QR] Inception Done
+	✅ u_1 [8c1w] Inception Done
+	✅ u_4 [71_y] Inception Done
+	✅ u_8 [pZbr] Inception Done
+	✅ u_2 [Gp8Q] Inception Done
+Test 2 (signature verification)
+	✅ u_4 [71_y] Message verified
+	✅ u_2 [Gp8Q] Message verified
+	✅ u_3 [90QR] Message verified
+	✅ u_5 [1DiH] Message verified
+	✅ u_7 [BHrg] Message verified
+	✅ u_9 [TSA1] Message verified
+	✅ u_8 [pZbr] Message verified
+	✅ u_1 [8c1w] Message verified
+	✅ u_6 [DBSG] Message verified
+	✅ u_0 [12Ni] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_6 [DBSG] Message Verified (2)
+	✅ u_1 [8c1w] Message Verified (2)
+	✅ u_2 [Gp8Q] Message Verified (2)
+	✅ u_3 [90QR] Message Verified (2)
+	✅ u_7 [BHrg] Message Verified (2)
+	✅ u_8 [pZbr] Message Verified (2)
+	✅ u_4 [71_y] Message Verified (2)
+	✅ u_9 [TSA1] Message Verified (2)
+	✅ u_0 [12Ni] Message Verified (2)
+	✅ u_5 [1DiH] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_5 [1DiH] Starts Rotation
+u_6 [DBSG] Starts Rotation
+u_9 [TSA1] Starts Rotation
+u_1 [8c1w] Starts Rotation
+u_8 [pZbr] Starts Rotation
+u_2 [Gp8Q] Starts Rotation
+u_7 [BHrg] Starts Rotation
+u_4 [71_y] Starts Rotation
+u_3 [90QR] Starts Rotation
+u_0 [12Ni] Starts Rotation
+u_7 [BHrg] Ends Rotation
+u_7 [BHrg] - Completed Key Rotation
+u_5 [1DiH] Ends Rotation
+u_5 [1DiH] - Completed Key Rotation
+u_9 [TSA1] Ends Rotation
+u_9 [TSA1] - Completed Key Rotation
+u_4 [71_y] Ends Rotation
+u_4 [71_y] - Completed Key Rotation
+u_6 [DBSG] Ends Rotation
+u_6 [DBSG] - Completed Key Rotation
+u_8 [pZbr] Ends Rotation
+u_8 [pZbr] - Completed Key Rotation
+u_1 [8c1w] Ends Rotation
+u_1 [8c1w] - Completed Key Rotation
+u_3 [90QR] Ends Rotation
+u_3 [90QR] - Completed Key Rotation
+u_2 [Gp8Q] Ends Rotation
+u_2 [Gp8Q] - Completed Key Rotation
+u_0 [12Ni] Ends Rotation
+u_0 [12Ni] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 20744ms (2074 p.u.)
+Test 2: 2ms (0 p.u.)
+Test 3: 880ms (88 p.u.)
+Test 4: 39750ms (3975 p.u.)

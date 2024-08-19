@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_4 [R1Q-]
+	Added [2D85] as watcher for u_4 [R1Q-]
+	Added [x5MO] as watcher for u_4 [R1Q-]
+	Added [bivQ] as watcher for u_4 [R1Q-]
+	Asking u_4 [R1Q-]'s watchers to watch [8r7y]
+Incepted: u_2 [1RiC]
+	Added [bivQ] as watcher for u_2 [1RiC]
+Incepted: u_3 [7tt9]
+	Added [x5MO] as watcher for u_2 [1RiC]
+	Added [jm4C] as watcher for u_3 [7tt9]
+	Added [jm4C] as watcher for u_2 [1RiC]
+	Asking u_2 [1RiC]'s watchers to watch [8r7y]
+	Added [bivQ] as watcher for u_3 [7tt9]
+	Added [x5MO] as watcher for u_3 [7tt9]
+	Asking u_3 [7tt9]'s watchers to watch [8r7y]
+Incepted: u_0 [Sx4E]
+	Added [bivQ] as watcher for u_0 [Sx4E]
+	Added [2D85] as watcher for u_0 [Sx4E]
+	Added [x5MO] as watcher for u_0 [Sx4E]
+	Asking u_0 [Sx4E]'s watchers to watch [8r7y]
+Incepted: u_5 [ONBO]
+	Added [jm4C] as watcher for u_5 [ONBO]
+	Added [bivQ] as watcher for u_5 [ONBO]
+	Added [2D85] as watcher for u_5 [ONBO]
+	Asking u_5 [ONBO]'s watchers to watch [8r7y]
+Incepted: u_1 [RU4d]
+	✅ u_4 [R1Q-] Inception Done
+	✅ u_3 [7tt9] Inception Done
+	✅ u_2 [1RiC] Inception Done
+	Added [x5MO] as watcher for u_1 [RU4d]
+Incepted: u_8 [pnB4]
+Incepted: u_6 [Fiuz]
+	Added [2D85] as watcher for u_1 [RU4d]
+Incepted: u_9 [_3vS]
+	✅ u_0 [Sx4E] Inception Done
+	Added [2D85] as watcher for u_6 [Fiuz]
+	Added [jm4C] as watcher for u_8 [pnB4]
+	Added [bivQ] as watcher for u_1 [RU4d]
+	Asking u_1 [RU4d]'s watchers to watch [8r7y]
+	Added [bivQ] as watcher for u_9 [_3vS]
+	Added [jm4C] as watcher for u_6 [Fiuz]
+Incepted: u_7 [zftq]
+	Added [2D85] as watcher for u_8 [pnB4]
+	Added [x5MO] as watcher for u_9 [_3vS]
+	Added [jm4C] as watcher for u_7 [zftq]
+	Added [2D85] as watcher for u_9 [_3vS]
+	Asking u_9 [_3vS]'s watchers to watch [8r7y]
+	Added [x5MO] as watcher for u_6 [Fiuz]
+	Asking u_6 [Fiuz]'s watchers to watch [8r7y]
+	Added [bivQ] as watcher for u_8 [pnB4]
+	Asking u_8 [pnB4]'s watchers to watch [8r7y]
+	✅ u_5 [ONBO] Inception Done
+	Added [2D85] as watcher for u_7 [zftq]
+	✅ u_1 [RU4d] Inception Done
+	✅ u_6 [Fiuz] Inception Done
+	✅ u_9 [_3vS] Inception Done
+	✅ u_8 [pnB4] Inception Done
+	Added [bivQ] as watcher for u_7 [zftq]
+	Asking u_7 [zftq]'s watchers to watch [8r7y]
+	✅ u_7 [zftq] Inception Done
+Test 2 (signature verification)
+	✅ u_2 [1RiC] Message verified
+	✅ u_7 [zftq] Message verified
+	✅ u_9 [_3vS] Message verified
+	✅ u_8 [pnB4] Message verified
+	✅ u_3 [7tt9] Message verified
+	✅ u_5 [ONBO] Message verified
+	✅ u_0 [Sx4E] Message verified
+	✅ u_4 [R1Q-] Message verified
+	✅ u_1 [RU4d] Message verified
+	✅ u_6 [Fiuz] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_1 [RU4d] Message Verified (2)
+	✅ u_6 [Fiuz] Message Verified (2)
+	✅ u_2 [1RiC] Message Verified (2)
+	✅ u_8 [pnB4] Message Verified (2)
+	✅ u_7 [zftq] Message Verified (2)
+	✅ u_3 [7tt9] Message Verified (2)
+	✅ u_9 [_3vS] Message Verified (2)
+	✅ u_0 [Sx4E] Message Verified (2)
+	✅ u_4 [R1Q-] Message Verified (2)
+	✅ u_5 [ONBO] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_5 [ONBO] Starts Rotation
+u_4 [R1Q-] Starts Rotation
+u_7 [zftq] Starts Rotation
+u_6 [Fiuz] Starts Rotation
+u_0 [Sx4E] Starts Rotation
+u_8 [pnB4] Starts Rotation
+u_2 [1RiC] Starts Rotation
+u_9 [_3vS] Starts Rotation
+u_3 [7tt9] Starts Rotation
+u_1 [RU4d] Starts Rotation
+u_6 [Fiuz] Ends Rotation
+u_6 [Fiuz] - Completed Key Rotation
+u_4 [R1Q-] Ends Rotation
+u_4 [R1Q-] - Completed Key Rotation
+u_7 [zftq] Ends Rotation
+u_7 [zftq] - Completed Key Rotation
+u_3 [7tt9] Ends Rotation
+u_3 [7tt9] - Completed Key Rotation
+u_9 [_3vS] Ends Rotation
+u_9 [_3vS] - Completed Key Rotation
+u_1 [RU4d] Ends Rotation
+u_1 [RU4d] - Completed Key Rotation
+u_5 [ONBO] Ends Rotation
+u_5 [ONBO] - Completed Key Rotation
+u_8 [pnB4] Ends Rotation
+u_8 [pnB4] - Completed Key Rotation
+u_0 [Sx4E] Ends Rotation
+u_0 [Sx4E] - Completed Key Rotation
+u_2 [1RiC] Ends Rotation
+u_2 [1RiC] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 31969ms (3196 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 716ms (71 p.u.)
+Test 4: 37133ms (3713 p.u.)

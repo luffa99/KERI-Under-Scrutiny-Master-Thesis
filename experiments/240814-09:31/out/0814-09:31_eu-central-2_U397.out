@@ -1,0 +1,127 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_8 [2ti4]
+	Added [jm4C] as watcher for u_8 [2ti4]
+	Added [bivQ] as watcher for u_8 [2ti4]
+Incepted: u_6 [OWtl]
+	Added [2D85] as watcher for u_8 [2ti4]
+	Asking u_8 [2ti4]'s watchers to watch [YkTo]
+	Added [bivQ] as watcher for u_6 [OWtl]
+Incepted: u_1 [whYE]
+	Added [x5MO] as watcher for u_6 [OWtl]
+	Added [bivQ] as watcher for u_1 [whYE]
+	Added [2D85] as watcher for u_6 [OWtl]
+	Asking u_6 [OWtl]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_1 [whYE]
+Incepted: u_5 [dRu6]
+Incepted: u_0 [Stwe]
+	Added [x5MO] as watcher for u_1 [whYE]
+	Asking u_1 [whYE]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_5 [dRu6]
+	Added [jm4C] as watcher for u_0 [Stwe]
+	Added [x5MO] as watcher for u_0 [Stwe]
+	Added [x5MO] as watcher for u_5 [dRu6]
+	Added [bivQ] as watcher for u_0 [Stwe]
+	Asking u_0 [Stwe]'s watchers to watch [YkTo]
+Incepted: u_4 [lKRn]
+	Added [bivQ] as watcher for u_5 [dRu6]
+	Asking u_5 [dRu6]'s watchers to watch [YkTo]
+Incepted: u_2 [Smab]
+Incepted: u_3 [Giow]
+Incepted: u_9 [zMco]
+	Added [2D85] as watcher for u_2 [Smab]
+	Added [x5MO] as watcher for u_4 [lKRn]
+Incepted: u_7 [N3JQ]
+	Added [x5MO] as watcher for u_3 [Giow]
+	Added [x5MO] as watcher for u_2 [Smab]
+	Added [bivQ] as watcher for u_9 [zMco]
+	Added [bivQ] as watcher for u_4 [lKRn]
+	Added [jm4C] as watcher for u_7 [N3JQ]
+	Added [x5MO] as watcher for u_9 [zMco]
+	Added [x5MO] as watcher for u_7 [N3JQ]
+	Added [jm4C] as watcher for u_4 [lKRn]
+	Asking u_4 [lKRn]'s watchers to watch [YkTo]
+	Added [bivQ] as watcher for u_2 [Smab]
+	Asking u_2 [Smab]'s watchers to watch [YkTo]
+	Added [bivQ] as watcher for u_3 [Giow]
+	Added [jm4C] as watcher for u_9 [zMco]
+	Asking u_9 [zMco]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_7 [N3JQ]
+	Asking u_7 [N3JQ]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_3 [Giow]
+	Asking u_3 [Giow]'s watchers to watch [YkTo]
+	✅ u_8 [2ti4] Inception Done
+	✅ u_1 [whYE] Inception Done
+	✅ u_6 [OWtl] Inception Done
+	✅ u_4 [lKRn] Inception Done
+	✅ u_0 [Stwe] Inception Done
+	✅ u_2 [Smab] Inception Done
+	✅ u_9 [zMco] Inception Done
+	✅ u_5 [dRu6] Inception Done
+	✅ u_7 [N3JQ] Inception Done
+	✅ u_3 [Giow] Inception Done
+Test 2 (signature verification)
+	✅ u_3 [Giow] Message verified
+	✅ u_6 [OWtl] Message verified
+	✅ u_9 [zMco] Message verified
+	✅ u_5 [dRu6] Message verified
+	✅ u_4 [lKRn] Message verified
+	✅ u_7 [N3JQ] Message verified
+	✅ u_8 [2ti4] Message verified
+	✅ u_2 [Smab] Message verified
+	✅ u_0 [Stwe] Message verified
+	✅ u_1 [whYE] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	✅ u_8 [2ti4] Message Verified (2)
+	✅ u_5 [dRu6] Message Verified (2)
+	✅ u_2 [Smab] Message Verified (2)
+	✅ u_4 [lKRn] Message Verified (2)
+	✅ u_7 [N3JQ] Message Verified (2)
+	✅ u_3 [Giow] Message Verified (2)
+	✅ u_1 [whYE] Message Verified (2)
+	✅ u_9 [zMco] Message Verified (2)
+	✅ u_0 [Stwe] Message Verified (2)
+	✅ u_6 [OWtl] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_5 [dRu6] Starts Rotation
+u_2 [Smab] Starts Rotation
+u_8 [2ti4] Starts Rotation
+u_4 [lKRn] Starts Rotation
+u_3 [Giow] Starts Rotation
+u_6 [OWtl] Starts Rotation
+u_9 [zMco] Starts Rotation
+u_0 [Stwe] Starts Rotation
+u_7 [N3JQ] Starts Rotation
+u_1 [whYE] Starts Rotation
+u_8 [2ti4] Ends Rotation
+u_8 [2ti4] - Completed Key Rotation
+u_5 [dRu6] Ends Rotation
+u_5 [dRu6] - Completed Key Rotation
+u_7 [N3JQ] Ends Rotation
+u_7 [N3JQ] - Completed Key Rotation
+u_0 [Stwe] Ends Rotation
+u_0 [Stwe] - Completed Key Rotation
+u_3 [Giow] Ends Rotation
+u_3 [Giow] - Completed Key Rotation
+u_1 [whYE] Ends Rotation
+u_1 [whYE] - Completed Key Rotation
+u_6 [OWtl] Ends Rotation
+u_6 [OWtl] - Completed Key Rotation
+u_9 [zMco] Ends Rotation
+u_9 [zMco] - Completed Key Rotation
+u_4 [lKRn] Ends Rotation
+u_4 [lKRn] - Completed Key Rotation
+u_2 [Smab] Ends Rotation
+u_2 [Smab] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 22973ms (2297 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 1322ms (132 p.u.)
+Test 4: 37727ms (3772 p.u.)

@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_2 [fTd0]
+	Added [2D85] as watcher for u_2 [fTd0]
+	Added [x5MO] as watcher for u_2 [fTd0]
+	Added [jm4C] as watcher for u_2 [fTd0]
+	Asking u_2 [fTd0]'s watchers to watch [IjVS]
+Incepted: u_1 [jcBY]
+	Added [bivQ] as watcher for u_1 [jcBY]
+Incepted: u_0 [mHus]
+	Added [x5MO] as watcher for u_1 [jcBY]
+	Added [bivQ] as watcher for u_0 [mHus]
+	Added [2D85] as watcher for u_1 [jcBY]
+	Asking u_1 [jcBY]'s watchers to watch [IjVS]
+Incepted: u_5 [3QGd]
+	Added [x5MO] as watcher for u_0 [mHus]
+Incepted: u_3 [Assh]
+	Added [2D85] as watcher for u_0 [mHus]
+	Asking u_0 [mHus]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_5 [3QGd]
+	Added [bivQ] as watcher for u_3 [Assh]
+	Added [2D85] as watcher for u_5 [3QGd]
+	Added [x5MO] as watcher for u_3 [Assh]
+	Added [x5MO] as watcher for u_5 [3QGd]
+	Asking u_5 [3QGd]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_3 [Assh]
+	Asking u_3 [Assh]'s watchers to watch [IjVS]
+Incepted: u_8 [Hzsx]
+Incepted: u_4 [8Hz_]
+Incepted: u_9 [yn2C]
+	Added [bivQ] as watcher for u_8 [Hzsx]
+	Added [x5MO] as watcher for u_4 [8Hz_]
+	Added [x5MO] as watcher for u_9 [yn2C]
+	Added [2D85] as watcher for u_8 [Hzsx]
+	Added [bivQ] as watcher for u_4 [8Hz_]
+	Added [x5MO] as watcher for u_8 [Hzsx]
+	Asking u_8 [Hzsx]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_9 [yn2C]
+	Added [2D85] as watcher for u_4 [8Hz_]
+	Asking u_4 [8Hz_]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_9 [yn2C]
+	Asking u_9 [yn2C]'s watchers to watch [IjVS]
+Incepted: u_7 [pbZP]
+	Added [x5MO] as watcher for u_7 [pbZP]
+	✅ u_2 [fTd0] Inception Done
+	Added [jm4C] as watcher for u_7 [pbZP]
+	Added [bivQ] as watcher for u_7 [pbZP]
+	Asking u_7 [pbZP]'s watchers to watch [IjVS]
+	✅ u_1 [jcBY] Inception Done
+	✅ u_3 [Assh] Inception Done
+	✅ u_5 [3QGd] Inception Done
+	✅ u_0 [mHus] Inception Done
+	✅ u_8 [Hzsx] Inception Done
+	✅ u_4 [8Hz_] Inception Done
+	✅ u_7 [pbZP] Inception Done
+	✅ u_9 [yn2C] Inception Done
+Incepted: u_6 [d60W]
+	Added [2D85] as watcher for u_6 [d60W]
+	Added [x5MO] as watcher for u_6 [d60W]
+	Added [bivQ] as watcher for u_6 [d60W]
+	Asking u_6 [d60W]'s watchers to watch [IjVS]
+	✅ u_6 [d60W] Inception Done
+Test 2 (signature verification)
+	✅ u_6 [d60W] Message verified
+	✅ u_2 [fTd0] Message verified
+	✅ u_9 [yn2C] Message verified
+	✅ u_3 [Assh] Message verified
+	✅ u_1 [jcBY] Message verified
+	✅ u_0 [mHus] Message verified
+	✅ u_4 [8Hz_] Message verified
+	✅ u_5 [3QGd] Message verified
+	✅ u_7 [pbZP] Message verified
+	✅ u_8 [Hzsx] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_0 [mHus] Message Verified (2)
+	✅ u_6 [d60W] Message Verified (2)
+	✅ u_5 [3QGd] Message Verified (2)
+	✅ u_8 [Hzsx] Message Verified (2)
+	✅ u_7 [pbZP] Message Verified (2)
+	✅ u_4 [8Hz_] Message Verified (2)
+	✅ u_3 [Assh] Message Verified (2)
+	✅ u_1 [jcBY] Message Verified (2)
+	✅ u_9 [yn2C] Message Verified (2)
+	✅ u_2 [fTd0] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_2 [fTd0] Starts Rotation
+u_8 [Hzsx] Starts Rotation
+u_1 [jcBY] Starts Rotation
+u_9 [yn2C] Starts Rotation
+u_3 [Assh] Starts Rotation
+u_0 [mHus] Starts Rotation
+u_4 [8Hz_] Starts Rotation
+u_5 [3QGd] Starts Rotation
+u_7 [pbZP] Starts Rotation
+u_6 [d60W] Starts Rotation
+u_8 [Hzsx] Ends Rotation
+u_8 [Hzsx] - Completed Key Rotation
+u_7 [pbZP] Ends Rotation
+u_7 [pbZP] - Completed Key Rotation
+u_6 [d60W] Ends Rotation
+u_6 [d60W] - Completed Key Rotation
+u_9 [yn2C] Ends Rotation
+u_9 [yn2C] - Completed Key Rotation
+u_0 [mHus] Ends Rotation
+u_0 [mHus] - Completed Key Rotation
+u_4 [8Hz_] Ends Rotation
+u_4 [8Hz_] - Completed Key Rotation
+u_5 [3QGd] Ends Rotation
+u_5 [3QGd] - Completed Key Rotation
+u_2 [fTd0] Ends Rotation
+u_2 [fTd0] - Completed Key Rotation
+u_1 [jcBY] Ends Rotation
+u_1 [jcBY] - Completed Key Rotation
+u_3 [Assh] Ends Rotation
+u_3 [Assh] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 76172ms (7617 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 823ms (82 p.u.)
+Test 4: 70538ms (7053 p.u.)

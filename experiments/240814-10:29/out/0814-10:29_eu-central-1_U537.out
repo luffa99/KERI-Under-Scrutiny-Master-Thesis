@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_1 [Y4uz]
+	Added [bivQ] as watcher for u_1 [Y4uz]
+	Added [2D85] as watcher for u_1 [Y4uz]
+	Added [jm4C] as watcher for u_1 [Y4uz]
+	Asking u_1 [Y4uz]'s watchers to watch [cj1m]
+Incepted: u_2 [drKB]
+	Added [x5MO] as watcher for u_2 [drKB]
+	Added [jm4C] as watcher for u_2 [drKB]
+Incepted: u_7 [ZUmj]
+	Added [2D85] as watcher for u_2 [drKB]
+	Asking u_2 [drKB]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_7 [ZUmj]
+	Added [2D85] as watcher for u_7 [ZUmj]
+	Added [bivQ] as watcher for u_7 [ZUmj]
+	Asking u_7 [ZUmj]'s watchers to watch [cj1m]
+	✅ u_1 [Y4uz] Inception Done
+Incepted: u_8 [_1xr]
+Incepted: u_0 [ceYa]
+Incepted: u_4 [5sRd]
+	Added [jm4C] as watcher for u_0 [ceYa]
+	Added [jm4C] as watcher for u_8 [_1xr]
+Incepted: u_6 [bYLX]
+	Added [bivQ] as watcher for u_0 [ceYa]
+	Added [bivQ] as watcher for u_8 [_1xr]
+Incepted: u_9 [-dcC]
+	Added [x5MO] as watcher for u_4 [5sRd]
+	Added [x5MO] as watcher for u_6 [bYLX]
+	Added [bivQ] as watcher for u_4 [5sRd]
+	Added [x5MO] as watcher for u_8 [_1xr]
+	Asking u_8 [_1xr]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_9 [-dcC]
+	✅ u_2 [drKB] Inception Done
+	Added [x5MO] as watcher for u_0 [ceYa]
+	Asking u_0 [ceYa]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_6 [bYLX]
+	Added [x5MO] as watcher for u_9 [-dcC]
+	Added [2D85] as watcher for u_4 [5sRd]
+	Asking u_4 [5sRd]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_6 [bYLX]
+	Asking u_6 [bYLX]'s watchers to watch [cj1m]
+Incepted: u_3 [E-TV]
+	Added [2D85] as watcher for u_9 [-dcC]
+	Asking u_9 [-dcC]'s watchers to watch [cj1m]
+	✅ u_7 [ZUmj] Inception Done
+	✅ u_8 [_1xr] Inception Done
+	✅ u_0 [ceYa] Inception Done
+	✅ u_6 [bYLX] Inception Done
+	Added [x5MO] as watcher for u_3 [E-TV]
+	✅ u_4 [5sRd] Inception Done
+	✅ u_9 [-dcC] Inception Done
+Incepted: u_5 [qGaS]
+	Added [bivQ] as watcher for u_3 [E-TV]
+	Added [x5MO] as watcher for u_5 [qGaS]
+	Added [2D85] as watcher for u_3 [E-TV]
+	Asking u_3 [E-TV]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_5 [qGaS]
+	✅ u_3 [E-TV] Inception Done
+	Added [jm4C] as watcher for u_5 [qGaS]
+	Asking u_5 [qGaS]'s watchers to watch [cj1m]
+	✅ u_5 [qGaS] Inception Done
+Test 2 (signature verification)
+	✅ u_5 [qGaS] Message verified
+	✅ u_9 [-dcC] Message verified
+	✅ u_6 [bYLX] Message verified
+	✅ u_3 [E-TV] Message verified
+	✅ u_4 [5sRd] Message verified
+	✅ u_8 [_1xr] Message verified
+	✅ u_1 [Y4uz] Message verified
+	✅ u_2 [drKB] Message verified
+	✅ u_0 [ceYa] Message verified
+	✅ u_7 [ZUmj] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_3 [E-TV] Message Verified (2)
+	✅ u_1 [Y4uz] Message Verified (2)
+	✅ u_2 [drKB] Message Verified (2)
+	✅ u_4 [5sRd] Message Verified (2)
+	✅ u_9 [-dcC] Message Verified (2)
+	✅ u_7 [ZUmj] Message Verified (2)
+	✅ u_0 [ceYa] Message Verified (2)
+	✅ u_5 [qGaS] Message Verified (2)
+	✅ u_8 [_1xr] Message Verified (2)
+	✅ u_6 [bYLX] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_6 [bYLX] Starts Rotation
+u_2 [drKB] Starts Rotation
+u_7 [ZUmj] Starts Rotation
+u_5 [qGaS] Starts Rotation
+u_0 [ceYa] Starts Rotation
+u_4 [5sRd] Starts Rotation
+u_9 [-dcC] Starts Rotation
+u_1 [Y4uz] Starts Rotation
+u_8 [_1xr] Starts Rotation
+u_3 [E-TV] Starts Rotation
+u_1 [Y4uz] Ends Rotation
+u_1 [Y4uz] - Completed Key Rotation
+u_9 [-dcC] Ends Rotation
+u_9 [-dcC] - Completed Key Rotation
+u_4 [5sRd] Ends Rotation
+u_4 [5sRd] - Completed Key Rotation
+u_8 [_1xr] Ends Rotation
+u_8 [_1xr] - Completed Key Rotation
+u_7 [ZUmj] Ends Rotation
+u_7 [ZUmj] - Completed Key Rotation
+u_0 [ceYa] Ends Rotation
+u_0 [ceYa] - Completed Key Rotation
+u_5 [qGaS] Ends Rotation
+u_5 [qGaS] - Completed Key Rotation
+u_6 [bYLX] Ends Rotation
+u_6 [bYLX] - Completed Key Rotation
+u_3 [E-TV] Ends Rotation
+u_3 [E-TV] - Completed Key Rotation
+u_2 [drKB] Ends Rotation
+u_2 [drKB] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 75390ms (7539 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 803ms (80 p.u.)
+Test 4: 71585ms (7158 p.u.)

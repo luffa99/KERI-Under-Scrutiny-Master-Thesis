@@ -1,0 +1,129 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_3 [Bzze]
+Incepted: u_4 [abDq]
+	Added [2D85] as watcher for u_3 [Bzze]
+Incepted: u_9 [ZnE3]
+Incepted: u_5 [isAo]
+Incepted: u_6 [gANp]
+	Added [x5MO] as watcher for u_4 [abDq]
+Incepted: u_0 [GoCg]
+	Added [x5MO] as watcher for u_3 [Bzze]
+Incepted: u_2 [mpk8]
+Incepted: u_1 [RlDJ]
+	Added [jm4C] as watcher for u_9 [ZnE3]
+Incepted: u_7 [2VGW]
+Incepted: u_8 [FaV0]
+	Added [x5MO] as watcher for u_5 [isAo]
+	Added [x5MO] as watcher for u_6 [gANp]
+	Added [2D85] as watcher for u_4 [abDq]
+	Added [x5MO] as watcher for u_0 [GoCg]
+	Added [bivQ] as watcher for u_3 [Bzze]
+	Asking u_3 [Bzze]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_1 [RlDJ]
+	Added [2D85] as watcher for u_2 [mpk8]
+	Added [bivQ] as watcher for u_5 [isAo]
+	Added [2D85] as watcher for u_8 [FaV0]
+	Added [2D85] as watcher for u_7 [2VGW]
+	Added [2D85] as watcher for u_9 [ZnE3]
+	✅ u_3 [Bzze] Inception Done
+	Added [jm4C] as watcher for u_6 [gANp]
+	Added [jm4C] as watcher for u_4 [abDq]
+	Asking u_4 [abDq]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_0 [GoCg]
+	Added [bivQ] as watcher for u_8 [FaV0]
+	Added [x5MO] as watcher for u_1 [RlDJ]
+	Added [2D85] as watcher for u_5 [isAo]
+	Asking u_5 [isAo]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_2 [mpk8]
+	Added [jm4C] as watcher for u_7 [2VGW]
+	✅ u_4 [abDq] Inception Done
+	Added [x5MO] as watcher for u_9 [ZnE3]
+	Asking u_9 [ZnE3]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_6 [gANp]
+	Asking u_6 [gANp]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_0 [GoCg]
+	Asking u_0 [GoCg]'s watchers to watch [cj1m]
+	✅ u_5 [isAo] Inception Done
+	Added [2D85] as watcher for u_1 [RlDJ]
+	Asking u_1 [RlDJ]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_8 [FaV0]
+	Asking u_8 [FaV0]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_2 [mpk8]
+	Asking u_2 [mpk8]'s watchers to watch [cj1m]
+	✅ u_1 [RlDJ] Inception Done
+	✅ u_8 [FaV0] Inception Done
+	✅ u_6 [gANp] Inception Done
+	✅ u_2 [mpk8] Inception Done
+	Added [x5MO] as watcher for u_7 [2VGW]
+	Asking u_7 [2VGW]'s watchers to watch [cj1m]
+	✅ u_0 [GoCg] Inception Done
+	✅ u_9 [ZnE3] Inception Done
+	✅ u_7 [2VGW] Inception Done
+Test 2 (signature verification)
+	✅ u_7 [2VGW] Message verified
+	✅ u_0 [GoCg] Message verified
+	✅ u_1 [RlDJ] Message verified
+	✅ u_6 [gANp] Message verified
+	✅ u_8 [FaV0] Message verified
+	✅ u_9 [ZnE3] Message verified
+	✅ u_2 [mpk8] Message verified
+	✅ u_3 [Bzze] Message verified
+	✅ u_4 [abDq] Message verified
+	✅ u_5 [isAo] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	✅ u_9 [ZnE3] Message Verified (2)
+	✅ u_5 [isAo] Message Verified (2)
+	✅ u_6 [gANp] Message Verified (2)
+	✅ u_4 [abDq] Message Verified (2)
+	✅ u_0 [GoCg] Message Verified (2)
+	✅ u_3 [Bzze] Message Verified (2)
+	✅ u_1 [RlDJ] Message Verified (2)
+	✅ u_2 [mpk8] Message Verified (2)
+	✅ u_7 [2VGW] Message Verified (2)
+	✅ u_8 [FaV0] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_8 [FaV0] Starts Rotation
+u_0 [GoCg] Starts Rotation
+u_2 [mpk8] Starts Rotation
+u_7 [2VGW] Starts Rotation
+u_9 [ZnE3] Starts Rotation
+u_1 [RlDJ] Starts Rotation
+u_5 [isAo] Starts Rotation
+u_3 [Bzze] Starts Rotation
+u_6 [gANp] Starts Rotation
+u_4 [abDq] Starts Rotation
+u_6 [gANp] Ends Rotation
+u_6 [gANp] - Completed Key Rotation
+u_3 [Bzze] Ends Rotation
+u_3 [Bzze] - Completed Key Rotation
+u_9 [ZnE3] Ends Rotation
+u_9 [ZnE3] - Completed Key Rotation
+u_0 [GoCg] Ends Rotation
+u_0 [GoCg] - Completed Key Rotation
+u_7 [2VGW] Ends Rotation
+u_7 [2VGW] - Completed Key Rotation
+u_2 [mpk8] Ends Rotation
+u_2 [mpk8] - Completed Key Rotation
+u_8 [FaV0] Ends Rotation
+u_8 [FaV0] - Completed Key Rotation
+u_1 [RlDJ] Ends Rotation
+u_1 [RlDJ] - Completed Key Rotation
+u_4 [abDq] Ends Rotation
+u_4 [abDq] - Completed Key Rotation
+u_5 [isAo] Ends Rotation
+u_5 [isAo] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 63578ms (6357 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 596ms (59 p.u.)
+Test 4: 59432ms (5943 p.u.)

@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_8 [q-Na]
+Incepted: u_7 [vJkQ]
+	Added [bivQ] as watcher for u_8 [q-Na]
+	Added [bivQ] as watcher for u_7 [vJkQ]
+	Added [x5MO] as watcher for u_8 [q-Na]
+	Added [2D85] as watcher for u_8 [q-Na]
+	Asking u_8 [q-Na]'s watchers to watch [YkTo]
+	Added [jm4C] as watcher for u_7 [vJkQ]
+	Added [x5MO] as watcher for u_7 [vJkQ]
+	Asking u_7 [vJkQ]'s watchers to watch [YkTo]
+Incepted: u_6 [uPIs]
+	Added [x5MO] as watcher for u_6 [uPIs]
+	Added [2D85] as watcher for u_6 [uPIs]
+Incepted: u_1 [9JnL]
+Incepted: u_9 [suqV]
+Incepted: u_2 [MDob]
+	Added [jm4C] as watcher for u_1 [9JnL]
+	Added [jm4C] as watcher for u_6 [uPIs]
+	Asking u_6 [uPIs]'s watchers to watch [YkTo]
+Incepted: u_4 [D85s]
+	Added [x5MO] as watcher for u_2 [MDob]
+	Added [jm4C] as watcher for u_9 [suqV]
+	Added [2D85] as watcher for u_1 [9JnL]
+	Added [bivQ] as watcher for u_4 [D85s]
+	Added [bivQ] as watcher for u_9 [suqV]
+	Added [bivQ] as watcher for u_2 [MDob]
+	Added [2D85] as watcher for u_4 [D85s]
+Incepted: u_0 [hbZ3]
+	Added [2D85] as watcher for u_2 [MDob]
+	Asking u_2 [MDob]'s watchers to watch [YkTo]
+	Added [x5MO] as watcher for u_9 [suqV]
+	Asking u_9 [suqV]'s watchers to watch [YkTo]
+	Added [x5MO] as watcher for u_4 [D85s]
+	Asking u_4 [D85s]'s watchers to watch [YkTo]
+Incepted: u_3 [e7Jp]
+	Added [bivQ] as watcher for u_1 [9JnL]
+	Asking u_1 [9JnL]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_0 [hbZ3]
+Incepted: u_5 [w56k]
+	Added [jm4C] as watcher for u_0 [hbZ3]
+	Added [bivQ] as watcher for u_3 [e7Jp]
+	Added [2D85] as watcher for u_5 [w56k]
+	Added [2D85] as watcher for u_3 [e7Jp]
+	Added [bivQ] as watcher for u_0 [hbZ3]
+	Asking u_0 [hbZ3]'s watchers to watch [YkTo]
+	Added [bivQ] as watcher for u_5 [w56k]
+	Added [x5MO] as watcher for u_3 [e7Jp]
+	Asking u_3 [e7Jp]'s watchers to watch [YkTo]
+	Added [x5MO] as watcher for u_5 [w56k]
+	Asking u_5 [w56k]'s watchers to watch [YkTo]
+	✅ u_8 [q-Na] Inception Done
+	✅ u_7 [vJkQ] Inception Done
+	✅ u_9 [suqV] Inception Done
+	✅ u_2 [MDob] Inception Done
+	✅ u_4 [D85s] Inception Done
+	✅ u_6 [uPIs] Inception Done
+	✅ u_5 [w56k] Inception Done
+	✅ u_3 [e7Jp] Inception Done
+	✅ u_1 [9JnL] Inception Done
+	✅ u_0 [hbZ3] Inception Done
+Test 2 (signature verification)
+	✅ u_8 [q-Na] Message verified
+	✅ u_0 [hbZ3] Message verified
+	✅ u_2 [MDob] Message verified
+	✅ u_9 [suqV] Message verified
+	✅ u_5 [w56k] Message verified
+	✅ u_4 [D85s] Message verified
+	✅ u_3 [e7Jp] Message verified
+	✅ u_6 [uPIs] Message verified
+	✅ u_1 [9JnL] Message verified
+	✅ u_7 [vJkQ] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_6 [uPIs] Message Verified (2)
+	✅ u_3 [e7Jp] Message Verified (2)
+	✅ u_7 [vJkQ] Message Verified (2)
+	✅ u_8 [q-Na] Message Verified (2)
+	✅ u_5 [w56k] Message Verified (2)
+	✅ u_1 [9JnL] Message Verified (2)
+	✅ u_0 [hbZ3] Message Verified (2)
+	✅ u_4 [D85s] Message Verified (2)
+	✅ u_2 [MDob] Message Verified (2)
+	✅ u_9 [suqV] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_9 [suqV] Starts Rotation
+u_0 [hbZ3] Starts Rotation
+u_6 [uPIs] Starts Rotation
+u_5 [w56k] Starts Rotation
+u_2 [MDob] Starts Rotation
+u_7 [vJkQ] Starts Rotation
+u_8 [q-Na] Starts Rotation
+u_3 [e7Jp] Starts Rotation
+u_1 [9JnL] Starts Rotation
+u_4 [D85s] Starts Rotation
+u_6 [uPIs] Ends Rotation
+u_6 [uPIs] - Completed Key Rotation
+u_0 [hbZ3] Ends Rotation
+u_0 [hbZ3] - Completed Key Rotation
+u_7 [vJkQ] Ends Rotation
+u_7 [vJkQ] - Completed Key Rotation
+u_1 [9JnL] Ends Rotation
+u_1 [9JnL] - Completed Key Rotation
+u_3 [e7Jp] Ends Rotation
+u_3 [e7Jp] - Completed Key Rotation
+u_4 [D85s] Ends Rotation
+u_5 [w56k] Ends Rotation
+u_4 [D85s] - Completed Key Rotation
+u_5 [w56k] - Completed Key Rotation
+u_9 [suqV] Ends Rotation
+u_9 [suqV] - Completed Key Rotation
+u_2 [MDob] Ends Rotation
+u_2 [MDob] - Completed Key Rotation
+u_8 [q-Na] Ends Rotation
+u_8 [q-Na] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 23725ms (2372 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 749ms (74 p.u.)
+Test 4: 37005ms (3700 p.u.)

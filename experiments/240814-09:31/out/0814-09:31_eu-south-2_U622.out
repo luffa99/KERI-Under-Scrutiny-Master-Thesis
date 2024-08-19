@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_4 [X43b]
+Incepted: u_1 [L_gi]
+Incepted: u_6 [oWuZ]
+Incepted: u_7 [bHLn]
+	Added [jm4C] as watcher for u_4 [X43b]
+Incepted: u_3 [05--]
+Incepted: u_9 [DBkR]
+	Added [jm4C] as watcher for u_7 [bHLn]
+	Added [2D85] as watcher for u_3 [05--]
+Incepted: u_8 [-eQY]
+	Added [bivQ] as watcher for u_1 [L_gi]
+	Added [bivQ] as watcher for u_4 [X43b]
+Incepted: u_2 [OC3G]
+Incepted: u_5 [PoFb]
+Incepted: u_0 [zP_q]
+	Added [bivQ] as watcher for u_6 [oWuZ]
+	Added [2D85] as watcher for u_9 [DBkR]
+	Added [bivQ] as watcher for u_7 [bHLn]
+	Added [x5MO] as watcher for u_3 [05--]
+	Added [2D85] as watcher for u_8 [-eQY]
+	Added [2D85] as watcher for u_1 [L_gi]
+	Added [jm4C] as watcher for u_6 [oWuZ]
+	Added [x5MO] as watcher for u_2 [OC3G]
+	Added [jm4C] as watcher for u_0 [zP_q]
+	Added [x5MO] as watcher for u_4 [X43b]
+	Asking u_4 [X43b]'s watchers to watch [YkTo]
+	Added [x5MO] as watcher for u_5 [PoFb]
+	Added [x5MO] as watcher for u_1 [L_gi]
+	Asking u_1 [L_gi]'s watchers to watch [YkTo]
+	Added [x5MO] as watcher for u_9 [DBkR]
+	Added [jm4C] as watcher for u_3 [05--]
+	Asking u_3 [05--]'s watchers to watch [YkTo]
+	Added [x5MO] as watcher for u_8 [-eQY]
+	Added [x5MO] as watcher for u_6 [oWuZ]
+	Asking u_6 [oWuZ]'s watchers to watch [YkTo]
+	Added [bivQ] as watcher for u_2 [OC3G]
+	Added [2D85] as watcher for u_7 [bHLn]
+	Asking u_7 [bHLn]'s watchers to watch [YkTo]
+	Added [x5MO] as watcher for u_0 [zP_q]
+	✅ u_4 [X43b] Inception Done
+	Added [jm4C] as watcher for u_5 [PoFb]
+	✅ u_3 [05--] Inception Done
+	✅ u_1 [L_gi] Inception Done
+	✅ u_6 [oWuZ] Inception Done
+	Added [jm4C] as watcher for u_9 [DBkR]
+	Asking u_9 [DBkR]'s watchers to watch [YkTo]
+	Added [bivQ] as watcher for u_8 [-eQY]
+	Asking u_8 [-eQY]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_0 [zP_q]
+	Asking u_0 [zP_q]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_5 [PoFb]
+	Asking u_5 [PoFb]'s watchers to watch [YkTo]
+	Added [jm4C] as watcher for u_2 [OC3G]
+	Asking u_2 [OC3G]'s watchers to watch [YkTo]
+	✅ u_8 [-eQY] Inception Done
+	✅ u_0 [zP_q] Inception Done
+	✅ u_7 [bHLn] Inception Done
+	✅ u_9 [DBkR] Inception Done
+	✅ u_5 [PoFb] Inception Done
+	✅ u_2 [OC3G] Inception Done
+Test 2 (signature verification)
+	✅ u_2 [OC3G] Message verified
+	✅ u_1 [L_gi] Message verified
+	✅ u_4 [X43b] Message verified
+	✅ u_6 [oWuZ] Message verified
+	✅ u_5 [PoFb] Message verified
+	✅ u_9 [DBkR] Message verified
+	✅ u_3 [05--] Message verified
+	✅ u_0 [zP_q] Message verified
+	✅ u_7 [bHLn] Message verified
+	✅ u_8 [-eQY] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_1 [L_gi] Message Verified (2)
+	✅ u_3 [05--] Message Verified (2)
+	✅ u_5 [PoFb] Message Verified (2)
+	✅ u_8 [-eQY] Message Verified (2)
+	✅ u_9 [DBkR] Message Verified (2)
+	✅ u_0 [zP_q] Message Verified (2)
+	✅ u_7 [bHLn] Message Verified (2)
+	✅ u_4 [X43b] Message Verified (2)
+	✅ u_6 [oWuZ] Message Verified (2)
+	✅ u_2 [OC3G] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_2 [OC3G] Starts Rotation
+u_0 [zP_q] Starts Rotation
+u_9 [DBkR] Starts Rotation
+u_4 [X43b] Starts Rotation
+u_6 [oWuZ] Starts Rotation
+u_8 [-eQY] Starts Rotation
+u_5 [PoFb] Starts Rotation
+u_3 [05--] Starts Rotation
+u_7 [bHLn] Starts Rotation
+u_1 [L_gi] Starts Rotation
+u_1 [L_gi] Ends Rotation
+u_1 [L_gi] - Completed Key Rotation
+u_8 [-eQY] Ends Rotation
+u_8 [-eQY] - Completed Key Rotation
+u_2 [OC3G] Ends Rotation
+u_2 [OC3G] - Completed Key Rotation
+u_4 [X43b] Ends Rotation
+u_4 [X43b] - Completed Key Rotation
+u_9 [DBkR] Ends Rotation
+u_9 [DBkR] - Completed Key Rotation
+u_5 [PoFb] Ends Rotation
+u_5 [PoFb] - Completed Key Rotation
+u_0 [zP_q] Ends Rotation
+u_0 [zP_q] - Completed Key Rotation
+u_6 [oWuZ] Ends Rotation
+u_6 [oWuZ] - Completed Key Rotation
+u_7 [bHLn] Ends Rotation
+u_7 [bHLn] - Completed Key Rotation
+u_3 [05--] Ends Rotation
+u_3 [05--] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 27041ms (2704 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 777ms (77 p.u.)
+Test 4: 29062ms (2906 p.u.)

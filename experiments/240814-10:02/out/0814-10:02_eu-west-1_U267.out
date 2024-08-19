@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_6 [fS6k]
+Incepted: u_1 [rmcv]
+Incepted: u_2 [NMRI]
+Incepted: u_0 [lWxE]
+	Added [2D85] as watcher for u_6 [fS6k]
+Incepted: u_9 [3gfG]
+Incepted: u_3 [3tSK]
+Incepted: u_7 [8L1J]
+	Added [2D85] as watcher for u_2 [NMRI]
+	Added [jm4C] as watcher for u_6 [fS6k]
+Incepted: u_4 [4286]
+	Added [bivQ] as watcher for u_1 [rmcv]
+Incepted: u_5 [ttP3]
+	Added [jm4C] as watcher for u_3 [3tSK]
+	Added [bivQ] as watcher for u_0 [lWxE]
+	Added [jm4C] as watcher for u_2 [NMRI]
+	Added [x5MO] as watcher for u_9 [3gfG]
+	Added [2D85] as watcher for u_4 [4286]
+Incepted: u_8 [ZMU2]
+	Added [x5MO] as watcher for u_7 [8L1J]
+	Added [x5MO] as watcher for u_1 [rmcv]
+	Added [jm4C] as watcher for u_0 [lWxE]
+	Added [2D85] as watcher for u_5 [ttP3]
+	Added [bivQ] as watcher for u_6 [fS6k]
+	Asking u_6 [fS6k]'s watchers to watch [8r7y]
+	Added [x5MO] as watcher for u_3 [3tSK]
+	Added [x5MO] as watcher for u_2 [NMRI]
+	Asking u_2 [NMRI]'s watchers to watch [8r7y]
+	Added [jm4C] as watcher for u_4 [4286]
+	Added [2D85] as watcher for u_7 [8L1J]
+	Added [bivQ] as watcher for u_8 [ZMU2]
+	Added [bivQ] as watcher for u_9 [3gfG]
+	Added [jm4C] as watcher for u_1 [rmcv]
+	Asking u_1 [rmcv]'s watchers to watch [8r7y]
+	Added [2D85] as watcher for u_0 [lWxE]
+	Asking u_0 [lWxE]'s watchers to watch [8r7y]
+	Added [2D85] as watcher for u_3 [3tSK]
+	Asking u_3 [3tSK]'s watchers to watch [8r7y]
+	Added [x5MO] as watcher for u_4 [4286]
+	Asking u_4 [4286]'s watchers to watch [8r7y]
+	Added [jm4C] as watcher for u_7 [8L1J]
+	Asking u_7 [8L1J]'s watchers to watch [8r7y]
+	Added [bivQ] as watcher for u_5 [ttP3]
+	Added [x5MO] as watcher for u_8 [ZMU2]
+	Added [jm4C] as watcher for u_9 [3gfG]
+	Asking u_9 [3gfG]'s watchers to watch [8r7y]
+	Added [jm4C] as watcher for u_8 [ZMU2]
+	Asking u_8 [ZMU2]'s watchers to watch [8r7y]
+	Added [x5MO] as watcher for u_5 [ttP3]
+	Asking u_5 [ttP3]'s watchers to watch [8r7y]
+	✅ u_3 [3tSK] Inception Done
+	✅ u_1 [rmcv] Inception Done
+	✅ u_5 [ttP3] Inception Done
+	✅ u_4 [4286] Inception Done
+	✅ u_8 [ZMU2] Inception Done
+	✅ u_6 [fS6k] Inception Done
+	✅ u_9 [3gfG] Inception Done
+	✅ u_2 [NMRI] Inception Done
+	✅ u_7 [8L1J] Inception Done
+	✅ u_0 [lWxE] Inception Done
+Test 2 (signature verification)
+	✅ u_0 [lWxE] Message verified
+	✅ u_7 [8L1J] Message verified
+	✅ u_8 [ZMU2] Message verified
+	✅ u_1 [rmcv] Message verified
+	✅ u_4 [4286] Message verified
+	✅ u_5 [ttP3] Message verified
+	✅ u_6 [fS6k] Message verified
+	✅ u_9 [3gfG] Message verified
+	✅ u_2 [NMRI] Message verified
+	✅ u_3 [3tSK] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_2 [NMRI] Message Verified (2)
+	✅ u_7 [8L1J] Message Verified (2)
+	✅ u_4 [4286] Message Verified (2)
+	✅ u_3 [3tSK] Message Verified (2)
+	✅ u_6 [fS6k] Message Verified (2)
+	✅ u_8 [ZMU2] Message Verified (2)
+	✅ u_9 [3gfG] Message Verified (2)
+	✅ u_1 [rmcv] Message Verified (2)
+	✅ u_0 [lWxE] Message Verified (2)
+	✅ u_5 [ttP3] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_3 [3tSK] Starts Rotation
+u_8 [ZMU2] Starts Rotation
+u_1 [rmcv] Starts Rotation
+u_2 [NMRI] Starts Rotation
+u_9 [3gfG] Starts Rotation
+u_0 [lWxE] Starts Rotation
+u_7 [8L1J] Starts Rotation
+u_6 [fS6k] Starts Rotation
+u_4 [4286] Starts Rotation
+u_5 [ttP3] Starts Rotation
+u_1 [rmcv] Ends Rotation
+u_1 [rmcv] - Completed Key Rotation
+u_8 [ZMU2] Ends Rotation
+u_8 [ZMU2] - Completed Key Rotation
+u_4 [4286] Ends Rotation
+u_4 [4286] - Completed Key Rotation
+u_0 [lWxE] Ends Rotation
+u_0 [lWxE] - Completed Key Rotation
+u_7 [8L1J] Ends Rotation
+u_7 [8L1J] - Completed Key Rotation
+u_6 [fS6k] Ends Rotation
+u_6 [fS6k] - Completed Key Rotation
+u_2 [NMRI] Ends Rotation
+u_2 [NMRI] - Completed Key Rotation
+u_3 [3tSK] Ends Rotation
+u_3 [3tSK] - Completed Key Rotation
+u_9 [3gfG] Ends Rotation
+u_9 [3gfG] - Completed Key Rotation
+u_5 [ttP3] Ends Rotation
+u_5 [ttP3] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 12936ms (1293 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 815ms (81 p.u.)
+Test 4: 40781ms (4078 p.u.)

@@ -1,0 +1,124 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_3 [LymH]
+Incepted: u_4 [Jqud]
+Incepted: u_5 [4zgz]
+	Added [x5MO] as watcher for u_3 [LymH]
+Incepted: u_6 [bVxL]
+Incepted: u_1 [M397]
+	Added [bivQ] as watcher for u_4 [Jqud]
+Incepted: u_9 [fZqH]
+	Added [bivQ] as watcher for u_5 [4zgz]
+Incepted: u_2 [yOpD]
+Incepted: u_7 [ozyv]
+	Added [bivQ] as watcher for u_3 [LymH]
+Incepted: u_8 [JtMh]
+	Added [x5MO] as watcher for u_1 [M397]
+	Added [x5MO] as watcher for u_4 [Jqud]
+	Added [bivQ] as watcher for u_6 [bVxL]
+Incepted: u_0 [5H6x]
+	Added [x5MO] as watcher for u_5 [4zgz]
+	Added [bivQ] as watcher for u_2 [yOpD]
+	Added [jm4C] as watcher for u_9 [fZqH]
+	Added [2D85] as watcher for u_3 [LymH]
+	Asking u_3 [LymH]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_7 [ozyv]
+	Added [2D85] as watcher for u_8 [JtMh]
+	Added [x5MO] as watcher for u_0 [5H6x]
+	Added [2D85] as watcher for u_6 [bVxL]
+	Added [jm4C] as watcher for u_4 [Jqud]
+	Asking u_4 [Jqud]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_2 [yOpD]
+	Added [bivQ] as watcher for u_1 [M397]
+	Added [jm4C] as watcher for u_5 [4zgz]
+	Asking u_5 [4zgz]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_9 [fZqH]
+	Added [2D85] as watcher for u_2 [yOpD]
+	Asking u_2 [yOpD]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_0 [5H6x]
+	Added [x5MO] as watcher for u_8 [JtMh]
+	Added [bivQ] as watcher for u_7 [ozyv]
+	Added [2D85] as watcher for u_1 [M397]
+	Asking u_1 [M397]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_6 [bVxL]
+	Asking u_6 [bVxL]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_0 [5H6x]
+	Asking u_0 [5H6x]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_9 [fZqH]
+	Asking u_9 [fZqH]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_8 [JtMh]
+	Asking u_8 [JtMh]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_7 [ozyv]
+	Asking u_7 [ozyv]'s watchers to watch [IjVS]
+	✅ u_3 [LymH] Inception Done
+	✅ u_4 [Jqud] Inception Done
+	✅ u_5 [4zgz] Inception Done
+	✅ u_2 [yOpD] Inception Done
+	✅ u_6 [bVxL] Inception Done
+	✅ u_7 [ozyv] Inception Done
+	✅ u_0 [5H6x] Inception Done
+	✅ u_8 [JtMh] Inception Done
+	✅ u_1 [M397] Inception Done
+	✅ u_9 [fZqH] Inception Done
+Test 2 (signature verification)
+	✅ u_4 [Jqud] Message verified
+	✅ u_9 [fZqH] Message verified
+	✅ u_1 [M397] Message verified
+	✅ u_2 [yOpD] Message verified
+	✅ u_8 [JtMh] Message verified
+	✅ u_5 [4zgz] Message verified
+	✅ u_0 [5H6x] Message verified
+	✅ u_3 [LymH] Message verified
+	✅ u_6 [bVxL] Message verified
+	✅ u_7 [ozyv] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	✅ u_4 [Jqud] Message Verified (2)
+	✅ u_0 [5H6x] Message Verified (2)
+	✅ u_8 [JtMh] Message Verified (2)
+	✅ u_3 [LymH] Message Verified (2)
+	✅ u_7 [ozyv] Message Verified (2)
+	✅ u_2 [yOpD] Message Verified (2)
+	✅ u_1 [M397] Message Verified (2)
+	✅ u_9 [fZqH] Message Verified (2)
+	✅ u_5 [4zgz] Message Verified (2)
+	✅ u_6 [bVxL] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_5 [4zgz] Starts Rotation
+u_0 [5H6x] Starts Rotation
+u_9 [fZqH] Starts Rotation
+u_1 [M397] Starts Rotation
+u_6 [bVxL] Starts Rotation
+u_8 [JtMh] Starts Rotation
+u_2 [yOpD] Starts Rotation
+u_3 [LymH] Starts Rotation
+u_4 [Jqud] Starts Rotation
+u_7 [ozyv] Starts Rotation
+u_6 [bVxL] Ends Rotation
+u_6 [bVxL] - Completed Key Rotation
+u_2 [yOpD] Ends Rotation
+u_2 [yOpD] - Completed Key Rotation
+u_4 [Jqud] Ends Rotation
+u_4 [Jqud] - Completed Key Rotation
+u_3 [LymH] Ends Rotation
+u_3 [LymH] - Completed Key Rotation
+u_1 [M397] Ends Rotation
+u_1 [M397] - Completed Key Rotation
+u_7 [ozyv] Ends Rotation
+u_7 [ozyv] - Completed Key Rotation
+u_9 [fZqH] Ends Rotation
+u_9 [fZqH] - Completed Key Rotation
+u_8 [JtMh] Ends Rotation
+u_8 [JtMh] - Completed Key Rotation
+u_0 [5H6x] Ends Rotation
+u_0 [5H6x] - Completed Key Rotation

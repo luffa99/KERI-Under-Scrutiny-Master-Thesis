@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_8 [OqqS]
+	Added [jm4C] as watcher for u_8 [OqqS]
+	Added [x5MO] as watcher for u_8 [OqqS]
+	Added [2D85] as watcher for u_8 [OqqS]
+	Asking u_8 [OqqS]'s watchers to watch [IjVS]
+Incepted: u_0 [8e74]
+	Added [jm4C] as watcher for u_0 [8e74]
+Incepted: u_1 [97Kb]
+	Added [bivQ] as watcher for u_0 [8e74]
+	Added [bivQ] as watcher for u_1 [97Kb]
+Incepted: u_2 [2kqr]
+	Added [2D85] as watcher for u_0 [8e74]
+	Asking u_0 [8e74]'s watchers to watch [IjVS]
+Incepted: u_3 [XLSk]
+Incepted: u_9 [FZUh]
+Incepted: u_4 [D-sl]
+Incepted: u_6 [pUfo]
+	Added [jm4C] as watcher for u_1 [97Kb]
+	✅ u_8 [OqqS] Inception Done
+	Added [2D85] as watcher for u_2 [2kqr]
+	Added [jm4C] as watcher for u_3 [XLSk]
+	Added [2D85] as watcher for u_9 [FZUh]
+	✅ u_0 [8e74] Inception Done
+	Added [2D85] as watcher for u_1 [97Kb]
+	Asking u_1 [97Kb]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_6 [pUfo]
+	Added [bivQ] as watcher for u_4 [D-sl]
+Incepted: u_5 [pO-O]
+Incepted: u_7 [ETKV]
+	Added [x5MO] as watcher for u_2 [2kqr]
+	Added [2D85] as watcher for u_3 [XLSk]
+	✅ u_1 [97Kb] Inception Done
+	Added [bivQ] as watcher for u_9 [FZUh]
+	Added [jm4C] as watcher for u_4 [D-sl]
+	Added [2D85] as watcher for u_6 [pUfo]
+	Added [bivQ] as watcher for u_5 [pO-O]
+	Added [x5MO] as watcher for u_7 [ETKV]
+	Added [jm4C] as watcher for u_2 [2kqr]
+	Asking u_2 [2kqr]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_3 [XLSk]
+	Asking u_3 [XLSk]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_9 [FZUh]
+	Asking u_9 [FZUh]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_6 [pUfo]
+	Asking u_6 [pUfo]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_7 [ETKV]
+	Added [2D85] as watcher for u_4 [D-sl]
+	Asking u_4 [D-sl]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_5 [pO-O]
+	✅ u_2 [2kqr] Inception Done
+	✅ u_3 [XLSk] Inception Done
+	✅ u_9 [FZUh] Inception Done
+	✅ u_6 [pUfo] Inception Done
+	✅ u_4 [D-sl] Inception Done
+	Added [2D85] as watcher for u_7 [ETKV]
+	Asking u_7 [ETKV]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_5 [pO-O]
+	Asking u_5 [pO-O]'s watchers to watch [IjVS]
+	✅ u_7 [ETKV] Inception Done
+	✅ u_5 [pO-O] Inception Done
+Test 2 (signature verification)
+	✅ u_7 [ETKV] Message verified
+	✅ u_5 [pO-O] Message verified
+	✅ u_4 [D-sl] Message verified
+	✅ u_6 [pUfo] Message verified
+	✅ u_0 [8e74] Message verified
+	✅ u_9 [FZUh] Message verified
+	✅ u_8 [OqqS] Message verified
+	✅ u_2 [2kqr] Message verified
+	✅ u_1 [97Kb] Message verified
+	✅ u_3 [XLSk] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_0 [8e74] Message Verified (2)
+	✅ u_1 [97Kb] Message Verified (2)
+	✅ u_3 [XLSk] Message Verified (2)
+	✅ u_6 [pUfo] Message Verified (2)
+	✅ u_9 [FZUh] Message Verified (2)
+	✅ u_8 [OqqS] Message Verified (2)
+	✅ u_7 [ETKV] Message Verified (2)
+	✅ u_2 [2kqr] Message Verified (2)
+	✅ u_5 [pO-O] Message Verified (2)
+	✅ u_4 [D-sl] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_4 [D-sl] Starts Rotation
+u_5 [pO-O] Starts Rotation
+u_8 [OqqS] Starts Rotation
+u_3 [XLSk] Starts Rotation
+u_7 [ETKV] Starts Rotation
+u_0 [8e74] Starts Rotation
+u_6 [pUfo] Starts Rotation
+u_1 [97Kb] Starts Rotation
+u_2 [2kqr] Starts Rotation
+u_9 [FZUh] Starts Rotation
+u_4 [D-sl] Ends Rotation
+u_4 [D-sl] - Completed Key Rotation
+u_3 [XLSk] Ends Rotation
+u_3 [XLSk] - Completed Key Rotation
+u_9 [FZUh] Ends Rotation
+u_9 [FZUh] - Completed Key Rotation
+u_0 [8e74] Ends Rotation
+u_0 [8e74] - Completed Key Rotation
+u_6 [pUfo] Ends Rotation
+u_6 [pUfo] - Completed Key Rotation
+u_2 [2kqr] Ends Rotation
+u_2 [2kqr] - Completed Key Rotation
+u_1 [97Kb] Ends Rotation
+u_1 [97Kb] - Completed Key Rotation
+u_8 [OqqS] Ends Rotation
+u_8 [OqqS] - Completed Key Rotation
+u_5 [pO-O] Ends Rotation
+u_5 [pO-O] - Completed Key Rotation
+u_7 [ETKV] Ends Rotation
+u_7 [ETKV] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 76786ms (7678 p.u.)
+Test 2: 2ms (0 p.u.)
+Test 3: 999ms (99 p.u.)
+Test 4: 71459ms (7145 p.u.)

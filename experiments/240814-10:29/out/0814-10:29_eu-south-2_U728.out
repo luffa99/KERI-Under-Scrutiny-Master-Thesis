@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_0 [EvQC]
+	Added [2D85] as watcher for u_0 [EvQC]
+Incepted: u_6 [DQfl]
+	Added [jm4C] as watcher for u_0 [EvQC]
+	Added [x5MO] as watcher for u_6 [DQfl]
+	Added [bivQ] as watcher for u_0 [EvQC]
+	Asking u_0 [EvQC]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_6 [DQfl]
+	Added [bivQ] as watcher for u_6 [DQfl]
+	Asking u_6 [DQfl]'s watchers to watch [cj1m]
+Incepted: u_1 [KDna]
+Incepted: u_4 [4PRs]
+	Added [x5MO] as watcher for u_1 [KDna]
+Incepted: u_9 [T2Sv]
+Incepted: u_5 [gxAs]
+Incepted: u_8 [Q0xD]
+	Added [bivQ] as watcher for u_4 [4PRs]
+	✅ u_6 [DQfl] Inception Done
+	Added [jm4C] as watcher for u_1 [KDna]
+	Added [2D85] as watcher for u_5 [gxAs]
+	Added [bivQ] as watcher for u_8 [Q0xD]
+	Added [bivQ] as watcher for u_9 [T2Sv]
+	✅ u_0 [EvQC] Inception Done
+Incepted: u_7 [7Bya]
+Incepted: u_2 [eLJx]
+Incepted: u_3 [DSj6]
+	Added [x5MO] as watcher for u_4 [4PRs]
+	Added [2D85] as watcher for u_1 [KDna]
+	Asking u_1 [KDna]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_5 [gxAs]
+	Added [2D85] as watcher for u_9 [T2Sv]
+	Added [x5MO] as watcher for u_8 [Q0xD]
+	Added [bivQ] as watcher for u_7 [7Bya]
+	✅ u_1 [KDna] Inception Done
+	Added [2D85] as watcher for u_3 [DSj6]
+	Added [jm4C] as watcher for u_2 [eLJx]
+	Added [2D85] as watcher for u_4 [4PRs]
+	Asking u_4 [4PRs]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_5 [gxAs]
+	Asking u_5 [gxAs]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_9 [T2Sv]
+	Asking u_9 [T2Sv]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_8 [Q0xD]
+	Asking u_8 [Q0xD]'s watchers to watch [cj1m]
+	✅ u_4 [4PRs] Inception Done
+	Added [bivQ] as watcher for u_2 [eLJx]
+	Added [2D85] as watcher for u_7 [7Bya]
+	✅ u_9 [T2Sv] Inception Done
+	✅ u_5 [gxAs] Inception Done
+	Added [x5MO] as watcher for u_3 [DSj6]
+	Added [2D85] as watcher for u_2 [eLJx]
+	Asking u_2 [eLJx]'s watchers to watch [cj1m]
+	✅ u_8 [Q0xD] Inception Done
+	Added [x5MO] as watcher for u_7 [7Bya]
+	Asking u_7 [7Bya]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_3 [DSj6]
+	Asking u_3 [DSj6]'s watchers to watch [cj1m]
+	✅ u_2 [eLJx] Inception Done
+	✅ u_7 [7Bya] Inception Done
+	✅ u_3 [DSj6] Inception Done
+Test 2 (signature verification)
+	✅ u_3 [DSj6] Message verified
+	✅ u_1 [KDna] Message verified
+	✅ u_2 [eLJx] Message verified
+	✅ u_8 [Q0xD] Message verified
+	✅ u_7 [7Bya] Message verified
+	✅ u_0 [EvQC] Message verified
+	✅ u_5 [gxAs] Message verified
+	✅ u_6 [DQfl] Message verified
+	✅ u_4 [4PRs] Message verified
+	✅ u_9 [T2Sv] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_1 [KDna] Message Verified (2)
+	✅ u_3 [DSj6] Message Verified (2)
+	✅ u_7 [7Bya] Message Verified (2)
+	✅ u_5 [gxAs] Message Verified (2)
+	✅ u_6 [DQfl] Message Verified (2)
+	✅ u_0 [EvQC] Message Verified (2)
+	✅ u_8 [Q0xD] Message Verified (2)
+	✅ u_9 [T2Sv] Message Verified (2)
+	✅ u_2 [eLJx] Message Verified (2)
+	✅ u_4 [4PRs] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_4 [4PRs] Starts Rotation
+u_5 [gxAs] Starts Rotation
+u_1 [KDna] Starts Rotation
+u_3 [DSj6] Starts Rotation
+u_2 [eLJx] Starts Rotation
+u_6 [DQfl] Starts Rotation
+u_0 [EvQC] Starts Rotation
+u_7 [7Bya] Starts Rotation
+u_9 [T2Sv] Starts Rotation
+u_8 [Q0xD] Starts Rotation
+u_2 [eLJx] Ends Rotation
+u_2 [eLJx] - Completed Key Rotation
+u_7 [7Bya] Ends Rotation
+u_7 [7Bya] - Completed Key Rotation
+u_0 [EvQC] Ends Rotation
+u_0 [EvQC] - Completed Key Rotation
+u_9 [T2Sv] Ends Rotation
+u_9 [T2Sv] - Completed Key Rotation
+u_8 [Q0xD] Ends Rotation
+u_8 [Q0xD] - Completed Key Rotation
+u_3 [DSj6] Ends Rotation
+u_3 [DSj6] - Completed Key Rotation
+u_6 [DQfl] Ends Rotation
+u_6 [DQfl] - Completed Key Rotation
+u_4 [4PRs] Ends Rotation
+u_4 [4PRs] - Completed Key Rotation
+u_1 [KDna] Ends Rotation
+u_1 [KDna] - Completed Key Rotation
+u_5 [gxAs] Ends Rotation
+u_5 [gxAs] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 73120ms (7312 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 589ms (58 p.u.)
+Test 4: 67147ms (6714 p.u.)

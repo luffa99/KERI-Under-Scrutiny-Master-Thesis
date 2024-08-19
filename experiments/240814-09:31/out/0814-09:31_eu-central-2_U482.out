@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_0 [GdKI]
+	Added [jm4C] as watcher for u_0 [GdKI]
+	Added [bivQ] as watcher for u_0 [GdKI]
+	Added [2D85] as watcher for u_0 [GdKI]
+	Asking u_0 [GdKI]'s watchers to watch [YkTo]
+Incepted: u_1 [zJJj]
+	Added [2D85] as watcher for u_1 [zJJj]
+Incepted: u_2 [jeDT]
+Incepted: u_9 [s3si]
+	Added [jm4C] as watcher for u_2 [jeDT]
+	Added [bivQ] as watcher for u_1 [zJJj]
+	Added [jm4C] as watcher for u_9 [s3si]
+	Added [2D85] as watcher for u_9 [s3si]
+	Added [bivQ] as watcher for u_2 [jeDT]
+	Added [jm4C] as watcher for u_1 [zJJj]
+	Asking u_1 [zJJj]'s watchers to watch [YkTo]
+	Added [x5MO] as watcher for u_2 [jeDT]
+	Asking u_2 [jeDT]'s watchers to watch [YkTo]
+	Added [bivQ] as watcher for u_9 [s3si]
+	Asking u_9 [s3si]'s watchers to watch [YkTo]
+Incepted: u_5 [deLi]
+Incepted: u_4 [9L71]
+	Added [2D85] as watcher for u_5 [deLi]
+	Added [x5MO] as watcher for u_4 [9L71]
+Incepted: u_3 [n924]
+Incepted: u_6 [i-Pb]
+	Added [jm4C] as watcher for u_5 [deLi]
+	Added [bivQ] as watcher for u_4 [9L71]
+	Added [jm4C] as watcher for u_3 [n924]
+	Added [jm4C] as watcher for u_6 [i-Pb]
+	Added [x5MO] as watcher for u_5 [deLi]
+	Asking u_5 [deLi]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_4 [9L71]
+	Asking u_4 [9L71]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_3 [n924]
+	Added [x5MO] as watcher for u_6 [i-Pb]
+	Added [x5MO] as watcher for u_3 [n924]
+	Asking u_3 [n924]'s watchers to watch [YkTo]
+	Added [bivQ] as watcher for u_6 [i-Pb]
+	Asking u_6 [i-Pb]'s watchers to watch [YkTo]
+	✅ u_1 [zJJj] Inception Done
+	✅ u_0 [GdKI] Inception Done
+	✅ u_9 [s3si] Inception Done
+	✅ u_3 [n924] Inception Done
+	✅ u_2 [jeDT] Inception Done
+Incepted: u_8 [NIE7]
+	✅ u_4 [9L71] Inception Done
+	Added [x5MO] as watcher for u_8 [NIE7]
+	✅ u_5 [deLi] Inception Done
+Incepted: u_7 [JEpK]
+	✅ u_6 [i-Pb] Inception Done
+	Added [bivQ] as watcher for u_8 [NIE7]
+	Added [x5MO] as watcher for u_7 [JEpK]
+	Added [bivQ] as watcher for u_7 [JEpK]
+	Added [2D85] as watcher for u_8 [NIE7]
+	Asking u_8 [NIE7]'s watchers to watch [YkTo]
+	Added [2D85] as watcher for u_7 [JEpK]
+	Asking u_7 [JEpK]'s watchers to watch [YkTo]
+	✅ u_8 [NIE7] Inception Done
+	✅ u_7 [JEpK] Inception Done
+Test 2 (signature verification)
+	✅ u_7 [JEpK] Message verified
+	✅ u_5 [deLi] Message verified
+	✅ u_4 [9L71] Message verified
+	✅ u_9 [s3si] Message verified
+	✅ u_3 [n924] Message verified
+	✅ u_1 [zJJj] Message verified
+	✅ u_6 [i-Pb] Message verified
+	✅ u_8 [NIE7] Message verified
+	✅ u_2 [jeDT] Message verified
+	✅ u_0 [GdKI] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_0 [GdKI] Message Verified (2)
+	✅ u_1 [zJJj] Message Verified (2)
+	✅ u_3 [n924] Message Verified (2)
+	✅ u_4 [9L71] Message Verified (2)
+	✅ u_8 [NIE7] Message Verified (2)
+	✅ u_2 [jeDT] Message Verified (2)
+	✅ u_9 [s3si] Message Verified (2)
+	✅ u_5 [deLi] Message Verified (2)
+	✅ u_6 [i-Pb] Message Verified (2)
+	✅ u_7 [JEpK] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_7 [JEpK] Starts Rotation
+u_3 [n924] Starts Rotation
+u_4 [9L71] Starts Rotation
+u_6 [i-Pb] Starts Rotation
+u_8 [NIE7] Starts Rotation
+u_2 [jeDT] Starts Rotation
+u_5 [deLi] Starts Rotation
+u_1 [zJJj] Starts Rotation
+u_9 [s3si] Starts Rotation
+u_0 [GdKI] Starts Rotation
+u_7 [JEpK] Ends Rotation
+u_7 [JEpK] - Completed Key Rotation
+u_6 [i-Pb] Ends Rotation
+u_6 [i-Pb] - Completed Key Rotation
+u_5 [deLi] Ends Rotation
+u_5 [deLi] - Completed Key Rotation
+u_0 [GdKI] Ends Rotation
+u_0 [GdKI] - Completed Key Rotation
+u_8 [NIE7] Ends Rotation
+u_8 [NIE7] - Completed Key Rotation
+u_9 [s3si] Ends Rotation
+u_9 [s3si] - Completed Key Rotation
+u_4 [9L71] Ends Rotation
+u_4 [9L71] - Completed Key Rotation
+u_3 [n924] Ends Rotation
+u_3 [n924] - Completed Key Rotation
+u_1 [zJJj] Ends Rotation
+u_1 [zJJj] - Completed Key Rotation
+u_2 [jeDT] Ends Rotation
+u_2 [jeDT] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 31074ms (3107 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 875ms (87 p.u.)
+Test 4: 37675ms (3767 p.u.)

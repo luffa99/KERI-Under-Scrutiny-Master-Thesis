@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_1 [IRMA]
+	Added [jm4C] as watcher for u_1 [IRMA]
+	Added [bivQ] as watcher for u_1 [IRMA]
+	Added [2D85] as watcher for u_1 [IRMA]
+	Asking u_1 [IRMA]'s watchers to watch [cj1m]
+Incepted: u_9 [jH58]
+	Added [jm4C] as watcher for u_9 [jH58]
+	Added [2D85] as watcher for u_9 [jH58]
+	Added [bivQ] as watcher for u_9 [jH58]
+	Asking u_9 [jH58]'s watchers to watch [cj1m]
+Incepted: u_5 [wiDu]
+	Added [bivQ] as watcher for u_5 [wiDu]
+	Added [x5MO] as watcher for u_5 [wiDu]
+	Added [jm4C] as watcher for u_5 [wiDu]
+	Asking u_5 [wiDu]'s watchers to watch [cj1m]
+Incepted: u_2 [QnTb]
+	✅ u_1 [IRMA] Inception Done
+Incepted: u_6 [ez8e]
+	Added [x5MO] as watcher for u_2 [QnTb]
+	✅ u_9 [jH58] Inception Done
+Incepted: u_4 [vBCu]
+Incepted: u_8 [cgUI]
+Incepted: u_7 [X42U]
+	Added [bivQ] as watcher for u_6 [ez8e]
+	Added [2D85] as watcher for u_2 [QnTb]
+Incepted: u_0 [Xwfb]
+	Added [x5MO] as watcher for u_4 [vBCu]
+	✅ u_5 [wiDu] Inception Done
+	Added [jm4C] as watcher for u_8 [cgUI]
+	Added [x5MO] as watcher for u_7 [X42U]
+Incepted: u_3 [RgYx]
+	Added [bivQ] as watcher for u_2 [QnTb]
+	Asking u_2 [QnTb]'s watchers to watch [cj1m]
+	Added [2D85] as watcher for u_6 [ez8e]
+	Added [2D85] as watcher for u_0 [Xwfb]
+	Added [jm4C] as watcher for u_4 [vBCu]
+	✅ u_2 [QnTb] Inception Done
+	Added [2D85] as watcher for u_7 [X42U]
+	Added [2D85] as watcher for u_8 [cgUI]
+	Added [x5MO] as watcher for u_3 [RgYx]
+	Added [x5MO] as watcher for u_6 [ez8e]
+	Asking u_6 [ez8e]'s watchers to watch [cj1m]
+	Added [jm4C] as watcher for u_0 [Xwfb]
+	Added [bivQ] as watcher for u_4 [vBCu]
+	Asking u_4 [vBCu]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_7 [X42U]
+	Asking u_7 [X42U]'s watchers to watch [cj1m]
+	Added [x5MO] as watcher for u_8 [cgUI]
+	Asking u_8 [cgUI]'s watchers to watch [cj1m]
+	Added [bivQ] as watcher for u_0 [Xwfb]
+	Asking u_0 [Xwfb]'s watchers to watch [cj1m]
+	✅ u_6 [ez8e] Inception Done
+	✅ u_4 [vBCu] Inception Done
+	Added [jm4C] as watcher for u_3 [RgYx]
+	✅ u_7 [X42U] Inception Done
+	✅ u_0 [Xwfb] Inception Done
+	✅ u_8 [cgUI] Inception Done
+	Added [bivQ] as watcher for u_3 [RgYx]
+	Asking u_3 [RgYx]'s watchers to watch [cj1m]
+	✅ u_3 [RgYx] Inception Done
+Test 2 (signature verification)
+	✅ u_3 [RgYx] Message verified
+	✅ u_7 [X42U] Message verified
+	✅ u_0 [Xwfb] Message verified
+	✅ u_9 [jH58] Message verified
+	✅ u_4 [vBCu] Message verified
+	✅ u_5 [wiDu] Message verified
+	✅ u_1 [IRMA] Message verified
+	✅ u_6 [ez8e] Message verified
+	✅ u_2 [QnTb] Message verified
+	✅ u_8 [cgUI] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_7 [X42U] Message Verified (2)
+	✅ u_8 [cgUI] Message Verified (2)
+	✅ u_4 [vBCu] Message Verified (2)
+	✅ u_3 [RgYx] Message Verified (2)
+	✅ u_0 [Xwfb] Message Verified (2)
+	✅ u_1 [IRMA] Message Verified (2)
+	✅ u_5 [wiDu] Message Verified (2)
+	✅ u_6 [ez8e] Message Verified (2)
+	✅ u_9 [jH58] Message Verified (2)
+	✅ u_2 [QnTb] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_2 [QnTb] Starts Rotation
+u_7 [X42U] Starts Rotation
+u_5 [wiDu] Starts Rotation
+u_0 [Xwfb] Starts Rotation
+u_4 [vBCu] Starts Rotation
+u_9 [jH58] Starts Rotation
+u_1 [IRMA] Starts Rotation
+u_3 [RgYx] Starts Rotation
+u_6 [ez8e] Starts Rotation
+u_8 [cgUI] Starts Rotation
+u_2 [QnTb] Ends Rotation
+u_2 [QnTb] - Completed Key Rotation
+u_4 [vBCu] Ends Rotation
+u_4 [vBCu] - Completed Key Rotation
+u_3 [RgYx] Ends Rotation
+u_3 [RgYx] - Completed Key Rotation
+u_8 [cgUI] Ends Rotation
+u_8 [cgUI] - Completed Key Rotation
+u_1 [IRMA] Ends Rotation
+u_1 [IRMA] - Completed Key Rotation
+u_9 [jH58] Ends Rotation
+u_9 [jH58] - Completed Key Rotation
+u_5 [wiDu] Ends Rotation
+u_5 [wiDu] - Completed Key Rotation
+u_7 [X42U] Ends Rotation
+u_7 [X42U] - Completed Key Rotation
+u_6 [ez8e] Ends Rotation
+u_6 [ez8e] - Completed Key Rotation
+u_0 [Xwfb] Ends Rotation
+u_0 [Xwfb] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 74344ms (7434 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 986ms (98 p.u.)
+Test 4: 70305ms (7030 p.u.)

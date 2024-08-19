@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_8 [-g-i]
+	Added [bivQ] as watcher for u_8 [-g-i]
+	Added [x5MO] as watcher for u_8 [-g-i]
+	Added [jm4C] as watcher for u_8 [-g-i]
+	Asking u_8 [-g-i]'s watchers to watch [IjVS]
+Incepted: u_7 [0L2k]
+Incepted: u_6 [NJ3T]
+	Added [2D85] as watcher for u_7 [0L2k]
+	Added [x5MO] as watcher for u_6 [NJ3T]
+Incepted: u_9 [pktC]
+	Added [bivQ] as watcher for u_7 [0L2k]
+	Added [2D85] as watcher for u_9 [pktC]
+	Added [bivQ] as watcher for u_6 [NJ3T]
+	Added [jm4C] as watcher for u_7 [0L2k]
+	Asking u_7 [0L2k]'s watchers to watch [IjVS]
+	Added [x5MO] as watcher for u_9 [pktC]
+	Added [jm4C] as watcher for u_6 [NJ3T]
+	Asking u_6 [NJ3T]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_9 [pktC]
+	Asking u_9 [pktC]'s watchers to watch [IjVS]
+Incepted: u_2 [DHZh]
+	Added [jm4C] as watcher for u_2 [DHZh]
+	Added [x5MO] as watcher for u_2 [DHZh]
+	Added [2D85] as watcher for u_2 [DHZh]
+	Asking u_2 [DHZh]'s watchers to watch [IjVS]
+Incepted: u_0 [3BIg]
+	✅ u_8 [-g-i] Inception Done
+	Added [x5MO] as watcher for u_0 [3BIg]
+Incepted: u_5 [s2qd]
+	Added [bivQ] as watcher for u_0 [3BIg]
+	Added [2D85] as watcher for u_5 [s2qd]
+	Added [2D85] as watcher for u_0 [3BIg]
+	Asking u_0 [3BIg]'s watchers to watch [IjVS]
+	Added [jm4C] as watcher for u_5 [s2qd]
+	Added [x5MO] as watcher for u_5 [s2qd]
+	Asking u_5 [s2qd]'s watchers to watch [IjVS]
+	✅ u_9 [pktC] Inception Done
+	✅ u_7 [0L2k] Inception Done
+Incepted: u_1 [Db2n]
+	Added [x5MO] as watcher for u_1 [Db2n]
+	✅ u_6 [NJ3T] Inception Done
+	✅ u_0 [3BIg] Inception Done
+	✅ u_2 [DHZh] Inception Done
+	Added [jm4C] as watcher for u_1 [Db2n]
+Incepted: u_3 [LqWF]
+	✅ u_5 [s2qd] Inception Done
+	Added [2D85] as watcher for u_1 [Db2n]
+	Asking u_1 [Db2n]'s watchers to watch [IjVS]
+Incepted: u_4 [_Yq1]
+	Added [2D85] as watcher for u_3 [LqWF]
+	✅ u_1 [Db2n] Inception Done
+	Added [bivQ] as watcher for u_4 [_Yq1]
+	Added [x5MO] as watcher for u_3 [LqWF]
+	Added [x5MO] as watcher for u_4 [_Yq1]
+	Added [bivQ] as watcher for u_3 [LqWF]
+	Asking u_3 [LqWF]'s watchers to watch [IjVS]
+	✅ u_3 [LqWF] Inception Done
+	Added [2D85] as watcher for u_4 [_Yq1]
+	Asking u_4 [_Yq1]'s watchers to watch [IjVS]
+	✅ u_4 [_Yq1] Inception Done
+Test 2 (signature verification)
+	✅ u_4 [_Yq1] Message verified
+	✅ u_0 [3BIg] Message verified
+	✅ u_7 [0L2k] Message verified
+	✅ u_6 [NJ3T] Message verified
+	✅ u_5 [s2qd] Message verified
+	✅ u_8 [-g-i] Message verified
+	✅ u_1 [Db2n] Message verified
+	✅ u_2 [DHZh] Message verified
+	✅ u_3 [LqWF] Message verified
+	✅ u_9 [pktC] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_5 [s2qd] Message Verified (2)
+	✅ u_8 [-g-i] Message Verified (2)
+	✅ u_0 [3BIg] Message Verified (2)
+	✅ u_3 [LqWF] Message Verified (2)
+	✅ u_9 [pktC] Message Verified (2)
+	✅ u_6 [NJ3T] Message Verified (2)
+	✅ u_2 [DHZh] Message Verified (2)
+	✅ u_1 [Db2n] Message Verified (2)
+	✅ u_4 [_Yq1] Message Verified (2)
+	✅ u_7 [0L2k] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_7 [0L2k] Starts Rotation
+u_6 [NJ3T] Starts Rotation
+u_2 [DHZh] Starts Rotation
+u_8 [-g-i] Starts Rotation
+u_3 [LqWF] Starts Rotation
+u_5 [s2qd] Starts Rotation
+u_1 [Db2n] Starts Rotation
+u_9 [pktC] Starts Rotation
+u_4 [_Yq1] Starts Rotation
+u_0 [3BIg] Starts Rotation
+u_3 [LqWF] Ends Rotation
+u_3 [LqWF] - Completed Key Rotation
+u_4 [_Yq1] Ends Rotation
+u_4 [_Yq1] - Completed Key Rotation
+u_6 [NJ3T] Ends Rotation
+u_6 [NJ3T] - Completed Key Rotation
+u_9 [pktC] Ends Rotation
+u_9 [pktC] - Completed Key Rotation
+u_8 [-g-i] Ends Rotation
+u_8 [-g-i] - Completed Key Rotation
+u_0 [3BIg] Ends Rotation
+u_0 [3BIg] - Completed Key Rotation
+u_5 [s2qd] Ends Rotation
+u_5 [s2qd] - Completed Key Rotation
+u_7 [0L2k] Ends Rotation
+u_7 [0L2k] - Completed Key Rotation
+u_1 [Db2n] Ends Rotation
+u_1 [Db2n] - Completed Key Rotation
+u_2 [DHZh] Ends Rotation
+u_2 [DHZh] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 75908ms (7590 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 824ms (82 p.u.)
+Test 4: 71241ms (7124 p.u.)

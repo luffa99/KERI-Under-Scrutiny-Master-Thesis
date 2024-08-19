@@ -1,0 +1,128 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_4 [Q9hZ]
+	Added [2D85] as watcher for u_4 [Q9hZ]
+Incepted: u_9 [ZjgO]
+Incepted: u_3 [HpYD]
+	Added [x5MO] as watcher for u_4 [Q9hZ]
+Incepted: u_8 [eOwM]
+	Added [x5MO] as watcher for u_9 [ZjgO]
+	Added [x5MO] as watcher for u_3 [HpYD]
+Incepted: u_2 [3kt1]
+	Added [x5MO] as watcher for u_8 [eOwM]
+	Added [bivQ] as watcher for u_4 [Q9hZ]
+	Asking u_4 [Q9hZ]'s watchers to watch [IjVS]
+Incepted: u_6 [92Sd]
+	Added [jm4C] as watcher for u_9 [ZjgO]
+	Added [bivQ] as watcher for u_3 [HpYD]
+Incepted: u_0 [ZXX0]
+	Added [bivQ] as watcher for u_8 [eOwM]
+	Added [x5MO] as watcher for u_2 [3kt1]
+Incepted: u_1 [vE6X]
+	Added [x5MO] as watcher for u_6 [92Sd]
+	Added [2D85] as watcher for u_9 [ZjgO]
+	Asking u_9 [ZjgO]'s watchers to watch [IjVS]
+	✅ u_4 [Q9hZ] Inception Done
+	Added [jm4C] as watcher for u_3 [HpYD]
+	Asking u_3 [HpYD]'s watchers to watch [IjVS]
+Incepted: u_5 [eRmH]
+Incepted: u_7 [Gsat]
+	Added [jm4C] as watcher for u_0 [ZXX0]
+	Added [jm4C] as watcher for u_8 [eOwM]
+	Asking u_8 [eOwM]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_2 [3kt1]
+	✅ u_9 [ZjgO] Inception Done
+	Added [jm4C] as watcher for u_1 [vE6X]
+	✅ u_3 [HpYD] Inception Done
+	Added [jm4C] as watcher for u_6 [92Sd]
+	Added [jm4C] as watcher for u_5 [eRmH]
+	Added [x5MO] as watcher for u_0 [ZXX0]
+	Added [jm4C] as watcher for u_7 [Gsat]
+	✅ u_8 [eOwM] Inception Done
+	Added [bivQ] as watcher for u_2 [3kt1]
+	Asking u_2 [3kt1]'s watchers to watch [IjVS]
+	Added [bivQ] as watcher for u_6 [92Sd]
+	Asking u_6 [92Sd]'s watchers to watch [IjVS]
+	Added [2D85] as watcher for u_1 [vE6X]
+	Added [bivQ] as watcher for u_5 [eRmH]
+	Added [bivQ] as watcher for u_7 [Gsat]
+	Added [2D85] as watcher for u_0 [ZXX0]
+	Asking u_0 [ZXX0]'s watchers to watch [IjVS]
+	✅ u_6 [92Sd] Inception Done
+	✅ u_2 [3kt1] Inception Done
+	Added [bivQ] as watcher for u_1 [vE6X]
+	Asking u_1 [vE6X]'s watchers to watch [IjVS]
+	✅ u_0 [ZXX0] Inception Done
+	Added [x5MO] as watcher for u_7 [Gsat]
+	Asking u_7 [Gsat]'s watchers to watch [IjVS]
+	✅ u_7 [Gsat] Inception Done
+	✅ u_1 [vE6X] Inception Done
+	Added [2D85] as watcher for u_5 [eRmH]
+	Asking u_5 [eRmH]'s watchers to watch [IjVS]
+	✅ u_5 [eRmH] Inception Done
+Test 2 (signature verification)
+	✅ u_9 [ZjgO] Message verified
+	✅ u_5 [eRmH] Message verified
+	✅ u_6 [92Sd] Message verified
+	✅ u_3 [HpYD] Message verified
+	✅ u_1 [vE6X] Message verified
+	✅ u_0 [ZXX0] Message verified
+	✅ u_7 [Gsat] Message verified
+	✅ u_4 [Q9hZ] Message verified
+	✅ u_2 [3kt1] Message verified
+	✅ u_8 [eOwM] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+Error while deserializing http message: Error("Invalid Buffer", line: 0, column: 0)
+	✅ u_3 [HpYD] Message Verified (2)
+	✅ u_2 [3kt1] Message Verified (2)
+	✅ u_9 [ZjgO] Message Verified (2)
+	✅ u_1 [vE6X] Message Verified (2)
+	✅ u_0 [ZXX0] Message Verified (2)
+	✅ u_6 [92Sd] Message Verified (2)
+	✅ u_8 [eOwM] Message Verified (2)
+	✅ u_4 [Q9hZ] Message Verified (2)
+	✅ u_5 [eRmH] Message Verified (2)
+	✅ u_7 [Gsat] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_7 [Gsat] Starts Rotation
+u_6 [92Sd] Starts Rotation
+u_8 [eOwM] Starts Rotation
+u_1 [vE6X] Starts Rotation
+u_3 [HpYD] Starts Rotation
+u_5 [eRmH] Starts Rotation
+u_4 [Q9hZ] Starts Rotation
+u_0 [ZXX0] Starts Rotation
+u_9 [ZjgO] Starts Rotation
+u_2 [3kt1] Starts Rotation
+u_8 [eOwM] Ends Rotation
+u_8 [eOwM] - Completed Key Rotation
+u_4 [Q9hZ] Ends Rotation
+u_4 [Q9hZ] - Completed Key Rotation
+u_9 [ZjgO] Ends Rotation
+u_9 [ZjgO] - Completed Key Rotation
+u_2 [3kt1] Ends Rotation
+u_2 [3kt1] - Completed Key Rotation
+u_0 [ZXX0] Ends Rotation
+u_0 [ZXX0] - Completed Key Rotation
+u_6 [92Sd] Ends Rotation
+u_6 [92Sd] - Completed Key Rotation
+u_3 [HpYD] Ends Rotation
+u_3 [HpYD] - Completed Key Rotation
+u_1 [vE6X] Ends Rotation
+u_1 [vE6X] - Completed Key Rotation
+u_7 [Gsat] Ends Rotation
+u_7 [Gsat] - Completed Key Rotation
+u_5 [eRmH] Ends Rotation
+u_5 [eRmH] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 68431ms (6843 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 662ms (66 p.u.)
+Test 4: 66140ms (6614 p.u.)
