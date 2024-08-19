@@ -1,4 +1,4 @@
-# KERI-Under-Scrutiy-Master-Thesis
+# KERI-Under-Scrutiny-Master-Thesis
 
 This thesis presents an overview and an analysis of KERI (Key Event Receipt Infrastructure) and its ecosystem with a focus on security and scalability. With the goal of designing a digital identity system for Switzerland, a KERI Network model is proposed and analyzed. The model is run on a large network of up to 10’000 users, the first time KERI has been tested at this scale. By using the keriox rust library we also contributed to its development.
 
