@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_7 [AAmn]
+Incepted: u_3 [sKDz]
+Incepted: u_9 [5ZZz]
+Incepted: u_1 [KmPo]
+Incepted: u_4 [w_cc]
+Incepted: u_0 [Qli6]
+Incepted: u_2 [NDMw]
+Incepted: u_8 [690p]
+Incepted: u_5 [QLaB]
+	Added [jm4C] as watcher for u_7 [AAmn]
+Incepted: u_6 [z5S4]
+	Added [2D85] as watcher for u_1 [KmPo]
+	Added [x5MO] as watcher for u_4 [w_cc]
+	Added [bivQ] as watcher for u_3 [sKDz]
+	Added [bivQ] as watcher for u_9 [5ZZz]
+	Added [jm4C] as watcher for u_0 [Qli6]
+	Added [jm4C] as watcher for u_5 [QLaB]
+	Added [x5MO] as watcher for u_7 [AAmn]
+	Added [x5MO] as watcher for u_6 [z5S4]
+	Added [bivQ] as watcher for u_2 [NDMw]
+	Added [bivQ] as watcher for u_8 [690p]
+	Added [bivQ] as watcher for u_1 [KmPo]
+	Added [x5MO] as watcher for u_3 [sKDz]
+	Added [x5MO] as watcher for u_9 [5ZZz]
+	Added [bivQ] as watcher for u_4 [w_cc]
+	Added [2D85] as watcher for u_6 [z5S4]
+	Added [bivQ] as watcher for u_0 [Qli6]
+	Added [x5MO] as watcher for u_2 [NDMw]
+	Added [bivQ] as watcher for u_5 [QLaB]
+	Added [bivQ] as watcher for u_7 [AAmn]
+	Asking u_7 [AAmn]'s watchers to watch [SX5N]
+	Added [x5MO] as watcher for u_1 [KmPo]
+	Asking u_1 [KmPo]'s watchers to watch [SX5N]
+	Added [2D85] as watcher for u_8 [690p]
+	Added [2D85] as watcher for u_3 [sKDz]
+	Asking u_3 [sKDz]'s watchers to watch [SX5N]
+	Added [jm4C] as watcher for u_9 [5ZZz]
+	Asking u_9 [5ZZz]'s watchers to watch [SX5N]
+	Added [x5MO] as watcher for u_5 [QLaB]
+	Asking u_5 [QLaB]'s watchers to watch [SX5N]
+	Added [jm4C] as watcher for u_4 [w_cc]
+	Asking u_4 [w_cc]'s watchers to watch [SX5N]
+	Added [x5MO] as watcher for u_0 [Qli6]
+	Asking u_0 [Qli6]'s watchers to watch [SX5N]
+	Added [2D85] as watcher for u_2 [NDMw]
+	Asking u_2 [NDMw]'s watchers to watch [SX5N]
+	Added [bivQ] as watcher for u_6 [z5S4]
+	Asking u_6 [z5S4]'s watchers to watch [SX5N]
+	Added [x5MO] as watcher for u_8 [690p]
+	Asking u_8 [690p]'s watchers to watch [SX5N]
+	✅ u_1 [KmPo] Inception Done
+	✅ u_7 [AAmn] Inception Done
+	✅ u_3 [sKDz] Inception Done
+	✅ u_9 [5ZZz] Inception Done
+	✅ u_2 [NDMw] Inception Done
+	✅ u_5 [QLaB] Inception Done
+	✅ u_4 [w_cc] Inception Done
+	✅ u_8 [690p] Inception Done
+	✅ u_6 [z5S4] Inception Done
+	✅ u_0 [Qli6] Inception Done
+Test 2 (signature verification)
+	✅ u_0 [Qli6] Message verified
+	✅ u_6 [z5S4] Message verified
+	✅ u_5 [QLaB] Message verified
+	✅ u_7 [AAmn] Message verified
+	✅ u_3 [sKDz] Message verified
+	✅ u_4 [w_cc] Message verified
+	✅ u_9 [5ZZz] Message verified
+	✅ u_8 [690p] Message verified
+	✅ u_2 [NDMw] Message verified
+	✅ u_1 [KmPo] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_1 [KmPo] Message Verified (2)
+	✅ u_4 [w_cc] Message Verified (2)
+	✅ u_6 [z5S4] Message Verified (2)
+	✅ u_5 [QLaB] Message Verified (2)
+	✅ u_7 [AAmn] Message Verified (2)
+	✅ u_0 [Qli6] Message Verified (2)
+	✅ u_3 [sKDz] Message Verified (2)
+	✅ u_2 [NDMw] Message Verified (2)
+	✅ u_9 [5ZZz] Message Verified (2)
+	✅ u_8 [690p] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_8 [690p] Starts Rotation
+u_9 [5ZZz] Starts Rotation
+u_4 [w_cc] Starts Rotation
+u_0 [Qli6] Starts Rotation
+u_5 [QLaB] Starts Rotation
+u_1 [KmPo] Starts Rotation
+u_2 [NDMw] Starts Rotation
+u_6 [z5S4] Starts Rotation
+u_3 [sKDz] Starts Rotation
+u_7 [AAmn] Starts Rotation
+u_4 [w_cc] Ends Rotation
+u_4 [w_cc] - Completed Key Rotation
+u_9 [5ZZz] Ends Rotation
+u_9 [5ZZz] - Completed Key Rotation
+u_1 [KmPo] Ends Rotation
+u_1 [KmPo] - Completed Key Rotation
+u_7 [AAmn] Ends Rotation
+u_7 [AAmn] - Completed Key Rotation
+u_5 [QLaB] Ends Rotation
+u_5 [QLaB] - Completed Key Rotation
+u_3 [sKDz] Ends Rotation
+u_3 [sKDz] - Completed Key Rotation
+u_0 [Qli6] Ends Rotation
+u_0 [Qli6] - Completed Key Rotation
+u_2 [NDMw] Ends Rotation
+u_2 [NDMw] - Completed Key Rotation
+u_8 [690p] Ends Rotation
+u_8 [690p] - Completed Key Rotation
+u_6 [z5S4] Ends Rotation
+u_6 [z5S4] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 5883ms (588 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 885ms (88 p.u.)
+Test 4: 2200ms (220 p.u.)

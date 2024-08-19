@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_8 [sDpl]
+Incepted: u_7 [d-l3]
+Incepted: u_2 [HeUk]
+Incepted: u_4 [tNXT]
+Incepted: u_9 [edvm]
+Incepted: u_0 [Z4n2]
+Incepted: u_5 [W7-z]
+Incepted: u_6 [foLE]
+Incepted: u_1 [Tcp7]
+Incepted: u_3 [jwJ2]
+	Added [x5MO] as watcher for u_8 [sDpl]
+	Added [bivQ] as watcher for u_4 [tNXT]
+	Added [2D85] as watcher for u_9 [edvm]
+	Added [x5MO] as watcher for u_7 [d-l3]
+	Added [x5MO] as watcher for u_0 [Z4n2]
+	Added [bivQ] as watcher for u_8 [sDpl]
+	Added [2D85] as watcher for u_1 [Tcp7]
+	Added [jm4C] as watcher for u_3 [jwJ2]
+	Added [x5MO] as watcher for u_2 [HeUk]
+	Added [x5MO] as watcher for u_5 [W7-z]
+	Added [bivQ] as watcher for u_9 [edvm]
+	Added [x5MO] as watcher for u_6 [foLE]
+	Added [bivQ] as watcher for u_7 [d-l3]
+	Added [bivQ] as watcher for u_0 [Z4n2]
+	Added [x5MO] as watcher for u_4 [tNXT]
+	Added [bivQ] as watcher for u_1 [Tcp7]
+	Added [2D85] as watcher for u_8 [sDpl]
+	Asking u_8 [sDpl]'s watchers to watch [5Atm]
+	Added [bivQ] as watcher for u_6 [foLE]
+	Added [2D85] as watcher for u_3 [jwJ2]
+	Added [jm4C] as watcher for u_2 [HeUk]
+	Added [2D85] as watcher for u_5 [W7-z]
+	Added [jm4C] as watcher for u_0 [Z4n2]
+	Asking u_0 [Z4n2]'s watchers to watch [5Atm]
+	Added [2D85] as watcher for u_7 [d-l3]
+	Asking u_7 [d-l3]'s watchers to watch [5Atm]
+	Added [x5MO] as watcher for u_9 [edvm]
+	Asking u_9 [edvm]'s watchers to watch [5Atm]
+	Added [bivQ] as watcher for u_3 [jwJ2]
+	Asking u_3 [jwJ2]'s watchers to watch [5Atm]
+	Added [2D85] as watcher for u_4 [tNXT]
+	Asking u_4 [tNXT]'s watchers to watch [5Atm]
+	Added [jm4C] as watcher for u_6 [foLE]
+	Asking u_6 [foLE]'s watchers to watch [5Atm]
+	Added [2D85] as watcher for u_2 [HeUk]
+	Asking u_2 [HeUk]'s watchers to watch [5Atm]
+	Added [bivQ] as watcher for u_5 [W7-z]
+	Asking u_5 [W7-z]'s watchers to watch [5Atm]
+	Added [x5MO] as watcher for u_1 [Tcp7]
+	Asking u_1 [Tcp7]'s watchers to watch [5Atm]
+	✅ u_8 [sDpl] Inception Done
+	✅ u_0 [Z4n2] Inception Done
+	✅ u_7 [d-l3] Inception Done
+	✅ u_4 [tNXT] Inception Done
+	✅ u_3 [jwJ2] Inception Done
+	✅ u_9 [edvm] Inception Done
+	✅ u_2 [HeUk] Inception Done
+	✅ u_6 [foLE] Inception Done
+	✅ u_5 [W7-z] Inception Done
+	✅ u_1 [Tcp7] Inception Done
+Test 2 (signature verification)
+	✅ u_1 [Tcp7] Message verified
+	✅ u_2 [HeUk] Message verified
+	✅ u_9 [edvm] Message verified
+	✅ u_3 [jwJ2] Message verified
+	✅ u_0 [Z4n2] Message verified
+	✅ u_6 [foLE] Message verified
+	✅ u_7 [d-l3] Message verified
+	✅ u_5 [W7-z] Message verified
+	✅ u_4 [tNXT] Message verified
+	✅ u_8 [sDpl] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_3 [jwJ2] Message Verified (2)
+	✅ u_8 [sDpl] Message Verified (2)
+	✅ u_4 [tNXT] Message Verified (2)
+	✅ u_6 [foLE] Message Verified (2)
+	✅ u_7 [d-l3] Message Verified (2)
+	✅ u_0 [Z4n2] Message Verified (2)
+	✅ u_2 [HeUk] Message Verified (2)
+	✅ u_5 [W7-z] Message Verified (2)
+	✅ u_1 [Tcp7] Message Verified (2)
+	✅ u_9 [edvm] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_8 [sDpl] Starts Rotation
+u_9 [edvm] Starts Rotation
+u_0 [Z4n2] Starts Rotation
+u_2 [HeUk] Starts Rotation
+u_7 [d-l3] Starts Rotation
+u_3 [jwJ2] Starts Rotation
+u_6 [foLE] Starts Rotation
+u_1 [Tcp7] Starts Rotation
+u_4 [tNXT] Starts Rotation
+u_5 [W7-z] Starts Rotation
+u_3 [jwJ2] Ends Rotation
+u_3 [jwJ2] - Completed Key Rotation
+u_8 [sDpl] Ends Rotation
+u_8 [sDpl] - Completed Key Rotation
+u_9 [edvm] Ends Rotation
+u_9 [edvm] - Completed Key Rotation
+u_7 [d-l3] Ends Rotation
+u_7 [d-l3] - Completed Key Rotation
+u_5 [W7-z] Ends Rotation
+u_5 [W7-z] - Completed Key Rotation
+u_6 [foLE] Ends Rotation
+u_6 [foLE] - Completed Key Rotation
+u_4 [tNXT] Ends Rotation
+u_4 [tNXT] - Completed Key Rotation
+u_0 [Z4n2] Ends Rotation
+u_0 [Z4n2] - Completed Key Rotation
+u_2 [HeUk] Ends Rotation
+u_2 [HeUk] - Completed Key Rotation
+u_1 [Tcp7] Ends Rotation
+u_1 [Tcp7] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 12855ms (1285 p.u.)
+Test 2: 2ms (0 p.u.)
+Test 3: 1011ms (101 p.u.)
+Test 4: 6427ms (642 p.u.)

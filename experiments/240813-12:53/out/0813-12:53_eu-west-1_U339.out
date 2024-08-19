@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_8 [JbkY]
+Incepted: u_2 [gT4J]
+Incepted: u_0 [L4jn]
+	Added [2D85] as watcher for u_2 [gT4J]
+	Added [bivQ] as watcher for u_8 [JbkY]
+	Added [jm4C] as watcher for u_2 [gT4J]
+	Added [x5MO] as watcher for u_0 [L4jn]
+	Added [jm4C] as watcher for u_8 [JbkY]
+Incepted: u_6 [s5Al]
+	Added [x5MO] as watcher for u_8 [JbkY]
+	Asking u_8 [JbkY]'s watchers to watch [TN-Y]
+Incepted: u_7 [DACQ]
+	Added [bivQ] as watcher for u_0 [L4jn]
+	Added [bivQ] as watcher for u_2 [gT4J]
+	Asking u_2 [gT4J]'s watchers to watch [TN-Y]
+Incepted: u_1 [16KL]
+	Added [2D85] as watcher for u_6 [s5Al]
+	Added [jm4C] as watcher for u_0 [L4jn]
+	Asking u_0 [L4jn]'s watchers to watch [TN-Y]
+	Added [2D85] as watcher for u_7 [DACQ]
+	Added [x5MO] as watcher for u_6 [s5Al]
+	Added [x5MO] as watcher for u_1 [16KL]
+Incepted: u_4 [8PfY]
+Incepted: u_9 [RBWX]
+	Added [x5MO] as watcher for u_7 [DACQ]
+Incepted: u_5 [FLB4]
+	Added [jm4C] as watcher for u_7 [DACQ]
+	Asking u_7 [DACQ]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_6 [s5Al]
+	Asking u_6 [s5Al]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_4 [8PfY]
+	Added [bivQ] as watcher for u_1 [16KL]
+	Added [bivQ] as watcher for u_9 [RBWX]
+	Added [bivQ] as watcher for u_5 [FLB4]
+	Added [jm4C] as watcher for u_1 [16KL]
+	Asking u_1 [16KL]'s watchers to watch [TN-Y]
+	Added [x5MO] as watcher for u_4 [8PfY]
+	Added [2D85] as watcher for u_9 [RBWX]
+	Added [jm4C] as watcher for u_4 [8PfY]
+	Asking u_4 [8PfY]'s watchers to watch [TN-Y]
+Incepted: u_3 [wvJb]
+	Added [2D85] as watcher for u_5 [FLB4]
+	Added [jm4C] as watcher for u_9 [RBWX]
+	Asking u_9 [RBWX]'s watchers to watch [TN-Y]
+	Added [jm4C] as watcher for u_5 [FLB4]
+	Asking u_5 [FLB4]'s watchers to watch [TN-Y]
+	Added [jm4C] as watcher for u_3 [wvJb]
+	Added [x5MO] as watcher for u_3 [wvJb]
+	Added [bivQ] as watcher for u_3 [wvJb]
+	Asking u_3 [wvJb]'s watchers to watch [TN-Y]
+	✅ u_9 [RBWX] Inception Done
+	✅ u_0 [L4jn] Inception Done
+	✅ u_5 [FLB4] Inception Done
+	✅ u_4 [8PfY] Inception Done
+	✅ u_1 [16KL] Inception Done
+	✅ u_2 [gT4J] Inception Done
+	✅ u_8 [JbkY] Inception Done
+	✅ u_6 [s5Al] Inception Done
+	✅ u_3 [wvJb] Inception Done
+	✅ u_7 [DACQ] Inception Done
+Test 2 (signature verification)
+	✅ u_7 [DACQ] Message verified
+	✅ u_2 [gT4J] Message verified
+	✅ u_3 [wvJb] Message verified
+	✅ u_0 [L4jn] Message verified
+	✅ u_8 [JbkY] Message verified
+	✅ u_5 [FLB4] Message verified
+	✅ u_6 [s5Al] Message verified
+	✅ u_1 [16KL] Message verified
+	✅ u_9 [RBWX] Message verified
+	✅ u_4 [8PfY] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_8 [JbkY] Message Verified (2)
+	✅ u_3 [wvJb] Message Verified (2)
+	✅ u_5 [FLB4] Message Verified (2)
+	✅ u_0 [L4jn] Message Verified (2)
+	✅ u_2 [gT4J] Message Verified (2)
+	✅ u_4 [8PfY] Message Verified (2)
+	✅ u_9 [RBWX] Message Verified (2)
+	✅ u_1 [16KL] Message Verified (2)
+	✅ u_7 [DACQ] Message Verified (2)
+	✅ u_6 [s5Al] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_7 [DACQ] Starts Rotation
+u_9 [RBWX] Starts Rotation
+u_6 [s5Al] Starts Rotation
+u_4 [8PfY] Starts Rotation
+u_1 [16KL] Starts Rotation
+u_2 [gT4J] Starts Rotation
+u_3 [wvJb] Starts Rotation
+u_5 [FLB4] Starts Rotation
+u_8 [JbkY] Starts Rotation
+u_0 [L4jn] Starts Rotation
+u_8 [JbkY] Ends Rotation
+u_8 [JbkY] - Completed Key Rotation
+u_9 [RBWX] Ends Rotation
+u_9 [RBWX] - Completed Key Rotation
+u_6 [s5Al] Ends Rotation
+u_6 [s5Al] - Completed Key Rotation
+u_3 [wvJb] Ends Rotation
+u_3 [wvJb] - Completed Key Rotation
+u_4 [8PfY] Ends Rotation
+u_4 [8PfY] - Completed Key Rotation
+u_2 [gT4J] Ends Rotation
+u_2 [gT4J] - Completed Key Rotation
+u_1 [16KL] Ends Rotation
+u_1 [16KL] - Completed Key Rotation
+u_5 [FLB4] Ends Rotation
+u_5 [FLB4] - Completed Key Rotation
+u_0 [L4jn] Ends Rotation
+u_0 [L4jn] - Completed Key Rotation
+u_7 [DACQ] Ends Rotation
+u_7 [DACQ] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 8753ms (875 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 819ms (81 p.u.)
+Test 4: 12585ms (1258 p.u.)

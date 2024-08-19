@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_2 [Oaa-]
+Incepted: u_1 [ZIMO]
+Incepted: u_3 [ESAP]
+Incepted: u_6 [YpQG]
+Incepted: u_8 [SkNk]
+Incepted: u_9 [UiRb]
+Incepted: u_4 [fn42]
+Incepted: u_7 [wGXt]
+	Added [jm4C] as watcher for u_2 [Oaa-]
+Incepted: u_5 [DpoZ]
+	Added [x5MO] as watcher for u_3 [ESAP]
+	Added [2D85] as watcher for u_6 [YpQG]
+Incepted: u_0 [VQMM]
+	Added [2D85] as watcher for u_9 [UiRb]
+	Added [bivQ] as watcher for u_1 [ZIMO]
+	Added [2D85] as watcher for u_2 [Oaa-]
+	Added [2D85] as watcher for u_5 [DpoZ]
+	Added [x5MO] as watcher for u_8 [SkNk]
+	Added [x5MO] as watcher for u_7 [wGXt]
+	Added [jm4C] as watcher for u_4 [fn42]
+	Added [jm4C] as watcher for u_3 [ESAP]
+	Added [x5MO] as watcher for u_0 [VQMM]
+	Added [x5MO] as watcher for u_1 [ZIMO]
+	Added [bivQ] as watcher for u_6 [YpQG]
+	Added [jm4C] as watcher for u_5 [DpoZ]
+	Added [bivQ] as watcher for u_9 [UiRb]
+	Added [2D85] as watcher for u_8 [SkNk]
+	Added [2D85] as watcher for u_3 [ESAP]
+	Asking u_3 [ESAP]'s watchers to watch [xuuR]
+	Added [2D85] as watcher for u_4 [fn42]
+	Added [jm4C] as watcher for u_7 [wGXt]
+	Added [bivQ] as watcher for u_2 [Oaa-]
+	Asking u_2 [Oaa-]'s watchers to watch [xuuR]
+	Added [2D85] as watcher for u_0 [VQMM]
+	Added [x5MO] as watcher for u_6 [YpQG]
+	Asking u_6 [YpQG]'s watchers to watch [xuuR]
+	Added [jm4C] as watcher for u_1 [ZIMO]
+	Asking u_1 [ZIMO]'s watchers to watch [xuuR]
+	Added [x5MO] as watcher for u_9 [UiRb]
+	Asking u_9 [UiRb]'s watchers to watch [xuuR]
+	Added [bivQ] as watcher for u_8 [SkNk]
+	Asking u_8 [SkNk]'s watchers to watch [xuuR]
+	Added [bivQ] as watcher for u_5 [DpoZ]
+	Asking u_5 [DpoZ]'s watchers to watch [xuuR]
+	Added [bivQ] as watcher for u_4 [fn42]
+	Asking u_4 [fn42]'s watchers to watch [xuuR]
+	Added [bivQ] as watcher for u_7 [wGXt]
+	Asking u_7 [wGXt]'s watchers to watch [xuuR]
+	Added [bivQ] as watcher for u_0 [VQMM]
+	Asking u_0 [VQMM]'s watchers to watch [xuuR]
+	✅ u_2 [Oaa-] Inception Done
+	✅ u_3 [ESAP] Inception Done
+	✅ u_6 [YpQG] Inception Done
+	✅ u_1 [ZIMO] Inception Done
+	✅ u_9 [UiRb] Inception Done
+	✅ u_5 [DpoZ] Inception Done
+	✅ u_8 [SkNk] Inception Done
+	✅ u_7 [wGXt] Inception Done
+	✅ u_4 [fn42] Inception Done
+	✅ u_0 [VQMM] Inception Done
+Test 2 (signature verification)
+	✅ u_0 [VQMM] Message verified
+	✅ u_6 [YpQG] Message verified
+	✅ u_8 [SkNk] Message verified
+	✅ u_3 [ESAP] Message verified
+	✅ u_1 [ZIMO] Message verified
+	✅ u_9 [UiRb] Message verified
+	✅ u_7 [wGXt] Message verified
+	✅ u_2 [Oaa-] Message verified
+	✅ u_4 [fn42] Message verified
+	✅ u_5 [DpoZ] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_5 [DpoZ] Message Verified (2)
+	✅ u_4 [fn42] Message Verified (2)
+	✅ u_0 [VQMM] Message Verified (2)
+	✅ u_9 [UiRb] Message Verified (2)
+	✅ u_2 [Oaa-] Message Verified (2)
+	✅ u_8 [SkNk] Message Verified (2)
+	✅ u_7 [wGXt] Message Verified (2)
+	✅ u_3 [ESAP] Message Verified (2)
+	✅ u_6 [YpQG] Message Verified (2)
+	✅ u_1 [ZIMO] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_5 [DpoZ] Starts Rotation
+u_4 [fn42] Starts Rotation
+u_2 [Oaa-] Starts Rotation
+u_8 [SkNk] Starts Rotation
+u_7 [wGXt] Starts Rotation
+u_6 [YpQG] Starts Rotation
+u_9 [UiRb] Starts Rotation
+u_3 [ESAP] Starts Rotation
+u_0 [VQMM] Starts Rotation
+u_1 [ZIMO] Starts Rotation
+u_2 [Oaa-] Ends Rotation
+u_2 [Oaa-] - Completed Key Rotation
+u_4 [fn42] Ends Rotation
+u_4 [fn42] - Completed Key Rotation
+u_6 [YpQG] Ends Rotation
+u_6 [YpQG] - Completed Key Rotation
+u_0 [VQMM] Ends Rotation
+u_0 [VQMM] - Completed Key Rotation
+u_7 [wGXt] Ends Rotation
+u_7 [wGXt] - Completed Key Rotation
+u_5 [DpoZ] Ends Rotation
+u_5 [DpoZ] - Completed Key Rotation
+u_8 [SkNk] Ends Rotation
+u_8 [SkNk] - Completed Key Rotation
+u_1 [ZIMO] Ends Rotation
+u_1 [ZIMO] - Completed Key Rotation
+u_3 [ESAP] Ends Rotation
+u_3 [ESAP] - Completed Key Rotation
+u_9 [UiRb] Ends Rotation
+u_9 [UiRb] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 4727ms (472 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 572ms (57 p.u.)
+Test 4: 3741ms (374 p.u.)

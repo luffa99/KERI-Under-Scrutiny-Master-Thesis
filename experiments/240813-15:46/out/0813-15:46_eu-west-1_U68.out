@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_4 [S3N2]
+Incepted: u_7 [ZnFF]
+Incepted: u_6 [QD11]
+Incepted: u_5 [JT2f]
+Incepted: u_0 [UsSZ]
+Incepted: u_8 [56Tl]
+Incepted: u_9 [UV8C]
+Incepted: u_1 [q855]
+	Added [x5MO] as watcher for u_4 [S3N2]
+Incepted: u_3 [ItfU]
+	Added [jm4C] as watcher for u_7 [ZnFF]
+Incepted: u_2 [glPo]
+	Added [2D85] as watcher for u_6 [QD11]
+	Added [2D85] as watcher for u_0 [UsSZ]
+	Added [jm4C] as watcher for u_8 [56Tl]
+	Added [bivQ] as watcher for u_5 [JT2f]
+	Added [2D85] as watcher for u_1 [q855]
+	Added [2D85] as watcher for u_9 [UV8C]
+	Added [jm4C] as watcher for u_3 [ItfU]
+	Added [2D85] as watcher for u_4 [S3N2]
+	Added [x5MO] as watcher for u_7 [ZnFF]
+	Added [2D85] as watcher for u_2 [glPo]
+	Added [jm4C] as watcher for u_6 [QD11]
+	Added [x5MO] as watcher for u_9 [UV8C]
+	Added [2D85] as watcher for u_5 [JT2f]
+	Added [bivQ] as watcher for u_8 [56Tl]
+	Added [jm4C] as watcher for u_1 [q855]
+	Added [bivQ] as watcher for u_0 [UsSZ]
+	Added [2D85] as watcher for u_3 [ItfU]
+	Added [x5MO] as watcher for u_6 [QD11]
+	Asking u_6 [QD11]'s watchers to watch [-vpd]
+	Added [jm4C] as watcher for u_2 [glPo]
+	Added [bivQ] as watcher for u_4 [S3N2]
+	Asking u_4 [S3N2]'s watchers to watch [-vpd]
+	Added [x5MO] as watcher for u_0 [UsSZ]
+	Asking u_0 [UsSZ]'s watchers to watch [-vpd]
+	Added [bivQ] as watcher for u_7 [ZnFF]
+	Asking u_7 [ZnFF]'s watchers to watch [-vpd]
+	Added [2D85] as watcher for u_8 [56Tl]
+	Asking u_8 [56Tl]'s watchers to watch [-vpd]
+	Added [jm4C] as watcher for u_5 [JT2f]
+	Asking u_5 [JT2f]'s watchers to watch [-vpd]
+	Added [x5MO] as watcher for u_3 [ItfU]
+	Asking u_3 [ItfU]'s watchers to watch [-vpd]
+	Added [bivQ] as watcher for u_9 [UV8C]
+	Asking u_9 [UV8C]'s watchers to watch [-vpd]
+	Added [bivQ] as watcher for u_1 [q855]
+	Asking u_1 [q855]'s watchers to watch [-vpd]
+	Added [x5MO] as watcher for u_2 [glPo]
+	Asking u_2 [glPo]'s watchers to watch [-vpd]
+	✅ u_6 [QD11] Inception Done
+	✅ u_4 [S3N2] Inception Done
+	✅ u_3 [ItfU] Inception Done
+	✅ u_5 [JT2f] Inception Done
+	✅ u_7 [ZnFF] Inception Done
+	✅ u_0 [UsSZ] Inception Done
+	✅ u_8 [56Tl] Inception Done
+	✅ u_9 [UV8C] Inception Done
+	✅ u_1 [q855] Inception Done
+	✅ u_2 [glPo] Inception Done
+Test 2 (signature verification)
+	✅ u_0 [UsSZ] Message verified
+	✅ u_2 [glPo] Message verified
+	✅ u_4 [S3N2] Message verified
+	✅ u_6 [QD11] Message verified
+	✅ u_8 [56Tl] Message verified
+	✅ u_5 [JT2f] Message verified
+	✅ u_7 [ZnFF] Message verified
+	✅ u_9 [UV8C] Message verified
+	✅ u_1 [q855] Message verified
+	✅ u_3 [ItfU] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_2 [glPo] Message Verified (2)
+	✅ u_3 [ItfU] Message Verified (2)
+	✅ u_8 [56Tl] Message Verified (2)
+	✅ u_4 [S3N2] Message Verified (2)
+	✅ u_6 [QD11] Message Verified (2)
+	✅ u_7 [ZnFF] Message Verified (2)
+	✅ u_0 [UsSZ] Message Verified (2)
+	✅ u_5 [JT2f] Message Verified (2)
+	✅ u_1 [q855] Message Verified (2)
+	✅ u_9 [UV8C] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_4 [S3N2] Starts Rotation
+u_3 [ItfU] Starts Rotation
+u_1 [q855] Starts Rotation
+u_5 [JT2f] Starts Rotation
+u_2 [glPo] Starts Rotation
+u_8 [56Tl] Starts Rotation
+u_9 [UV8C] Starts Rotation
+u_0 [UsSZ] Starts Rotation
+u_7 [ZnFF] Starts Rotation
+u_6 [QD11] Starts Rotation
+u_4 [S3N2] Ends Rotation
+u_4 [S3N2] - Completed Key Rotation
+u_8 [56Tl] Ends Rotation
+u_8 [56Tl] - Completed Key Rotation
+u_5 [JT2f] Ends Rotation
+u_5 [JT2f] - Completed Key Rotation
+u_7 [ZnFF] Ends Rotation
+u_7 [ZnFF] - Completed Key Rotation
+u_0 [UsSZ] Ends Rotation
+u_0 [UsSZ] - Completed Key Rotation
+u_9 [UV8C] Ends Rotation
+u_9 [UV8C] - Completed Key Rotation
+u_1 [q855] Ends Rotation
+u_1 [q855] - Completed Key Rotation
+u_3 [ItfU] Ends Rotation
+u_3 [ItfU] - Completed Key Rotation
+u_6 [QD11] Ends Rotation
+u_6 [QD11] - Completed Key Rotation
+u_2 [glPo] Ends Rotation
+u_2 [glPo] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 12771ms (1277 p.u.)
+Test 2: 3ms (0 p.u.)
+Test 3: 1118ms (111 p.u.)
+Test 4: 6886ms (688 p.u.)

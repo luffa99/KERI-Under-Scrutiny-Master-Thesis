@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_6 [BJI5]
+Incepted: u_4 [qAhT]
+Incepted: u_8 [DnsI]
+Incepted: u_1 [WXUe]
+	Added [bivQ] as watcher for u_6 [BJI5]
+	Added [x5MO] as watcher for u_4 [qAhT]
+Incepted: u_2 [O2_Q]
+Incepted: u_3 [PgWS]
+Incepted: u_5 [GU3Y]
+Incepted: u_7 [K77N]
+Incepted: u_9 [ADVJ]
+Incepted: u_0 [gci4]
+	Added [2D85] as watcher for u_1 [WXUe]
+	Added [x5MO] as watcher for u_8 [DnsI]
+	Added [x5MO] as watcher for u_6 [BJI5]
+	Added [bivQ] as watcher for u_3 [PgWS]
+	Added [bivQ] as watcher for u_5 [GU3Y]
+	Added [2D85] as watcher for u_7 [K77N]
+	Added [x5MO] as watcher for u_2 [O2_Q]
+	Added [jm4C] as watcher for u_4 [qAhT]
+	Added [jm4C] as watcher for u_9 [ADVJ]
+	Added [x5MO] as watcher for u_3 [PgWS]
+	Added [jm4C] as watcher for u_1 [WXUe]
+	Added [jm4C] as watcher for u_0 [gci4]
+	Added [2D85] as watcher for u_6 [BJI5]
+	Asking u_6 [BJI5]'s watchers to watch [ZvwY]
+	Added [bivQ] as watcher for u_8 [DnsI]
+	Added [jm4C] as watcher for u_5 [GU3Y]
+	Added [bivQ] as watcher for u_7 [K77N]
+	Added [2D85] as watcher for u_4 [qAhT]
+	Asking u_4 [qAhT]'s watchers to watch [ZvwY]
+	Added [bivQ] as watcher for u_9 [ADVJ]
+	Added [jm4C] as watcher for u_2 [O2_Q]
+	Added [bivQ] as watcher for u_0 [gci4]
+	Added [jm4C] as watcher for u_3 [PgWS]
+	Asking u_3 [PgWS]'s watchers to watch [ZvwY]
+	Added [bivQ] as watcher for u_1 [WXUe]
+	Asking u_1 [WXUe]'s watchers to watch [ZvwY]
+	✅ u_6 [BJI5] Inception Done
+	✅ u_3 [PgWS] Inception Done
+	Added [x5MO] as watcher for u_7 [K77N]
+	Asking u_7 [K77N]'s watchers to watch [ZvwY]
+	Added [2D85] as watcher for u_8 [DnsI]
+	Asking u_8 [DnsI]'s watchers to watch [ZvwY]
+	Added [x5MO] as watcher for u_5 [GU3Y]
+	Asking u_5 [GU3Y]'s watchers to watch [ZvwY]
+	Added [x5MO] as watcher for u_9 [ADVJ]
+	Asking u_9 [ADVJ]'s watchers to watch [ZvwY]
+	✅ u_4 [qAhT] Inception Done
+	Added [2D85] as watcher for u_2 [O2_Q]
+	Asking u_2 [O2_Q]'s watchers to watch [ZvwY]
+	✅ u_1 [WXUe] Inception Done
+	Added [2D85] as watcher for u_0 [gci4]
+	Asking u_0 [gci4]'s watchers to watch [ZvwY]
+	✅ u_5 [GU3Y] Inception Done
+	✅ u_9 [ADVJ] Inception Done
+	✅ u_8 [DnsI] Inception Done
+	✅ u_0 [gci4] Inception Done
+	✅ u_7 [K77N] Inception Done
+	✅ u_2 [O2_Q] Inception Done
+Test 2 (signature verification)
+	✅ u_2 [O2_Q] Message verified
+	✅ u_9 [ADVJ] Message verified
+	✅ u_0 [gci4] Message verified
+	✅ u_3 [PgWS] Message verified
+	✅ u_8 [DnsI] Message verified
+	✅ u_5 [GU3Y] Message verified
+	✅ u_6 [BJI5] Message verified
+	✅ u_1 [WXUe] Message verified
+	✅ u_4 [qAhT] Message verified
+	✅ u_7 [K77N] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_5 [GU3Y] Message Verified (2)
+	✅ u_9 [ADVJ] Message Verified (2)
+	✅ u_8 [DnsI] Message Verified (2)
+	✅ u_2 [O2_Q] Message Verified (2)
+	✅ u_3 [PgWS] Message Verified (2)
+	✅ u_0 [gci4] Message Verified (2)
+	✅ u_4 [qAhT] Message Verified (2)
+	✅ u_6 [BJI5] Message Verified (2)
+	✅ u_7 [K77N] Message Verified (2)
+	✅ u_1 [WXUe] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_1 [WXUe] Starts Rotation
+u_4 [qAhT] Starts Rotation
+u_9 [ADVJ] Starts Rotation
+u_2 [O2_Q] Starts Rotation
+u_5 [GU3Y] Starts Rotation
+u_3 [PgWS] Starts Rotation
+u_7 [K77N] Starts Rotation
+u_0 [gci4] Starts Rotation
+u_6 [BJI5] Starts Rotation
+u_8 [DnsI] Starts Rotation
+u_2 [O2_Q] Ends Rotation
+u_2 [O2_Q] - Completed Key Rotation
+u_4 [qAhT] Ends Rotation
+u_4 [qAhT] - Completed Key Rotation
+u_6 [BJI5] Ends Rotation
+u_6 [BJI5] - Completed Key Rotation
+u_9 [ADVJ] Ends Rotation
+u_9 [ADVJ] - Completed Key Rotation
+u_1 [WXUe] Ends Rotation
+u_1 [WXUe] - Completed Key Rotation
+u_3 [PgWS] Ends Rotation
+u_3 [PgWS] - Completed Key Rotation
+u_7 [K77N] Ends Rotation
+u_7 [K77N] - Completed Key Rotation
+u_8 [DnsI] Ends Rotation
+u_8 [DnsI] - Completed Key Rotation
+u_5 [GU3Y] Ends Rotation
+u_5 [GU3Y] - Completed Key Rotation
+u_0 [gci4] Ends Rotation
+u_0 [gci4] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 12859ms (1285 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 744ms (74 p.u.)
+Test 4: 10605ms (1060 p.u.)

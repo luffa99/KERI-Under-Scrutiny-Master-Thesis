@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_2 [CWVC]
+Incepted: u_9 [kZb-]
+Incepted: u_1 [6ciR]
+	Added [jm4C] as watcher for u_9 [kZb-]
+Incepted: u_0 [Qfek]
+Incepted: u_4 [egsp]
+Incepted: u_5 [waIF]
+Incepted: u_7 [Pk3t]
+Incepted: u_8 [wQea]
+	Added [bivQ] as watcher for u_2 [CWVC]
+	Added [2D85] as watcher for u_9 [kZb-]
+Incepted: u_3 [a-gr]
+	Added [jm4C] as watcher for u_0 [Qfek]
+	Added [bivQ] as watcher for u_1 [6ciR]
+	Added [jm4C] as watcher for u_5 [waIF]
+	Added [x5MO] as watcher for u_4 [egsp]
+	Added [jm4C] as watcher for u_8 [wQea]
+	Added [jm4C] as watcher for u_2 [CWVC]
+	Added [jm4C] as watcher for u_3 [a-gr]
+	Added [x5MO] as watcher for u_9 [kZb-]
+	Asking u_9 [kZb-]'s watchers to watch [oRVL]
+	Added [bivQ] as watcher for u_7 [Pk3t]
+	Added [2D85] as watcher for u_0 [Qfek]
+	Added [x5MO] as watcher for u_1 [6ciR]
+Incepted: u_6 [ZMC2]
+	Added [x5MO] as watcher for u_7 [Pk3t]
+	Added [x5MO] as watcher for u_2 [CWVC]
+	Asking u_2 [CWVC]'s watchers to watch [oRVL]
+	Added [bivQ] as watcher for u_5 [waIF]
+	Added [2D85] as watcher for u_4 [egsp]
+	Added [bivQ] as watcher for u_8 [wQea]
+	Added [jm4C] as watcher for u_1 [6ciR]
+	Asking u_1 [6ciR]'s watchers to watch [oRVL]
+	Added [x5MO] as watcher for u_0 [Qfek]
+	Asking u_0 [Qfek]'s watchers to watch [oRVL]
+	Added [jm4C] as watcher for u_6 [ZMC2]
+	Added [bivQ] as watcher for u_3 [a-gr]
+	Added [2D85] as watcher for u_7 [Pk3t]
+	Asking u_7 [Pk3t]'s watchers to watch [oRVL]
+	Added [x5MO] as watcher for u_8 [wQea]
+	Asking u_8 [wQea]'s watchers to watch [oRVL]
+	Added [2D85] as watcher for u_5 [waIF]
+	Asking u_5 [waIF]'s watchers to watch [oRVL]
+	Added [2D85] as watcher for u_6 [ZMC2]
+	Added [x5MO] as watcher for u_3 [a-gr]
+	Asking u_3 [a-gr]'s watchers to watch [oRVL]
+	Added [bivQ] as watcher for u_4 [egsp]
+	Asking u_4 [egsp]'s watchers to watch [oRVL]
+	Added [x5MO] as watcher for u_6 [ZMC2]
+	Asking u_6 [ZMC2]'s watchers to watch [oRVL]
+	✅ u_0 [Qfek] Inception Done
+	✅ u_7 [Pk3t] Inception Done
+	✅ u_5 [waIF] Inception Done
+	✅ u_9 [kZb-] Inception Done
+	✅ u_8 [wQea] Inception Done
+	✅ u_4 [egsp] Inception Done
+	✅ u_3 [a-gr] Inception Done
+	✅ u_1 [6ciR] Inception Done
+	✅ u_6 [ZMC2] Inception Done
+	✅ u_2 [CWVC] Inception Done
+Test 2 (signature verification)
+	✅ u_2 [CWVC] Message verified
+	✅ u_4 [egsp] Message verified
+	✅ u_9 [kZb-] Message verified
+	✅ u_5 [waIF] Message verified
+	✅ u_0 [Qfek] Message verified
+	✅ u_6 [ZMC2] Message verified
+	✅ u_7 [Pk3t] Message verified
+	✅ u_1 [6ciR] Message verified
+	✅ u_8 [wQea] Message verified
+	✅ u_3 [a-gr] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_8 [wQea] Message Verified (2)
+	✅ u_0 [Qfek] Message Verified (2)
+	✅ u_1 [6ciR] Message Verified (2)
+	✅ u_7 [Pk3t] Message Verified (2)
+	✅ u_9 [kZb-] Message Verified (2)
+	✅ u_6 [ZMC2] Message Verified (2)
+	✅ u_5 [waIF] Message Verified (2)
+	✅ u_2 [CWVC] Message Verified (2)
+	✅ u_3 [a-gr] Message Verified (2)
+	✅ u_4 [egsp] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_1 [6ciR] Starts Rotation
+u_8 [wQea] Starts Rotation
+u_3 [a-gr] Starts Rotation
+u_5 [waIF] Starts Rotation
+u_7 [Pk3t] Starts Rotation
+u_2 [CWVC] Starts Rotation
+u_6 [ZMC2] Starts Rotation
+u_4 [egsp] Starts Rotation
+u_9 [kZb-] Starts Rotation
+u_0 [Qfek] Starts Rotation
+u_3 [a-gr] Ends Rotation
+u_3 [a-gr] - Completed Key Rotation
+u_2 [CWVC] Ends Rotation
+u_2 [CWVC] - Completed Key Rotation
+u_0 [Qfek] Ends Rotation
+u_0 [Qfek] - Completed Key Rotation
+u_1 [6ciR] Ends Rotation
+u_1 [6ciR] - Completed Key Rotation
+u_8 [wQea] Ends Rotation
+u_8 [wQea] - Completed Key Rotation
+u_6 [ZMC2] Ends Rotation
+u_6 [ZMC2] - Completed Key Rotation
+u_4 [egsp] Ends Rotation
+u_4 [egsp] - Completed Key Rotation
+u_9 [kZb-] Ends Rotation
+u_9 [kZb-] - Completed Key Rotation
+u_5 [waIF] Ends Rotation
+u_5 [waIF] - Completed Key Rotation
+u_7 [Pk3t] Ends Rotation
+u_7 [Pk3t] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 7356ms (735 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 786ms (78 p.u.)
+Test 4: 6257ms (625 p.u.)

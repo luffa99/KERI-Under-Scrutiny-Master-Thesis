@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_3 [fXy3]
+Incepted: u_2 [-Z6V]
+Incepted: u_6 [fmst]
+Incepted: u_0 [81b5]
+Incepted: u_8 [As9C]
+Incepted: u_5 [F35V]
+	Added [2D85] as watcher for u_3 [fXy3]
+	Added [x5MO] as watcher for u_2 [-Z6V]
+Incepted: u_4 [rBuP]
+	Added [2D85] as watcher for u_6 [fmst]
+Incepted: u_7 [PcK3]
+Incepted: u_1 [oecz]
+	Added [2D85] as watcher for u_0 [81b5]
+	Added [x5MO] as watcher for u_8 [As9C]
+Incepted: u_9 [GAZ9]
+	Added [bivQ] as watcher for u_5 [F35V]
+	Added [2D85] as watcher for u_4 [rBuP]
+	Added [bivQ] as watcher for u_3 [fXy3]
+	Added [jm4C] as watcher for u_2 [-Z6V]
+	Added [jm4C] as watcher for u_6 [fmst]
+	Added [2D85] as watcher for u_7 [PcK3]
+	Added [x5MO] as watcher for u_1 [oecz]
+	Added [jm4C] as watcher for u_8 [As9C]
+	Added [x5MO] as watcher for u_0 [81b5]
+	Added [jm4C] as watcher for u_5 [F35V]
+	Added [jm4C] as watcher for u_4 [rBuP]
+	Added [x5MO] as watcher for u_6 [fmst]
+	Asking u_6 [fmst]'s watchers to watch [TN-Y]
+	Added [x5MO] as watcher for u_3 [fXy3]
+	Asking u_3 [fXy3]'s watchers to watch [TN-Y]
+	Added [2D85] as watcher for u_1 [oecz]
+	Added [x5MO] as watcher for u_7 [PcK3]
+	Added [2D85] as watcher for u_5 [F35V]
+	Asking u_5 [F35V]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_9 [GAZ9]
+	Added [bivQ] as watcher for u_2 [-Z6V]
+	Asking u_2 [-Z6V]'s watchers to watch [TN-Y]
+	Added [x5MO] as watcher for u_4 [rBuP]
+	Asking u_4 [rBuP]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_0 [81b5]
+	Asking u_0 [81b5]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_8 [As9C]
+	Asking u_8 [As9C]'s watchers to watch [TN-Y]
+	Added [2D85] as watcher for u_9 [GAZ9]
+	Added [bivQ] as watcher for u_1 [oecz]
+	Asking u_1 [oecz]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_7 [PcK3]
+	Asking u_7 [PcK3]'s watchers to watch [TN-Y]
+	Added [x5MO] as watcher for u_9 [GAZ9]
+	Asking u_9 [GAZ9]'s watchers to watch [TN-Y]
+	✅ u_4 [rBuP] Inception Done
+	✅ u_6 [fmst] Inception Done
+	✅ u_9 [GAZ9] Inception Done
+	✅ u_2 [-Z6V] Inception Done
+	✅ u_5 [F35V] Inception Done
+	✅ u_7 [PcK3] Inception Done
+	✅ u_0 [81b5] Inception Done
+	✅ u_3 [fXy3] Inception Done
+	✅ u_8 [As9C] Inception Done
+	✅ u_1 [oecz] Inception Done
+Test 2 (signature verification)
+	✅ u_3 [fXy3] Message verified
+	✅ u_1 [oecz] Message verified
+	✅ u_9 [GAZ9] Message verified
+	✅ u_2 [-Z6V] Message verified
+	✅ u_8 [As9C] Message verified
+	✅ u_7 [PcK3] Message verified
+	✅ u_5 [F35V] Message verified
+	✅ u_4 [rBuP] Message verified
+	✅ u_0 [81b5] Message verified
+	✅ u_6 [fmst] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_4 [rBuP] Message Verified (2)
+	✅ u_2 [-Z6V] Message Verified (2)
+	✅ u_0 [81b5] Message Verified (2)
+	✅ u_8 [As9C] Message Verified (2)
+	✅ u_7 [PcK3] Message Verified (2)
+	✅ u_9 [GAZ9] Message Verified (2)
+	✅ u_6 [fmst] Message Verified (2)
+	✅ u_3 [fXy3] Message Verified (2)
+	✅ u_5 [F35V] Message Verified (2)
+	✅ u_1 [oecz] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_1 [oecz] Starts Rotation
+u_5 [F35V] Starts Rotation
+u_7 [PcK3] Starts Rotation
+u_8 [As9C] Starts Rotation
+u_0 [81b5] Starts Rotation
+u_9 [GAZ9] Starts Rotation
+u_6 [fmst] Starts Rotation
+u_4 [rBuP] Starts Rotation
+u_3 [fXy3] Starts Rotation
+u_2 [-Z6V] Starts Rotation
+u_8 [As9C] Ends Rotation
+u_8 [As9C] - Completed Key Rotation
+u_2 [-Z6V] Ends Rotation
+u_2 [-Z6V] - Completed Key Rotation
+u_9 [GAZ9] Ends Rotation
+u_9 [GAZ9] - Completed Key Rotation
+u_4 [rBuP] Ends Rotation
+u_4 [rBuP] - Completed Key Rotation
+u_6 [fmst] Ends Rotation
+u_6 [fmst] - Completed Key Rotation
+u_7 [PcK3] Ends Rotation
+u_7 [PcK3] - Completed Key Rotation
+u_0 [81b5] Ends Rotation
+u_0 [81b5] - Completed Key Rotation
+u_3 [fXy3] Ends Rotation
+u_3 [fXy3] - Completed Key Rotation
+u_5 [F35V] Ends Rotation
+u_5 [F35V] - Completed Key Rotation
+u_1 [oecz] Ends Rotation
+u_1 [oecz] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 10609ms (1060 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 971ms (97 p.u.)
+Test 4: 13699ms (1369 p.u.)

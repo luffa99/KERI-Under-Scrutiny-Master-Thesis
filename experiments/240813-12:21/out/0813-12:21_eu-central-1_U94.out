@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_2 [4pCL]
+Incepted: u_4 [YfPI]
+Incepted: u_1 [deuM]
+Incepted: u_5 [TVwp]
+Incepted: u_0 [Bsql]
+Incepted: u_3 [cGMR]
+Incepted: u_7 [ZrhM]
+	Added [2D85] as watcher for u_2 [4pCL]
+	Added [2D85] as watcher for u_1 [deuM]
+Incepted: u_8 [tfJM]
+	Added [x5MO] as watcher for u_4 [YfPI]
+Incepted: u_6 [RlkM]
+Incepted: u_9 [yS0W]
+	Added [bivQ] as watcher for u_3 [cGMR]
+	Added [jm4C] as watcher for u_0 [Bsql]
+	Added [jm4C] as watcher for u_5 [TVwp]
+	Added [2D85] as watcher for u_7 [ZrhM]
+	Added [jm4C] as watcher for u_2 [4pCL]
+	Added [x5MO] as watcher for u_1 [deuM]
+	Added [jm4C] as watcher for u_4 [YfPI]
+	Added [jm4C] as watcher for u_6 [RlkM]
+	Added [bivQ] as watcher for u_8 [tfJM]
+	Added [x5MO] as watcher for u_9 [yS0W]
+	Added [bivQ] as watcher for u_5 [TVwp]
+	Added [x5MO] as watcher for u_0 [Bsql]
+	Added [2D85] as watcher for u_3 [cGMR]
+	Added [bivQ] as watcher for u_7 [ZrhM]
+	Added [bivQ] as watcher for u_2 [4pCL]
+	Asking u_2 [4pCL]'s watchers to watch [A_vr]
+	Added [2D85] as watcher for u_4 [YfPI]
+	Asking u_4 [YfPI]'s watchers to watch [A_vr]
+	Added [bivQ] as watcher for u_1 [deuM]
+	Asking u_1 [deuM]'s watchers to watch [A_vr]
+	Added [bivQ] as watcher for u_6 [RlkM]
+	Added [x5MO] as watcher for u_8 [tfJM]
+	Added [2D85] as watcher for u_5 [TVwp]
+	Asking u_5 [TVwp]'s watchers to watch [A_vr]
+	Added [bivQ] as watcher for u_0 [Bsql]
+	Asking u_0 [Bsql]'s watchers to watch [A_vr]
+	Added [bivQ] as watcher for u_9 [yS0W]
+	Added [x5MO] as watcher for u_3 [cGMR]
+	Asking u_3 [cGMR]'s watchers to watch [A_vr]
+	Added [jm4C] as watcher for u_7 [ZrhM]
+	Asking u_7 [ZrhM]'s watchers to watch [A_vr]
+	Added [jm4C] as watcher for u_8 [tfJM]
+	Asking u_8 [tfJM]'s watchers to watch [A_vr]
+	Added [2D85] as watcher for u_6 [RlkM]
+	Asking u_6 [RlkM]'s watchers to watch [A_vr]
+	Added [2D85] as watcher for u_9 [yS0W]
+	Asking u_9 [yS0W]'s watchers to watch [A_vr]
+	✅ u_2 [4pCL] Inception Done
+	✅ u_4 [YfPI] Inception Done
+	✅ u_1 [deuM] Inception Done
+	✅ u_0 [Bsql] Inception Done
+	✅ u_7 [ZrhM] Inception Done
+	✅ u_5 [TVwp] Inception Done
+	✅ u_3 [cGMR] Inception Done
+	✅ u_8 [tfJM] Inception Done
+	✅ u_6 [RlkM] Inception Done
+	✅ u_9 [yS0W] Inception Done
+Test 2 (signature verification)
+	✅ u_9 [yS0W] Message verified
+	✅ u_2 [4pCL] Message verified
+	✅ u_5 [TVwp] Message verified
+	✅ u_1 [deuM] Message verified
+	✅ u_7 [ZrhM] Message verified
+	✅ u_3 [cGMR] Message verified
+	✅ u_8 [tfJM] Message verified
+	✅ u_4 [YfPI] Message verified
+	✅ u_0 [Bsql] Message verified
+	✅ u_6 [RlkM] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_2 [4pCL] Message Verified (2)
+	✅ u_0 [Bsql] Message Verified (2)
+	✅ u_3 [cGMR] Message Verified (2)
+	✅ u_5 [TVwp] Message Verified (2)
+	✅ u_8 [tfJM] Message Verified (2)
+	✅ u_4 [YfPI] Message Verified (2)
+	✅ u_9 [yS0W] Message Verified (2)
+	✅ u_6 [RlkM] Message Verified (2)
+	✅ u_7 [ZrhM] Message Verified (2)
+	✅ u_1 [deuM] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_6 [RlkM] Starts Rotation
+u_0 [Bsql] Starts Rotation
+u_5 [TVwp] Starts Rotation
+u_4 [YfPI] Starts Rotation
+u_1 [deuM] Starts Rotation
+u_3 [cGMR] Starts Rotation
+u_7 [ZrhM] Starts Rotation
+u_8 [tfJM] Starts Rotation
+u_9 [yS0W] Starts Rotation
+u_2 [4pCL] Starts Rotation
+u_2 [4pCL] Ends Rotation
+u_2 [4pCL] - Completed Key Rotation
+u_5 [TVwp] Ends Rotation
+u_5 [TVwp] - Completed Key Rotation
+u_9 [yS0W] Ends Rotation
+u_9 [yS0W] - Completed Key Rotation
+u_0 [Bsql] Ends Rotation
+u_0 [Bsql] - Completed Key Rotation
+u_8 [tfJM] Ends Rotation
+u_8 [tfJM] - Completed Key Rotation
+u_7 [ZrhM] Ends Rotation
+u_7 [ZrhM] - Completed Key Rotation
+u_1 [deuM] Ends Rotation
+u_1 [deuM] - Completed Key Rotation
+u_4 [YfPI] Ends Rotation
+u_4 [YfPI] - Completed Key Rotation
+u_6 [RlkM] Ends Rotation
+u_6 [RlkM] - Completed Key Rotation
+u_3 [cGMR] Ends Rotation
+u_3 [cGMR] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 16158ms (1615 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 1337ms (133 p.u.)
+Test 4: 10714ms (1071 p.u.)

@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_1 [13lC]
+Incepted: u_8 [F8Kw]
+Incepted: u_2 [Hl4v]
+Incepted: u_3 [wxMD]
+Incepted: u_9 [o7l3]
+Incepted: u_0 [MwT2]
+Incepted: u_4 [t82M]
+Incepted: u_7 [mtvs]
+Incepted: u_5 [AxyM]
+	Added [bivQ] as watcher for u_1 [13lC]
+	Added [bivQ] as watcher for u_8 [F8Kw]
+Incepted: u_6 [Q7cS]
+	Added [bivQ] as watcher for u_9 [o7l3]
+	Added [2D85] as watcher for u_0 [MwT2]
+	Added [2D85] as watcher for u_7 [mtvs]
+	Added [bivQ] as watcher for u_5 [AxyM]
+	Added [x5MO] as watcher for u_3 [wxMD]
+	Added [jm4C] as watcher for u_2 [Hl4v]
+	Added [jm4C] as watcher for u_4 [t82M]
+	Added [2D85] as watcher for u_8 [F8Kw]
+	Added [jm4C] as watcher for u_1 [13lC]
+	Added [bivQ] as watcher for u_0 [MwT2]
+	Added [bivQ] as watcher for u_3 [wxMD]
+	Added [jm4C] as watcher for u_6 [Q7cS]
+	Added [bivQ] as watcher for u_7 [mtvs]
+	Added [bivQ] as watcher for u_4 [t82M]
+	Added [2D85] as watcher for u_2 [Hl4v]
+	Added [jm4C] as watcher for u_9 [o7l3]
+	Added [x5MO] as watcher for u_5 [AxyM]
+	Added [x5MO] as watcher for u_8 [F8Kw]
+	Asking u_8 [F8Kw]'s watchers to watch [SX5N]
+	Added [x5MO] as watcher for u_1 [13lC]
+	Asking u_1 [13lC]'s watchers to watch [SX5N]
+	Added [bivQ] as watcher for u_2 [Hl4v]
+	Asking u_2 [Hl4v]'s watchers to watch [SX5N]
+	Added [x5MO] as watcher for u_6 [Q7cS]
+	Added [jm4C] as watcher for u_3 [wxMD]
+	Asking u_3 [wxMD]'s watchers to watch [SX5N]
+	Added [x5MO] as watcher for u_4 [t82M]
+	Asking u_4 [t82M]'s watchers to watch [SX5N]
+	Added [jm4C] as watcher for u_0 [MwT2]
+	Asking u_0 [MwT2]'s watchers to watch [SX5N]
+	Added [x5MO] as watcher for u_9 [o7l3]
+	Asking u_9 [o7l3]'s watchers to watch [SX5N]
+	Added [jm4C] as watcher for u_5 [AxyM]
+	Asking u_5 [AxyM]'s watchers to watch [SX5N]
+	Added [jm4C] as watcher for u_7 [mtvs]
+	Asking u_7 [mtvs]'s watchers to watch [SX5N]
+	Added [bivQ] as watcher for u_6 [Q7cS]
+	Asking u_6 [Q7cS]'s watchers to watch [SX5N]
+	✅ u_8 [F8Kw] Inception Done
+	✅ u_2 [Hl4v] Inception Done
+	✅ u_1 [13lC] Inception Done
+	✅ u_0 [MwT2] Inception Done
+	✅ u_3 [wxMD] Inception Done
+	✅ u_4 [t82M] Inception Done
+	✅ u_9 [o7l3] Inception Done
+	✅ u_5 [AxyM] Inception Done
+	✅ u_7 [mtvs] Inception Done
+	✅ u_6 [Q7cS] Inception Done
+Test 2 (signature verification)
+	✅ u_6 [Q7cS] Message verified
+	✅ u_4 [t82M] Message verified
+	✅ u_5 [AxyM] Message verified
+	✅ u_8 [F8Kw] Message verified
+	✅ u_7 [mtvs] Message verified
+	✅ u_1 [13lC] Message verified
+	✅ u_2 [Hl4v] Message verified
+	✅ u_0 [MwT2] Message verified
+	✅ u_3 [wxMD] Message verified
+	✅ u_9 [o7l3] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_3 [wxMD] Message Verified (2)
+	✅ u_1 [13lC] Message Verified (2)
+	✅ u_0 [MwT2] Message Verified (2)
+	✅ u_2 [Hl4v] Message Verified (2)
+	✅ u_5 [AxyM] Message Verified (2)
+	✅ u_4 [t82M] Message Verified (2)
+	✅ u_6 [Q7cS] Message Verified (2)
+	✅ u_8 [F8Kw] Message Verified (2)
+	✅ u_9 [o7l3] Message Verified (2)
+	✅ u_7 [mtvs] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_6 [Q7cS] Starts Rotation
+u_3 [wxMD] Starts Rotation
+u_5 [AxyM] Starts Rotation
+u_0 [MwT2] Starts Rotation
+u_7 [mtvs] Starts Rotation
+u_4 [t82M] Starts Rotation
+u_1 [13lC] Starts Rotation
+u_9 [o7l3] Starts Rotation
+u_2 [Hl4v] Starts Rotation
+u_8 [F8Kw] Starts Rotation
+u_4 [t82M] Ends Rotation
+u_4 [t82M] - Completed Key Rotation
+u_1 [13lC] Ends Rotation
+u_1 [13lC] - Completed Key Rotation
+u_0 [MwT2] Ends Rotation
+u_0 [MwT2] - Completed Key Rotation
+u_8 [F8Kw] Ends Rotation
+u_8 [F8Kw] - Completed Key Rotation
+u_2 [Hl4v] Ends Rotation
+u_2 [Hl4v] - Completed Key Rotation
+u_7 [mtvs] Ends Rotation
+u_7 [mtvs] - Completed Key Rotation
+u_3 [wxMD] Ends Rotation
+u_3 [wxMD] - Completed Key Rotation
+u_9 [o7l3] Ends Rotation
+u_9 [o7l3] - Completed Key Rotation
+u_6 [Q7cS] Ends Rotation
+u_6 [Q7cS] - Completed Key Rotation
+u_5 [AxyM] Ends Rotation
+u_5 [AxyM] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 5902ms (590 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 2217ms (221 p.u.)
+Test 4: 2111ms (211 p.u.)

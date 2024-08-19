@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_8 [IFoc]
+Incepted: u_6 [cNS-]
+Incepted: u_5 [6KTI]
+Incepted: u_9 [N0re]
+Incepted: u_7 [UGO5]
+	Added [bivQ] as watcher for u_8 [IFoc]
+Incepted: u_2 [FG4e]
+Incepted: u_3 [MsPO]
+	Added [bivQ] as watcher for u_5 [6KTI]
+Incepted: u_0 [Xa9K]
+Incepted: u_4 [xkf_]
+Incepted: u_1 [NxFH]
+	Added [x5MO] as watcher for u_6 [cNS-]
+	Added [2D85] as watcher for u_7 [UGO5]
+	Added [jm4C] as watcher for u_9 [N0re]
+	Added [2D85] as watcher for u_2 [FG4e]
+	Added [jm4C] as watcher for u_8 [IFoc]
+	Added [2D85] as watcher for u_0 [Xa9K]
+	Added [2D85] as watcher for u_4 [xkf_]
+	Added [jm4C] as watcher for u_5 [6KTI]
+	Added [x5MO] as watcher for u_1 [NxFH]
+	Added [bivQ] as watcher for u_9 [N0re]
+	Added [jm4C] as watcher for u_3 [MsPO]
+	Added [x5MO] as watcher for u_7 [UGO5]
+	Added [jm4C] as watcher for u_6 [cNS-]
+	Added [2D85] as watcher for u_8 [IFoc]
+	Asking u_8 [IFoc]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_3 [MsPO]
+	Added [jm4C] as watcher for u_0 [Xa9K]
+	Added [jm4C] as watcher for u_2 [FG4e]
+	Added [x5MO] as watcher for u_9 [N0re]
+	Asking u_9 [N0re]'s watchers to watch [TN-Y]
+	Added [x5MO] as watcher for u_5 [6KTI]
+	Asking u_5 [6KTI]'s watchers to watch [TN-Y]
+	Added [jm4C] as watcher for u_4 [xkf_]
+	Added [2D85] as watcher for u_1 [NxFH]
+	Added [jm4C] as watcher for u_7 [UGO5]
+	Asking u_7 [UGO5]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_2 [FG4e]
+	Asking u_2 [FG4e]'s watchers to watch [TN-Y]
+	Added [2D85] as watcher for u_6 [cNS-]
+	Asking u_6 [cNS-]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_4 [xkf_]
+	Asking u_4 [xkf_]'s watchers to watch [TN-Y]
+	Added [2D85] as watcher for u_3 [MsPO]
+	Asking u_3 [MsPO]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_1 [NxFH]
+	Asking u_1 [NxFH]'s watchers to watch [TN-Y]
+	Added [x5MO] as watcher for u_0 [Xa9K]
+	Asking u_0 [Xa9K]'s watchers to watch [TN-Y]
+	✅ u_8 [IFoc] Inception Done
+	✅ u_5 [6KTI] Inception Done
+	✅ u_9 [N0re] Inception Done
+	✅ u_2 [FG4e] Inception Done
+	✅ u_7 [UGO5] Inception Done
+	✅ u_6 [cNS-] Inception Done
+	✅ u_1 [NxFH] Inception Done
+	✅ u_4 [xkf_] Inception Done
+	✅ u_3 [MsPO] Inception Done
+	✅ u_0 [Xa9K] Inception Done
+Test 2 (signature verification)
+	✅ u_0 [Xa9K] Message verified
+	✅ u_8 [IFoc] Message verified
+	✅ u_6 [cNS-] Message verified
+	✅ u_5 [6KTI] Message verified
+	✅ u_7 [UGO5] Message verified
+	✅ u_2 [FG4e] Message verified
+	✅ u_3 [MsPO] Message verified
+	✅ u_1 [NxFH] Message verified
+	✅ u_4 [xkf_] Message verified
+	✅ u_9 [N0re] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_8 [IFoc] Message Verified (2)
+	✅ u_3 [MsPO] Message Verified (2)
+	✅ u_2 [FG4e] Message Verified (2)
+	✅ u_1 [NxFH] Message Verified (2)
+	✅ u_4 [xkf_] Message Verified (2)
+	✅ u_5 [6KTI] Message Verified (2)
+	✅ u_7 [UGO5] Message Verified (2)
+	✅ u_0 [Xa9K] Message Verified (2)
+	✅ u_9 [N0re] Message Verified (2)
+	✅ u_6 [cNS-] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_6 [cNS-] Starts Rotation
+u_1 [NxFH] Starts Rotation
+u_4 [xkf_] Starts Rotation
+u_3 [MsPO] Starts Rotation
+u_0 [Xa9K] Starts Rotation
+u_8 [IFoc] Starts Rotation
+u_2 [FG4e] Starts Rotation
+u_9 [N0re] Starts Rotation
+u_5 [6KTI] Starts Rotation
+u_7 [UGO5] Starts Rotation
+u_0 [Xa9K] Ends Rotation
+u_0 [Xa9K] - Completed Key Rotation
+u_6 [cNS-] Ends Rotation
+u_6 [cNS-] - Completed Key Rotation
+u_8 [IFoc] Ends Rotation
+u_8 [IFoc] - Completed Key Rotation
+u_7 [UGO5] Ends Rotation
+u_7 [UGO5] - Completed Key Rotation
+u_9 [N0re] Ends Rotation
+u_9 [N0re] - Completed Key Rotation
+u_2 [FG4e] Ends Rotation
+u_2 [FG4e] - Completed Key Rotation
+u_4 [xkf_] Ends Rotation
+u_4 [xkf_] - Completed Key Rotation
+u_5 [6KTI] Ends Rotation
+u_5 [6KTI] - Completed Key Rotation
+u_3 [MsPO] Ends Rotation
+u_3 [MsPO] - Completed Key Rotation
+u_1 [NxFH] Ends Rotation
+u_1 [NxFH] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 5416ms (541 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 836ms (83 p.u.)
+Test 4: 2387ms (238 p.u.)

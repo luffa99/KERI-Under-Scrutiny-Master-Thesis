@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_3 [5jEQ]
+Incepted: u_7 [H8ts]
+Incepted: u_5 [ZVKA]
+Incepted: u_1 [F6uC]
+Incepted: u_0 [M7BS]
+Incepted: u_2 [C2NU]
+Incepted: u_9 [DOda]
+Incepted: u_8 [q4Qv]
+Incepted: u_4 [NTLM]
+Incepted: u_6 [js3l]
+	Added [2D85] as watcher for u_5 [ZVKA]
+	Added [2D85] as watcher for u_7 [H8ts]
+	Added [x5MO] as watcher for u_1 [F6uC]
+	Added [2D85] as watcher for u_2 [C2NU]
+	Added [bivQ] as watcher for u_3 [5jEQ]
+	Added [x5MO] as watcher for u_9 [DOda]
+	Added [x5MO] as watcher for u_4 [NTLM]
+	Added [2D85] as watcher for u_6 [js3l]
+	Added [jm4C] as watcher for u_0 [M7BS]
+	Added [bivQ] as watcher for u_8 [q4Qv]
+	Added [x5MO] as watcher for u_7 [H8ts]
+	Added [x5MO] as watcher for u_5 [ZVKA]
+	Added [2D85] as watcher for u_3 [5jEQ]
+	Added [x5MO] as watcher for u_0 [M7BS]
+	Added [bivQ] as watcher for u_1 [F6uC]
+	Added [bivQ] as watcher for u_9 [DOda]
+	Added [bivQ] as watcher for u_2 [C2NU]
+	Added [jm4C] as watcher for u_6 [js3l]
+	Added [jm4C] as watcher for u_8 [q4Qv]
+	Added [bivQ] as watcher for u_4 [NTLM]
+	Added [bivQ] as watcher for u_7 [H8ts]
+	Asking u_7 [H8ts]'s watchers to watch [4djp]
+	Added [x5MO] as watcher for u_3 [5jEQ]
+	Asking u_3 [5jEQ]'s watchers to watch [4djp]
+	Added [bivQ] as watcher for u_5 [ZVKA]
+	Asking u_5 [ZVKA]'s watchers to watch [4djp]
+	Added [2D85] as watcher for u_0 [M7BS]
+	Asking u_0 [M7BS]'s watchers to watch [4djp]
+	Added [2D85] as watcher for u_1 [F6uC]
+	Asking u_1 [F6uC]'s watchers to watch [4djp]
+	Added [2D85] as watcher for u_9 [DOda]
+	Asking u_9 [DOda]'s watchers to watch [4djp]
+	Added [x5MO] as watcher for u_6 [js3l]
+	Asking u_6 [js3l]'s watchers to watch [4djp]
+	Added [jm4C] as watcher for u_2 [C2NU]
+	Asking u_2 [C2NU]'s watchers to watch [4djp]
+	Added [2D85] as watcher for u_8 [q4Qv]
+	Asking u_8 [q4Qv]'s watchers to watch [4djp]
+	Added [jm4C] as watcher for u_4 [NTLM]
+	Asking u_4 [NTLM]'s watchers to watch [4djp]
+	✅ u_1 [F6uC] Inception Done
+	✅ u_7 [H8ts] Inception Done
+	✅ u_3 [5jEQ] Inception Done
+	✅ u_6 [js3l] Inception Done
+	✅ u_2 [C2NU] Inception Done
+	✅ u_5 [ZVKA] Inception Done
+	✅ u_9 [DOda] Inception Done
+	✅ u_0 [M7BS] Inception Done
+	✅ u_8 [q4Qv] Inception Done
+	✅ u_4 [NTLM] Inception Done
+Test 2 (signature verification)
+	✅ u_0 [M7BS] Message verified
+	✅ u_4 [NTLM] Message verified
+	✅ u_8 [q4Qv] Message verified
+	✅ u_5 [ZVKA] Message verified
+	✅ u_7 [H8ts] Message verified
+	✅ u_3 [5jEQ] Message verified
+	✅ u_6 [js3l] Message verified
+	✅ u_2 [C2NU] Message verified
+	✅ u_9 [DOda] Message verified
+	✅ u_1 [F6uC] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_0 [M7BS] Message Verified (2)
+	✅ u_8 [q4Qv] Message Verified (2)
+	✅ u_6 [js3l] Message Verified (2)
+	✅ u_7 [H8ts] Message Verified (2)
+	✅ u_1 [F6uC] Message Verified (2)
+	✅ u_9 [DOda] Message Verified (2)
+	✅ u_3 [5jEQ] Message Verified (2)
+	✅ u_4 [NTLM] Message Verified (2)
+	✅ u_2 [C2NU] Message Verified (2)
+	✅ u_5 [ZVKA] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_8 [q4Qv] Starts Rotation
+u_1 [F6uC] Starts Rotation
+u_0 [M7BS] Starts Rotation
+u_5 [ZVKA] Starts Rotation
+u_4 [NTLM] Starts Rotation
+u_9 [DOda] Starts Rotation
+u_6 [js3l] Starts Rotation
+u_7 [H8ts] Starts Rotation
+u_3 [5jEQ] Starts Rotation
+u_2 [C2NU] Starts Rotation
+u_3 [5jEQ] Ends Rotation
+u_3 [5jEQ] - Completed Key Rotation
+u_0 [M7BS] Ends Rotation
+u_0 [M7BS] - Completed Key Rotation
+u_1 [F6uC] Ends Rotation
+u_1 [F6uC] - Completed Key Rotation
+u_7 [H8ts] Ends Rotation
+u_7 [H8ts] - Completed Key Rotation
+u_4 [NTLM] Ends Rotation
+u_4 [NTLM] - Completed Key Rotation
+u_8 [q4Qv] Ends Rotation
+u_8 [q4Qv] - Completed Key Rotation
+u_2 [C2NU] Ends Rotation
+u_2 [C2NU] - Completed Key Rotation
+u_5 [ZVKA] Ends Rotation
+u_5 [ZVKA] - Completed Key Rotation
+u_9 [DOda] Ends Rotation
+u_9 [DOda] - Completed Key Rotation
+u_6 [js3l] Ends Rotation
+u_6 [js3l] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 4716ms (471 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 641ms (64 p.u.)
+Test 4: 1924ms (192 p.u.)

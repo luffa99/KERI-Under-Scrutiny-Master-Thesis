@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_4 [jDMN]
+Incepted: u_8 [5znJ]
+Incepted: u_5 [ormP]
+Incepted: u_6 [950n]
+Incepted: u_7 [8iXJ]
+Incepted: u_3 [s1qF]
+	Added [jm4C] as watcher for u_8 [5znJ]
+Incepted: u_9 [-Qg6]
+Incepted: u_2 [osfh]
+	Added [x5MO] as watcher for u_4 [jDMN]
+Incepted: u_0 [2ttq]
+	Added [2D85] as watcher for u_5 [ormP]
+Incepted: u_1 [d-pV]
+	Added [2D85] as watcher for u_7 [8iXJ]
+	Added [x5MO] as watcher for u_9 [-Qg6]
+	Added [jm4C] as watcher for u_4 [jDMN]
+	Added [x5MO] as watcher for u_6 [950n]
+	Added [bivQ] as watcher for u_8 [5znJ]
+	Added [jm4C] as watcher for u_5 [ormP]
+	Added [jm4C] as watcher for u_0 [2ttq]
+	Added [2D85] as watcher for u_1 [d-pV]
+	Added [bivQ] as watcher for u_3 [s1qF]
+	Added [bivQ] as watcher for u_2 [osfh]
+	Added [2D85] as watcher for u_9 [-Qg6]
+	Added [x5MO] as watcher for u_8 [5znJ]
+	Asking u_8 [5znJ]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_4 [jDMN]
+	Asking u_4 [jDMN]'s watchers to watch [TN-Y]
+	Added [jm4C] as watcher for u_1 [d-pV]
+	Added [bivQ] as watcher for u_6 [950n]
+	Added [x5MO] as watcher for u_3 [s1qF]
+	Added [x5MO] as watcher for u_5 [ormP]
+	Asking u_5 [ormP]'s watchers to watch [TN-Y]
+	Added [x5MO] as watcher for u_0 [2ttq]
+	Added [jm4C] as watcher for u_2 [osfh]
+	Added [bivQ] as watcher for u_7 [8iXJ]
+	Added [x5MO] as watcher for u_1 [d-pV]
+	Asking u_1 [d-pV]'s watchers to watch [TN-Y]
+	Added [jm4C] as watcher for u_6 [950n]
+	Asking u_6 [950n]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_9 [-Qg6]
+	Asking u_9 [-Qg6]'s watchers to watch [TN-Y]
+	Added [jm4C] as watcher for u_3 [s1qF]
+	Asking u_3 [s1qF]'s watchers to watch [TN-Y]
+	Added [x5MO] as watcher for u_2 [osfh]
+	Asking u_2 [osfh]'s watchers to watch [TN-Y]
+	Added [jm4C] as watcher for u_7 [8iXJ]
+	Asking u_7 [8iXJ]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_0 [2ttq]
+	Asking u_0 [2ttq]'s watchers to watch [TN-Y]
+	✅ u_8 [5znJ] Inception Done
+	✅ u_5 [ormP] Inception Done
+	✅ u_7 [8iXJ] Inception Done
+	✅ u_0 [2ttq] Inception Done
+	✅ u_6 [950n] Inception Done
+	✅ u_4 [jDMN] Inception Done
+	✅ u_1 [d-pV] Inception Done
+	✅ u_9 [-Qg6] Inception Done
+	✅ u_3 [s1qF] Inception Done
+	✅ u_2 [osfh] Inception Done
+Test 2 (signature verification)
+	✅ u_5 [ormP] Message verified
+	✅ u_6 [950n] Message verified
+	✅ u_3 [s1qF] Message verified
+	✅ u_7 [8iXJ] Message verified
+	✅ u_0 [2ttq] Message verified
+	✅ u_4 [jDMN] Message verified
+	✅ u_1 [d-pV] Message verified
+	✅ u_9 [-Qg6] Message verified
+	✅ u_2 [osfh] Message verified
+	✅ u_8 [5znJ] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_9 [-Qg6] Message Verified (2)
+	✅ u_5 [ormP] Message Verified (2)
+	✅ u_1 [d-pV] Message Verified (2)
+	✅ u_8 [5znJ] Message Verified (2)
+	✅ u_3 [s1qF] Message Verified (2)
+	✅ u_6 [950n] Message Verified (2)
+	✅ u_2 [osfh] Message Verified (2)
+	✅ u_7 [8iXJ] Message Verified (2)
+	✅ u_0 [2ttq] Message Verified (2)
+	✅ u_4 [jDMN] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_4 [jDMN] Starts Rotation
+u_0 [2ttq] Starts Rotation
+u_1 [d-pV] Starts Rotation
+u_3 [s1qF] Starts Rotation
+u_9 [-Qg6] Starts Rotation
+u_6 [950n] Starts Rotation
+u_5 [ormP] Starts Rotation
+u_7 [8iXJ] Starts Rotation
+u_8 [5znJ] Starts Rotation
+u_2 [osfh] Starts Rotation
+u_3 [s1qF] Ends Rotation
+u_3 [s1qF] - Completed Key Rotation
+u_8 [5znJ] Ends Rotation
+u_8 [5znJ] - Completed Key Rotation
+u_1 [d-pV] Ends Rotation
+u_1 [d-pV] - Completed Key Rotation
+u_9 [-Qg6] Ends Rotation
+u_9 [-Qg6] - Completed Key Rotation
+u_7 [8iXJ] Ends Rotation
+u_7 [8iXJ] - Completed Key Rotation
+u_2 [osfh] Ends Rotation
+u_2 [osfh] - Completed Key Rotation
+u_6 [950n] Ends Rotation
+u_6 [950n] - Completed Key Rotation
+u_0 [2ttq] Ends Rotation
+u_0 [2ttq] - Completed Key Rotation
+u_5 [ormP] Ends Rotation
+u_5 [ormP] - Completed Key Rotation
+u_4 [jDMN] Ends Rotation
+u_4 [jDMN] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 11637ms (1163 p.u.)
+Test 2: 3ms (0 p.u.)
+Test 3: 1199ms (119 p.u.)
+Test 4: 14195ms (1419 p.u.)

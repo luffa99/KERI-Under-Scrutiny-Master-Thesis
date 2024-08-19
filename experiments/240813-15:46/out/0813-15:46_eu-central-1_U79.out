@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_0 [S3M7]
+Incepted: u_3 [Spgc]
+Incepted: u_4 [IVBw]
+Incepted: u_6 [ALEg]
+Incepted: u_1 [XRZW]
+Incepted: u_8 [VrCd]
+Incepted: u_9 [fpOa]
+Incepted: u_5 [eMKa]
+	Added [jm4C] as watcher for u_3 [Spgc]
+Incepted: u_2 [ooKO]
+Incepted: u_7 [X2ze]
+	Added [bivQ] as watcher for u_0 [S3M7]
+	Added [jm4C] as watcher for u_6 [ALEg]
+	Added [2D85] as watcher for u_1 [XRZW]
+	Added [x5MO] as watcher for u_5 [eMKa]
+	Added [jm4C] as watcher for u_8 [VrCd]
+	Added [bivQ] as watcher for u_4 [IVBw]
+	Added [jm4C] as watcher for u_2 [ooKO]
+	Added [2D85] as watcher for u_7 [X2ze]
+	Added [2D85] as watcher for u_9 [fpOa]
+	Added [bivQ] as watcher for u_3 [Spgc]
+	Added [bivQ] as watcher for u_6 [ALEg]
+	Added [2D85] as watcher for u_0 [S3M7]
+	Added [jm4C] as watcher for u_1 [XRZW]
+	Added [bivQ] as watcher for u_8 [VrCd]
+	Added [bivQ] as watcher for u_5 [eMKa]
+	Added [x5MO] as watcher for u_4 [IVBw]
+	Added [2D85] as watcher for u_3 [Spgc]
+	Asking u_3 [Spgc]'s watchers to watch [-vpd]
+	Added [x5MO] as watcher for u_7 [X2ze]
+	Added [x5MO] as watcher for u_2 [ooKO]
+	Added [bivQ] as watcher for u_9 [fpOa]
+	Added [x5MO] as watcher for u_6 [ALEg]
+	Asking u_6 [ALEg]'s watchers to watch [-vpd]
+	Added [jm4C] as watcher for u_0 [S3M7]
+	Asking u_0 [S3M7]'s watchers to watch [-vpd]
+	Added [jm4C] as watcher for u_5 [eMKa]
+	Asking u_5 [eMKa]'s watchers to watch [-vpd]
+	Added [bivQ] as watcher for u_1 [XRZW]
+	Asking u_1 [XRZW]'s watchers to watch [-vpd]
+	Added [bivQ] as watcher for u_7 [X2ze]
+	Asking u_7 [X2ze]'s watchers to watch [-vpd]
+	Added [x5MO] as watcher for u_8 [VrCd]
+	Asking u_8 [VrCd]'s watchers to watch [-vpd]
+	Added [2D85] as watcher for u_4 [IVBw]
+	Asking u_4 [IVBw]'s watchers to watch [-vpd]
+	Added [bivQ] as watcher for u_2 [ooKO]
+	Asking u_2 [ooKO]'s watchers to watch [-vpd]
+	Added [x5MO] as watcher for u_9 [fpOa]
+	Asking u_9 [fpOa]'s watchers to watch [-vpd]
+	✅ u_3 [Spgc] Inception Done
+	✅ u_6 [ALEg] Inception Done
+	✅ u_1 [XRZW] Inception Done
+	✅ u_0 [S3M7] Inception Done
+	✅ u_5 [eMKa] Inception Done
+	✅ u_7 [X2ze] Inception Done
+	✅ u_9 [fpOa] Inception Done
+	✅ u_8 [VrCd] Inception Done
+	✅ u_2 [ooKO] Inception Done
+	✅ u_4 [IVBw] Inception Done
+Test 2 (signature verification)
+	✅ u_0 [S3M7] Message verified
+	✅ u_4 [IVBw] Message verified
+	✅ u_6 [ALEg] Message verified
+	✅ u_3 [Spgc] Message verified
+	✅ u_2 [ooKO] Message verified
+	✅ u_1 [XRZW] Message verified
+	✅ u_8 [VrCd] Message verified
+	✅ u_9 [fpOa] Message verified
+	✅ u_7 [X2ze] Message verified
+	✅ u_5 [eMKa] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_8 [VrCd] Message Verified (2)
+	✅ u_5 [eMKa] Message Verified (2)
+	✅ u_0 [S3M7] Message Verified (2)
+	✅ u_9 [fpOa] Message Verified (2)
+	✅ u_6 [ALEg] Message Verified (2)
+	✅ u_2 [ooKO] Message Verified (2)
+	✅ u_1 [XRZW] Message Verified (2)
+	✅ u_7 [X2ze] Message Verified (2)
+	✅ u_4 [IVBw] Message Verified (2)
+	✅ u_3 [Spgc] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_3 [Spgc] Starts Rotation
+u_9 [fpOa] Starts Rotation
+u_5 [eMKa] Starts Rotation
+u_4 [IVBw] Starts Rotation
+u_2 [ooKO] Starts Rotation
+u_6 [ALEg] Starts Rotation
+u_8 [VrCd] Starts Rotation
+u_7 [X2ze] Starts Rotation
+u_0 [S3M7] Starts Rotation
+u_1 [XRZW] Starts Rotation
+u_3 [Spgc] Ends Rotation
+u_3 [Spgc] - Completed Key Rotation
+u_2 [ooKO] Ends Rotation
+u_2 [ooKO] - Completed Key Rotation
+u_4 [IVBw] Ends Rotation
+u_4 [IVBw] - Completed Key Rotation
+u_6 [ALEg] Ends Rotation
+u_6 [ALEg] - Completed Key Rotation
+u_7 [X2ze] Ends Rotation
+u_7 [X2ze] - Completed Key Rotation
+u_8 [VrCd] Ends Rotation
+u_8 [VrCd] - Completed Key Rotation
+u_0 [S3M7] Ends Rotation
+u_0 [S3M7] - Completed Key Rotation
+u_5 [eMKa] Ends Rotation
+u_5 [eMKa] - Completed Key Rotation
+u_9 [fpOa] Ends Rotation
+u_9 [fpOa] - Completed Key Rotation
+u_1 [XRZW] Ends Rotation
+u_1 [XRZW] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 13212ms (1321 p.u.)
+Test 2: 5ms (0 p.u.)
+Test 3: 1150ms (115 p.u.)
+Test 4: 7874ms (787 p.u.)

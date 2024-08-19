@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_6 [_COP]
+Incepted: u_4 [QpYt]
+Incepted: u_7 [-y1k]
+Incepted: u_9 [7AAc]
+	Added [2D85] as watcher for u_6 [_COP]
+Incepted: u_0 [bVmj]
+Incepted: u_3 [OQP1]
+Incepted: u_1 [PyXb]
+	Added [jm4C] as watcher for u_4 [QpYt]
+Incepted: u_5 [MmEN]
+	Added [2D85] as watcher for u_7 [-y1k]
+Incepted: u_8 [jAFr]
+	Added [x5MO] as watcher for u_9 [7AAc]
+	Added [2D85] as watcher for u_3 [OQP1]
+	Added [jm4C] as watcher for u_6 [_COP]
+	Added [2D85] as watcher for u_1 [PyXb]
+	Added [bivQ] as watcher for u_0 [bVmj]
+Incepted: u_2 [a-CM]
+	Added [x5MO] as watcher for u_8 [jAFr]
+	Added [2D85] as watcher for u_4 [QpYt]
+	Added [x5MO] as watcher for u_5 [MmEN]
+	Added [jm4C] as watcher for u_7 [-y1k]
+	Added [bivQ] as watcher for u_9 [7AAc]
+	Added [x5MO] as watcher for u_6 [_COP]
+	Asking u_6 [_COP]'s watchers to watch [ZvwY]
+	Added [bivQ] as watcher for u_3 [OQP1]
+	Added [bivQ] as watcher for u_1 [PyXb]
+	Added [2D85] as watcher for u_8 [jAFr]
+	Added [x5MO] as watcher for u_4 [QpYt]
+	Asking u_4 [QpYt]'s watchers to watch [ZvwY]
+	Added [jm4C] as watcher for u_0 [bVmj]
+	Added [jm4C] as watcher for u_5 [MmEN]
+	Added [2D85] as watcher for u_9 [7AAc]
+	Asking u_9 [7AAc]'s watchers to watch [ZvwY]
+	Added [jm4C] as watcher for u_2 [a-CM]
+	Added [bivQ] as watcher for u_7 [-y1k]
+	Asking u_7 [-y1k]'s watchers to watch [ZvwY]
+	Added [x5MO] as watcher for u_1 [PyXb]
+	Asking u_1 [PyXb]'s watchers to watch [ZvwY]
+	Added [x5MO] as watcher for u_3 [OQP1]
+	Asking u_3 [OQP1]'s watchers to watch [ZvwY]
+	Added [x5MO] as watcher for u_0 [bVmj]
+	Asking u_0 [bVmj]'s watchers to watch [ZvwY]
+	Added [bivQ] as watcher for u_5 [MmEN]
+	Asking u_5 [MmEN]'s watchers to watch [ZvwY]
+	Added [jm4C] as watcher for u_8 [jAFr]
+	Asking u_8 [jAFr]'s watchers to watch [ZvwY]
+	Added [bivQ] as watcher for u_2 [a-CM]
+	Added [x5MO] as watcher for u_2 [a-CM]
+	Asking u_2 [a-CM]'s watchers to watch [ZvwY]
+	✅ u_4 [QpYt] Inception Done
+	✅ u_6 [_COP] Inception Done
+	✅ u_7 [-y1k] Inception Done
+	✅ u_5 [MmEN] Inception Done
+	✅ u_3 [OQP1] Inception Done
+	✅ u_8 [jAFr] Inception Done
+	✅ u_9 [7AAc] Inception Done
+	✅ u_1 [PyXb] Inception Done
+	✅ u_2 [a-CM] Inception Done
+	✅ u_0 [bVmj] Inception Done
+Test 2 (signature verification)
+	✅ u_0 [bVmj] Message verified
+	✅ u_3 [OQP1] Message verified
+	✅ u_1 [PyXb] Message verified
+	✅ u_6 [_COP] Message verified
+	✅ u_9 [7AAc] Message verified
+	✅ u_5 [MmEN] Message verified
+	✅ u_2 [a-CM] Message verified
+	✅ u_8 [jAFr] Message verified
+	✅ u_4 [QpYt] Message verified
+	✅ u_7 [-y1k] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_6 [_COP] Message Verified (2)
+	✅ u_8 [jAFr] Message Verified (2)
+	✅ u_4 [QpYt] Message Verified (2)
+	✅ u_9 [7AAc] Message Verified (2)
+	✅ u_3 [OQP1] Message Verified (2)
+	✅ u_2 [a-CM] Message Verified (2)
+	✅ u_7 [-y1k] Message Verified (2)
+	✅ u_1 [PyXb] Message Verified (2)
+	✅ u_5 [MmEN] Message Verified (2)
+	✅ u_0 [bVmj] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_3 [OQP1] Starts Rotation
+u_0 [bVmj] Starts Rotation
+u_1 [PyXb] Starts Rotation
+u_8 [jAFr] Starts Rotation
+u_9 [7AAc] Starts Rotation
+u_7 [-y1k] Starts Rotation
+u_5 [MmEN] Starts Rotation
+u_2 [a-CM] Starts Rotation
+u_6 [_COP] Starts Rotation
+u_4 [QpYt] Starts Rotation
+u_5 [MmEN] Ends Rotation
+u_5 [MmEN] - Completed Key Rotation
+u_0 [bVmj] Ends Rotation
+u_0 [bVmj] - Completed Key Rotation
+u_3 [OQP1] Ends Rotation
+u_3 [OQP1] - Completed Key Rotation
+u_7 [-y1k] Ends Rotation
+u_7 [-y1k] - Completed Key Rotation
+u_6 [_COP] Ends Rotation
+u_6 [_COP] - Completed Key Rotation
+u_9 [7AAc] Ends Rotation
+u_9 [7AAc] - Completed Key Rotation
+u_1 [PyXb] Ends Rotation
+u_1 [PyXb] - Completed Key Rotation
+u_4 [QpYt] Ends Rotation
+u_4 [QpYt] - Completed Key Rotation
+u_2 [a-CM] Ends Rotation
+u_2 [a-CM] - Completed Key Rotation
+u_8 [jAFr] Ends Rotation
+u_8 [jAFr] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 9573ms (957 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 954ms (95 p.u.)
+Test 4: 13464ms (1346 p.u.)

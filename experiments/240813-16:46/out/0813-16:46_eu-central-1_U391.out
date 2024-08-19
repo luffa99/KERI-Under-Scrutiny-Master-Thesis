@@ -1,0 +1,111 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_8 [0KBm]
+Incepted: u_0 [CJfa]
+Incepted: u_1 [k5b9]
+Incepted: u_2 [an6N]
+Incepted: u_3 [Xy9L]
+Incepted: u_9 [84Ag]
+Incepted: u_7 [bQvG]
+Incepted: u_4 [h5jz]
+Incepted: u_5 [jnfO]
+Incepted: u_6 [oFaT]
+	Added [x5MO] as watcher for u_1 [k5b9]
+	Added [bivQ] as watcher for u_8 [0KBm]
+	Added [x5MO] as watcher for u_2 [an6N]
+	Added [x5MO] as watcher for u_7 [bQvG]
+	Added [jm4C] as watcher for u_9 [84Ag]
+	Added [2D85] as watcher for u_5 [jnfO]
+	Added [bivQ] as watcher for u_3 [Xy9L]
+	Added [jm4C] as watcher for u_6 [oFaT]
+	Added [bivQ] as watcher for u_4 [h5jz]
+	Added [bivQ] as watcher for u_1 [k5b9]
+	Added [x5MO] as watcher for u_8 [0KBm]
+	Added [x5MO] as watcher for u_9 [84Ag]
+	Added [2D85] as watcher for u_7 [bQvG]
+	Added [x5MO] as watcher for u_5 [jnfO]
+	Added [jm4C] as watcher for u_3 [Xy9L]
+	Added [bivQ] as watcher for u_2 [an6N]
+	Added [x5MO] as watcher for u_6 [oFaT]
+	Added [x5MO] as watcher for u_4 [h5jz]
+	Added [jm4C] as watcher for u_8 [0KBm]
+	Asking u_8 [0KBm]'s watchers to watch [xuuR]
+	Added [jm4C] as watcher for u_1 [k5b9]
+	Asking u_1 [k5b9]'s watchers to watch [xuuR]
+	Added [jm4C] as watcher for u_7 [bQvG]
+	Asking u_7 [bQvG]'s watchers to watch [xuuR]
+	Added [jm4C] as watcher for u_5 [jnfO]
+	Asking u_5 [jnfO]'s watchers to watch [xuuR]
+	Added [bivQ] as watcher for u_9 [84Ag]
+	Asking u_9 [84Ag]'s watchers to watch [xuuR]
+	Added [2D85] as watcher for u_6 [oFaT]
+	Asking u_6 [oFaT]'s watchers to watch [xuuR]
+	Added [x5MO] as watcher for u_3 [Xy9L]
+	Asking u_3 [Xy9L]'s watchers to watch [xuuR]
+	Added [2D85] as watcher for u_4 [h5jz]
+	Asking u_4 [h5jz]'s watchers to watch [xuuR]
+	Added [2D85] as watcher for u_2 [an6N]
+	Asking u_2 [an6N]'s watchers to watch [xuuR]
+	✅ u_8 [0KBm] Inception Done
+	✅ u_1 [k5b9] Inception Done
+	✅ u_5 [jnfO] Inception Done
+	✅ u_9 [84Ag] Inception Done
+	✅ u_7 [bQvG] Inception Done
+	✅ u_3 [Xy9L] Inception Done
+	✅ u_6 [oFaT] Inception Done
+	✅ u_2 [an6N] Inception Done
+	✅ u_4 [h5jz] Inception Done
+Test 2 (signature verification)
+	✅ u_4 [h5jz] Message verified
+	✅ u_1 [k5b9] Message verified
+	✅ u_3 [Xy9L] Message verified
+	✅ u_8 [0KBm] Message verified
+	✅ u_7 [bQvG] Message verified
+	✅ u_9 [84Ag] Message verified
+	✅ u_2 [an6N] Message verified
+	✅ u_5 [jnfO] Message verified
+	✅ u_6 [oFaT] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_6 [oFaT] Message Verified (2)
+	✅ u_3 [Xy9L] Message Verified (2)
+	✅ u_8 [0KBm] Message Verified (2)
+	✅ u_5 [jnfO] Message Verified (2)
+	✅ u_1 [k5b9] Message Verified (2)
+	✅ u_4 [h5jz] Message Verified (2)
+	✅ u_7 [bQvG] Message Verified (2)
+	✅ u_9 [84Ag] Message Verified (2)
+	✅ u_2 [an6N] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_2 [an6N] Starts Rotation
+u_9 [84Ag] Starts Rotation
+u_5 [jnfO] Starts Rotation
+u_3 [Xy9L] Starts Rotation
+u_1 [k5b9] Starts Rotation
+u_8 [0KBm] Starts Rotation
+u_4 [h5jz] Starts Rotation
+u_7 [bQvG] Starts Rotation
+u_6 [oFaT] Starts Rotation
+u_8 [0KBm] Ends Rotation
+u_8 [0KBm] - Completed Key Rotation
+u_5 [jnfO] Ends Rotation
+u_5 [jnfO] - Completed Key Rotation
+u_9 [84Ag] Ends Rotation
+u_9 [84Ag] - Completed Key Rotation
+u_3 [Xy9L] Ends Rotation
+u_3 [Xy9L] - Completed Key Rotation
+u_1 [k5b9] Ends Rotation
+u_1 [k5b9] - Completed Key Rotation
+u_6 [oFaT] Ends Rotation
+u_6 [oFaT] - Completed Key Rotation
+u_2 [an6N] Ends Rotation
+u_2 [an6N] - Completed Key Rotation
+u_7 [bQvG] Ends Rotation
+u_7 [bQvG] - Completed Key Rotation
+u_4 [h5jz] Ends Rotation
+u_4 [h5jz] - Completed Key Rotation

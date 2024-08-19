@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_7 [cASh]
+Incepted: u_3 [67PX]
+Incepted: u_9 [SYFA]
+Incepted: u_5 [7n_w]
+	Added [jm4C] as watcher for u_3 [67PX]
+	Added [2D85] as watcher for u_7 [cASh]
+Incepted: u_4 [X-5v]
+	Added [jm4C] as watcher for u_9 [SYFA]
+	Added [bivQ] as watcher for u_7 [cASh]
+	Added [x5MO] as watcher for u_5 [7n_w]
+	Added [bivQ] as watcher for u_9 [SYFA]
+Incepted: u_1 [ei4c]
+Incepted: u_6 [iR4h]
+	Added [jm4C] as watcher for u_4 [X-5v]
+	Added [x5MO] as watcher for u_3 [67PX]
+Incepted: u_2 [av0b]
+	Added [bivQ] as watcher for u_1 [ei4c]
+Incepted: u_0 [4ty-]
+	Added [jm4C] as watcher for u_7 [cASh]
+	Asking u_7 [cASh]'s watchers to watch [sF_1]
+	Added [bivQ] as watcher for u_2 [av0b]
+	Added [2D85] as watcher for u_5 [7n_w]
+	Added [x5MO] as watcher for u_9 [SYFA]
+	Asking u_9 [SYFA]'s watchers to watch [sF_1]
+	Added [2D85] as watcher for u_6 [iR4h]
+	Added [2D85] as watcher for u_4 [X-5v]
+	Added [jm4C] as watcher for u_1 [ei4c]
+	Added [2D85] as watcher for u_3 [67PX]
+	Asking u_3 [67PX]'s watchers to watch [sF_1]
+	Added [jm4C] as watcher for u_2 [av0b]
+	Added [jm4C] as watcher for u_0 [4ty-]
+	Added [jm4C] as watcher for u_5 [7n_w]
+	Asking u_5 [7n_w]'s watchers to watch [sF_1]
+Incepted: u_8 [FJAX]
+	Added [jm4C] as watcher for u_6 [iR4h]
+	Added [bivQ] as watcher for u_0 [4ty-]
+	Added [bivQ] as watcher for u_8 [FJAX]
+	Added [x5MO] as watcher for u_4 [X-5v]
+	Asking u_4 [X-5v]'s watchers to watch [sF_1]
+	Added [x5MO] as watcher for u_1 [ei4c]
+	Asking u_1 [ei4c]'s watchers to watch [sF_1]
+	Added [x5MO] as watcher for u_2 [av0b]
+	Asking u_2 [av0b]'s watchers to watch [sF_1]
+	Added [x5MO] as watcher for u_6 [iR4h]
+	Asking u_6 [iR4h]'s watchers to watch [sF_1]
+	Added [jm4C] as watcher for u_8 [FJAX]
+	Added [x5MO] as watcher for u_0 [4ty-]
+	Asking u_0 [4ty-]'s watchers to watch [sF_1]
+	Added [2D85] as watcher for u_8 [FJAX]
+	Asking u_8 [FJAX]'s watchers to watch [sF_1]
+	✅ u_7 [cASh] Inception Done
+	✅ u_9 [SYFA] Inception Done
+	✅ u_3 [67PX] Inception Done
+	✅ u_5 [7n_w] Inception Done
+	✅ u_1 [ei4c] Inception Done
+	✅ u_2 [av0b] Inception Done
+	✅ u_4 [X-5v] Inception Done
+	✅ u_6 [iR4h] Inception Done
+	✅ u_0 [4ty-] Inception Done
+	✅ u_8 [FJAX] Inception Done
+Test 2 (signature verification)
+	✅ u_8 [FJAX] Message verified
+	✅ u_9 [SYFA] Message verified
+	✅ u_2 [av0b] Message verified
+	✅ u_5 [7n_w] Message verified
+	✅ u_6 [iR4h] Message verified
+	✅ u_3 [67PX] Message verified
+	✅ u_7 [cASh] Message verified
+	✅ u_4 [X-5v] Message verified
+	✅ u_0 [4ty-] Message verified
+	✅ u_1 [ei4c] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_8 [FJAX] Message Verified (2)
+	✅ u_0 [4ty-] Message Verified (2)
+	✅ u_1 [ei4c] Message Verified (2)
+	✅ u_4 [X-5v] Message Verified (2)
+	✅ u_2 [av0b] Message Verified (2)
+	✅ u_5 [7n_w] Message Verified (2)
+	✅ u_7 [cASh] Message Verified (2)
+	✅ u_6 [iR4h] Message Verified (2)
+	✅ u_9 [SYFA] Message Verified (2)
+	✅ u_3 [67PX] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_3 [67PX] Starts Rotation
+u_9 [SYFA] Starts Rotation
+u_2 [av0b] Starts Rotation
+u_7 [cASh] Starts Rotation
+u_1 [ei4c] Starts Rotation
+u_0 [4ty-] Starts Rotation
+u_4 [X-5v] Starts Rotation
+u_8 [FJAX] Starts Rotation
+u_5 [7n_w] Starts Rotation
+u_6 [iR4h] Starts Rotation
+u_3 [67PX] Ends Rotation
+u_3 [67PX] - Completed Key Rotation
+u_5 [7n_w] Ends Rotation
+u_5 [7n_w] - Completed Key Rotation
+u_7 [cASh] Ends Rotation
+u_7 [cASh] - Completed Key Rotation
+u_9 [SYFA] Ends Rotation
+u_9 [SYFA] - Completed Key Rotation
+u_4 [X-5v] Ends Rotation
+u_4 [X-5v] - Completed Key Rotation
+u_6 [iR4h] Ends Rotation
+u_6 [iR4h] - Completed Key Rotation
+u_1 [ei4c] Ends Rotation
+u_1 [ei4c] - Completed Key Rotation
+u_0 [4ty-] Ends Rotation
+u_0 [4ty-] - Completed Key Rotation
+u_2 [av0b] Ends Rotation
+u_2 [av0b] - Completed Key Rotation
+u_8 [FJAX] Ends Rotation
+u_8 [FJAX] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 14007ms (1400 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 2658ms (265 p.u.)
+Test 4: 10141ms (1014 p.u.)

@@ -1,0 +1,126 @@
+Waiting for an incoming message - Test 1 (inception)
+Error while deserializing http message: Error("EOF while parsing a value", line: 1, column: 0)
+	Preparing Data...
+	Data is ready, starting users and test1
+Incepted: u_6 [dYPt]
+Incepted: u_0 [x1FU]
+Incepted: u_1 [HfHZ]
+Incepted: u_2 [O7tg]
+	Added [x5MO] as watcher for u_0 [x1FU]
+	Added [jm4C] as watcher for u_6 [dYPt]
+Incepted: u_8 [I0OV]
+	Added [2D85] as watcher for u_0 [x1FU]
+	Added [2D85] as watcher for u_2 [O7tg]
+	Added [bivQ] as watcher for u_1 [HfHZ]
+	Added [x5MO] as watcher for u_6 [dYPt]
+Incepted: u_3 [GA5Y]
+Incepted: u_5 [94KZ]
+Incepted: u_7 [kazn]
+Incepted: u_4 [GERY]
+Incepted: u_9 [6t_N]
+	Added [2D85] as watcher for u_1 [HfHZ]
+	Added [2D85] as watcher for u_6 [dYPt]
+	Asking u_6 [dYPt]'s watchers to watch [TN-Y]
+	Added [jm4C] as watcher for u_8 [I0OV]
+	Added [jm4C] as watcher for u_2 [O7tg]
+	Added [bivQ] as watcher for u_0 [x1FU]
+	Asking u_0 [x1FU]'s watchers to watch [TN-Y]
+	Added [2D85] as watcher for u_5 [94KZ]
+	Added [x5MO] as watcher for u_7 [kazn]
+	Added [jm4C] as watcher for u_3 [GA5Y]
+	Added [x5MO] as watcher for u_9 [6t_N]
+	Added [jm4C] as watcher for u_4 [GERY]
+	Added [x5MO] as watcher for u_1 [HfHZ]
+	Asking u_1 [HfHZ]'s watchers to watch [TN-Y]
+	✅ u_6 [dYPt] Inception Done
+	Added [bivQ] as watcher for u_8 [I0OV]
+	Added [x5MO] as watcher for u_2 [O7tg]
+	Asking u_2 [O7tg]'s watchers to watch [TN-Y]
+	✅ u_0 [x1FU] Inception Done
+	Added [bivQ] as watcher for u_5 [94KZ]
+	Added [jm4C] as watcher for u_7 [kazn]
+	Added [bivQ] as watcher for u_3 [GA5Y]
+	Added [x5MO] as watcher for u_8 [I0OV]
+	Asking u_8 [I0OV]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_9 [6t_N]
+	✅ u_1 [HfHZ] Inception Done
+	Added [2D85] as watcher for u_4 [GERY]
+	✅ u_2 [O7tg] Inception Done
+	Added [x5MO] as watcher for u_5 [94KZ]
+	Asking u_5 [94KZ]'s watchers to watch [TN-Y]
+	✅ u_8 [I0OV] Inception Done
+	Added [x5MO] as watcher for u_3 [GA5Y]
+	Asking u_3 [GA5Y]'s watchers to watch [TN-Y]
+	Added [2D85] as watcher for u_7 [kazn]
+	Asking u_7 [kazn]'s watchers to watch [TN-Y]
+	Added [2D85] as watcher for u_9 [6t_N]
+	Asking u_9 [6t_N]'s watchers to watch [TN-Y]
+	Added [bivQ] as watcher for u_4 [GERY]
+	Asking u_4 [GERY]'s watchers to watch [TN-Y]
+	✅ u_5 [94KZ] Inception Done
+	✅ u_3 [GA5Y] Inception Done
+	✅ u_7 [kazn] Inception Done
+	✅ u_9 [6t_N] Inception Done
+	✅ u_4 [GERY] Inception Done
+Test 2 (signature verification)
+	✅ u_4 [GERY] Message verified
+	✅ u_3 [GA5Y] Message verified
+	✅ u_9 [6t_N] Message verified
+	✅ u_5 [94KZ] Message verified
+	✅ u_0 [x1FU] Message verified
+	✅ u_6 [dYPt] Message verified
+	✅ u_1 [HfHZ] Message verified
+	✅ u_2 [O7tg] Message verified
+	✅ u_8 [I0OV] Message verified
+	✅ u_7 [kazn] Message verified
+Waiting for an incoming message - Test 3 (signature verification after rotation of issuer)
+	✅ u_0 [x1FU] Message Verified (2)
+	✅ u_2 [O7tg] Message Verified (2)
+	✅ u_8 [I0OV] Message Verified (2)
+	✅ u_5 [94KZ] Message Verified (2)
+	✅ u_6 [dYPt] Message Verified (2)
+	✅ u_9 [6t_N] Message Verified (2)
+	✅ u_1 [HfHZ] Message Verified (2)
+	✅ u_7 [kazn] Message Verified (2)
+	✅ u_4 [GERY] Message Verified (2)
+	✅ u_3 [GA5Y] Message Verified (2)
+Waiting for an incoming message - Test 4 (valid acdc credential)
+skipped--
+Waiting for an incoming message - Test 5 (acdc revocation)
+skipped--
+Waiting for an incoming message - Test 6
+u_5 [94KZ] Starts Rotation
+u_3 [GA5Y] Starts Rotation
+u_4 [GERY] Starts Rotation
+u_1 [HfHZ] Starts Rotation
+u_8 [I0OV] Starts Rotation
+u_7 [kazn] Starts Rotation
+u_6 [dYPt] Starts Rotation
+u_9 [6t_N] Starts Rotation
+u_0 [x1FU] Starts Rotation
+u_2 [O7tg] Starts Rotation
+u_1 [HfHZ] Ends Rotation
+u_1 [HfHZ] - Completed Key Rotation
+u_8 [I0OV] Ends Rotation
+u_8 [I0OV] - Completed Key Rotation
+u_5 [94KZ] Ends Rotation
+u_5 [94KZ] - Completed Key Rotation
+u_0 [x1FU] Ends Rotation
+u_0 [x1FU] - Completed Key Rotation
+u_7 [kazn] Ends Rotation
+u_7 [kazn] - Completed Key Rotation
+u_2 [O7tg] Ends Rotation
+u_2 [O7tg] - Completed Key Rotation
+u_6 [dYPt] Ends Rotation
+u_6 [dYPt] - Completed Key Rotation
+u_4 [GERY] Ends Rotation
+u_4 [GERY] - Completed Key Rotation
+u_3 [GA5Y] Ends Rotation
+u_3 [GA5Y] - Completed Key Rotation
+u_9 [6t_N] Ends Rotation
+u_9 [6t_N] - Completed Key Rotation
+Executed 10 users / 10 success / 0 fail
+Test 1: 13123ms (1312 p.u.)
+Test 2: 1ms (0 p.u.)
+Test 3: 736ms (73 p.u.)
+Test 4: 11118ms (1111 p.u.)
