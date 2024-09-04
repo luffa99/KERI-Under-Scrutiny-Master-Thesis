@@ -1,6 +1,6 @@
 # KERI Under Scrutiny: Use-Case Study for the Swiss e-ID | Master Thesis @ CS ETH Zurich
 
-This thesis presents an overview and an analysis of KERI (Key Event Receipt Infrastructure) and its ecosystem with a focus on security and scalability. With the goal of designing a digital identity system for Switzerland, a KERI Network model is proposed and analyzed. The model is run on a large network of up to 10’000 users, the first time KERI has been tested at this scale. By using the keriox rust library we also contributed to its development.
+*Abstract*: This thesis presents an overview and an analysis of the distributed key management system KERI (Key Event Receipt Infrastructure) and its ecosystem with a focus on security and scalability. With the goal of providing the basis for a digital identity system for Switzerland, a KERI Network model is proposed and analyzed. The model is run on a large network of up to 10'000 users, the first time KERI has been tested at this scale. By using the keriox rust library we also contributed to its development. The final recommendation is that KERI is not suitable for the presented use case, but could be used to implement part of the infrastructure. 
 
 This repository contains the code and the data collected during the thesis.
 
